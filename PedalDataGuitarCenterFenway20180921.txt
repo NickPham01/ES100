@@ -1,0 +1,17 @@
+Pedal			Outer Dim			Screw Dim			JackDim
+RC30			5.9"H x 6.65"L		5.2"H x 6.1"L
+VO-1			4.75"H x 2.57"L		4.35"H x 2.2"L		1.15"Z x -2"H
+Polytune2		3.6"H x 1.67"L		3.16"H x 1.2"L		0.65"Z x -2.35"H
+Flashbackx4		5.4"H x 9.2"L		4.7"H x ~8.3"L		0.55"Z x TOP
+Flashback 		4.77"H x 2.57"L		4.17"H x 2"L		0.62"Z x -2.4"H and -3.1"H
+Tubescreamer	4.87"H x 2.625"L 	2.17"L No Lower		1.275"Z x -2.15"H
+SuperPhatMod	4.43"H x 2.39"L 	3.99"H x 2.98"L 	0.63"Z x -2.3"H
+Pulp N Peel		4.82"H x 2.64"L 	4.4"H x 2.25"L 		0.97"Z x -3.2H
+DispatchMaster	4.835"H x 2.625"L 	4.41"H x 2.235"L 	0.7"Z TOP
+Avalanche Run	4.71"H x 4.22"L 	4.3"H x 4.81"L 		0.74"Z TOP + Side
+C9				4.6685"H x 3.68"L 	4.31"H x 3.3"L 		0.525"Z x -2.3"H and -3.02"H
+Holy Grail Nano 4.39"H x 2.38"L 	3.98"H x 2.0"L 		0.40"Z x -2.20"H
+Stereo Hazari 	4.76"H x 5.71"L 	4.325"H x 5.30"L 	0.62"Z x -2.37"H and -3.14"H
+
+Max Hieght (enclosure) ~ 1.55"Z 	(with knobs and switch) ~ 2.45"Z
+
