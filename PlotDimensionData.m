@@ -63,13 +63,53 @@ legend('Screw Dimensions', 'External Dimensions', 'Location', 'southeast')
 
 %% Plot Data as Rectangles
 figure(2); clf;
-xdim_screw = cell2mat(DimTable{:,'X_screw'})
-ydim_screw = cell2mat(DimTable{:,'Y_screw'})
+xdim_screw = cell2mat(DimTable{:,'X_screw'});
+ydim_screw = cell2mat(DimTable{:,'Y_screw'});
+
+xdim_ext = cell2mat(DimTable{:,'X_external'});
+ydim_ext = cell2mat(DimTable{:,'Y_external'});
 
 hold on
 for i = 1:length(xdim_screw)
-    plotRectangle(xdim_screw(i), ydim_screw(i), 0, 1)
+    plotRectangle(xdim_screw(i), ydim_screw(i), 0, 1);
+    plotRectangle(xdim_ext(i), ydim_ext(i), 1, 0);
 end
+hold off
+
+%% Determine best fit lines of groupings:
+
+% Look at the first quadrant
+% Visually, there is a grouping for x < 1.5 which looks like it could be
+% served by one line.  This might be the minimum integer size
+% The next four sizes out could be served on the 2x size plate, perhaps in
+% two lines.
+% The largest one would need to be served by a 3x size perhaps
+
+% Group the rectangles:
+group_1x = [];
+group_2x = [];
+group_3x = [];
+
+for i = 1:length(xdim_screw)
+   if xdim_screw(i)/2 < 1.5 && ydim_screw(i) ~= 0
+       group_1x = [group_1x i];
+   elseif xdim_screw(i)/2 < 4 && ydim_screw(i) ~= 0
+       group_2x = [group_2x i];
+   elseif ydim_screw(i) ~= 0
+       group_3x = [group_3x i];
+   end
+end
+
+xdim_g1 = xdim_screw(group_1x)/2;
+ydim_g1 = ydim_screw(group_1x)/2;
+
+p = polyfit(xdim_g1, ydim_g1, 1)
+x_domain = linspace(0, 1.5);
+p1 = polyval(p, x_domain);
+figure(2)
+hold on
+scatter(xdim_g1, ydim_g1)
+plot(x_domain, p1)
 hold off
 
 
