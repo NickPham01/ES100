@@ -1,0 +1,212 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>StatsHW</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-10-14"><meta name="DC.source" content="StatsHW.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">ES100 Stats HW Problem 3, Nick Pham</a></li><li><a href="#2">Part 1</a></li><li><a href="#3">Part 2</a></li><li><a href="#4">Part 3</a></li><li><a href="#5">Part 4</a></li></ul></div><h2 id="1">ES100 Stats HW Problem 3, Nick Pham</h2><pre class="codeinput">data = [21 13;
+        20 24;
+        12 28;
+        38 23;
+        31 21;
+        38 29;
+        39 32;
+        35 23;
+        36 19;
+        45 25];
+</pre><h2 id="2">Part 1</h2><pre class="codeinput">data_mean = mean(data)
+data_std = std(data)
+</pre><pre class="codeoutput">
+data_mean =
+
+   31.5000   23.7000
+
+
+data_std =
+
+   10.4270    5.3965
+
+</pre><h2 id="3">Part 2</h2><pre class="codeinput">[h p] = ttest(data(:,1), data(:,2), <span class="string">'Tail'</span>, <span class="string">'right'</span>)
+
+fprintf([<span class="string">'Because there are two datasets of equal length, a T test is\n'</span>, <span class="keyword">...</span>
+        <span class="string">'applicable.  This is a one tailed T test because the hypothesis\n'</span>, <span class="keyword">...</span>
+        <span class="string">'is just that the novel drone reduces the flight time compared to\n'</span>,<span class="keyword">...</span>
+        <span class="string">'a standard drone.  The data is paired based on the conditions on\n'</span>, <span class="keyword">...</span>
+        <span class="string">'different days.  Running the ttest gives supports a valid hypothesis\n'</span>,<span class="keyword">...</span>
+        <span class="string">'with a p value of %1.4f, indicating that there is a significant\n'</span><span class="keyword">...</span>
+        <span class="string">'statistical difference between the two datasets.  As the mean of\n'</span>,<span class="keyword">...</span>
+        <span class="string">'the novel drone''s flight time was less than that of the standard\n'</span>,<span class="keyword">...</span>
+        <span class="string">'drone, the hypothesis is correct.\n\n'</span>], p);
+</pre><pre class="codeoutput">
+h =
+
+     1
+
+
+p =
+
+    0.0227
+
+Because there are two datasets of equal length, a T test is
+applicable.  This is a one tailed T test because the hypothesis
+is just that the novel drone reduces the flight time compared to
+a standard drone.  The data is paired based on the conditions on
+different days.  Running the ttest gives supports a valid hypothesis
+with a p value of 0.0227, indicating that there is a significant
+statistical difference between the two datasets.  As the mean of
+the novel drone's flight time was less than that of the standard
+drone, the hypothesis is correct.
+
+</pre><h2 id="4">Part 3</h2><pre class="codeinput">fprintf([<span class="string">'The following figure shows the average required time to traverse\n'</span>,<span class="keyword">...</span>
+        <span class="string">'the flight path for the two drones.  The T test performed in Part\n'</span>,<span class="keyword">...</span>
+        <span class="string">'(2) confirmed that there is a statistical difference between the\n'</span>,<span class="keyword">...</span>
+        <span class="string">'required time of the two drones.'</span>]);
+
+figure(1); clf;
+hold <span class="string">on</span>;
+names = {<span class="string">'Standard Drone'</span>; <span class="string">'Novel Drone'</span>};
+bar(data_mean)
+errorbar(data_mean, data_std, <span class="string">'.'</span>)
+set(gca, <span class="string">'XTickLabel'</span>,names, <span class="string">'XTick'</span>,1:2)
+title({<span class="string">'Time Required to Traverse Flight Path'</span>,<span class="string">'for Standard Drone and Novel Drone'</span>})
+xlabel(<span class="string">'Drone'</span>)
+ylabel(<span class="string">'Time (minutes)'</span>)
+hold <span class="string">off</span>;
+</pre><pre class="codeoutput">The following figure shows the average required time to traverse
+the flight path for the two drones.  The T test performed in Part
+(2) confirmed that there is a statistical difference between the
+required time of the two drones.</pre><img vspace="5" hspace="5" src="StatsHW_01.png" alt=""> <h2 id="5">Part 4</h2><pre class="codeinput">figure(1)
+hold <span class="string">on</span>
+str = sprintf([<span class="string">'Using a one tailed paired data T test, the p value for the\n'</span>,<span class="keyword">...</span>
+               <span class="string">'data was %1.4f accepting the hypothesis, suggesting\n'</span>,<span class="keyword">...</span>
+               <span class="string">'that the novel drone does reduce the flight time required\n'</span>,<span class="keyword">...</span>
+               <span class="string">'to traverse the flight path.'</span>], p);
+text(1.1, 40, str, <span class="string">'FontSize'</span>, 7);
+hold <span class="string">off</span>
+</pre><img vspace="5" hspace="5" src="StatsHW_02.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% ES100 Stats HW Problem 3, Nick Pham
+
+
+data = [21 13;
+        20 24;
+        12 28;
+        38 23;
+        31 21;
+        38 29;
+        39 32;
+        35 23;
+        36 19;
+        45 25];
+
+%% Part 1    
+
+data_mean = mean(data)
+data_std = std(data)
+
+%% Part 2
+
+[h p] = ttest(data(:,1), data(:,2), 'Tail', 'right')
+
+fprintf(['Because there are two datasets of equal length, a T test is\n', ...
+        'applicable.  This is a one tailed T test because the hypothesis\n', ...
+        'is just that the novel drone reduces the flight time compared to\n',...
+        'a standard drone.  The data is paired based on the conditions on\n', ...
+        'different days.  Running the ttest gives supports a valid hypothesis\n',...
+        'with a p value of %1.4f, indicating that there is a significant\n'...
+        'statistical difference between the two datasets.  As the mean of\n',...
+        'the novel drone''s flight time was less than that of the standard\n',...
+        'drone, the hypothesis is correct.\n\n'], p);
+
+%% Part 3
+
+fprintf(['The following figure shows the average required time to traverse\n',...
+        'the flight path for the two drones.  The T test performed in Part\n',...
+        '(2) confirmed that there is a statistical difference between the\n',...
+        'required time of the two drones.']);
+
+figure(1); clf;
+hold on;
+names = {'Standard Drone'; 'Novel Drone'};
+bar(data_mean)
+errorbar(data_mean, data_std, '.')
+set(gca, 'XTickLabel',names, 'XTick',1:2)
+title({'Time Required to Traverse Flight Path','for Standard Drone and Novel Drone'})
+xlabel('Drone')
+ylabel('Time (minutes)')
+hold off;
+
+%% Part 4
+figure(1)
+hold on
+str = sprintf(['Using a one tailed paired data T test, the p value for the\n',...
+               'data was %1.4f accepting the hypothesis, suggesting\n',...
+               'that the novel drone does reduce the flight time required\n',...
+               'to traverse the flight path.'], p);
+text(1.1, 40, str, 'FontSize', 7);
+hold off
+
+##### SOURCE END #####
+--></body></html>
