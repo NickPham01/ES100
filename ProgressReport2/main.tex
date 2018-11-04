@@ -89,6 +89,7 @@
 		The initial prototypes for the pedal-plate mounting design used 1/8" acrylic, cut with a laser cutter, because it was easily accessible.  However, acrylic can be brittle \cite{}, so it is not a good choice for repeated handling by customers.  Another option was sheet aluminum, which has the benefit of being quite thin for its strength, making it easy for the pedal's screws to pass through.  A third option was to use the FR-4 grade glass epoxy resin used to make circuit boards.  In addition to being strong and lightweight, using this material allows for a simplification of the design.  Instead of sill needing to mount a circuit board to the main body of the plate, the circuit board can be the plate.  The physical layout of the screw slots can be cut at the same time as the board is shaped.  The wires to the plugs can escape directly from the surface of the board via a two position connector (such as the SWR201-NRTN-S02-SA-WH mated with a SWH201-NULN-S02-UU-WH from Sullins Connectors \cite{}). Other components such as switches used to select power can also be directly mounted and integrated with the board.  For its simplicity of design and manufacture, the first prototype will use this material and method for constructing the plates.
 
 		\subsubsection{Plate-Receiver Electrical Connection Mechanism}
+		\label{Pogo Pins}
 		Moving signal and power between the plate and receiver is a vital task.  Though a number of guitar pedals offer processing of stereo signals, most are fully monophonic, requiring only one input and output connection.  In addition, because almost every pedal uses a single supply (non-bipolar) voltage, the simplest scheme for connecting a plate to its receiver requires only four connections: Power, Ground, Input (Send), and Output (Return).  This means that it is feasible to transfer the signal directly with individual physical connections, rather than some serial data protocol such as $\text{I}^2\text{s}$, which might be used if there were many inputs and outputs.  The use of "hard-wire" connections also keeps the signal "pure" by eliminating any unnecessary processing, which is an important consideration for marketing purposes.
 
 		Making a consistent electric connection between the plate and receiver calls for some sort of spring loaded connector.  Unlike the connectors mentioned in Section \ref{Plate Material}, these connections are easy to break if desired, but still maintain good contact when connected.  They do not require the two surfaces to be exactly aligned, and they require only the single part to operate (instead of a matching male and female connector).  Figure \ref{springloaded} shows some examples of spring loaded connectors.  On the left are connectors typically used to connect boards together within a product.  This class of spring connector is good for high pin count connections because of the large number of pins in a single unit, which are easy to manufacture cheaply.  For example, the 00-9258 type connector from AVX Corp costs \$0.77 for 8 electrodes from Digikey \cite{AVX_00-9258_Digikey}.  However, because these connectors are usually made for one time use when permanently assembling a product, they are not designed for repeated use.  For instance, the 00-9258 part is has a lifespan of just 50 cycles according to its datasheet \cite{AVX_00-9258_Datasheet}, which is certainly insufficient for this application.  For an order of magnitude estimate, each plate needs to be able to withstand 100 cycles per day for at least 1000 days (though the cycles/day is likely lower and the total days is likely higher).  This gives a ballpark estimate of 100,000 cycles minimum.
@@ -202,15 +203,73 @@
 
 		Even with a 10\% safety margin, these resistors can all be 1/10 watt.
 
-
-
 		\subsubsection{Receiver Plate-Removal Detection Method}
+		To perform the automatic bypassing feature, the receiver must detect whether or not a plate has been inserted. Intuitively, the best way to do this seemed to be to use some of the same type of electrodes used to make connection between the plate and the receiver for signal and power.  This can be accomplished by using this extra detection pin as an SPST switch: when no plate is inserted, the switch is open, and when a plate is inserted, the switch closes.  This can signal some logic circuitry to activate the relay.
+
+		To reduce transients that could result from suddenly connecting a plate and allowing the signal to flow before all of the necessary connections (Power, Ground, Input, and Output) are made, the receiver should wait to switch the relay from bypass to active until it is confident that all of the pins have made their connections.  This delay first relies on the bounce times of the pogo pins; like any mechanical switch, they will likely have some bounces or other irregularities in their switching, and one learning goal of the first prototype is to characterize this bounce.  To give an improved signal, the pin used to make this detection SPST switch will be set to "make-last, break-first," which will ensure that the other pins have already made first contact with the plate.  This is reflected in the choice of spring loaded pins described in section \ref{Pogo Pins}.  Assuming a 2 ft/s rate of descent (a high estimate) and the difference in height between the main signal connection pins and this make-last/break-first detection pin, there will be a $(0.030 in)/(24 in/s) = 1.33 ms$ difference.  Though this is likely not enough time to ensure the pogo-pins have stopped bouncing, the debouncing circuit block can and will increase this time delay before the signal to switch the relay is sent.  This time delay will need to be tuned to the specific bounce time of the pogo pins.
+
+		To further ensure that the detect pin is the last to make contact, a second instance should be added for robustness against plates that are not inserted exactly vertically.  Assuming that the electrodes are aligned linearly, placing one detect electrode on each end of the line will ensure that both cannot make contact with the plate before the rest of the pins.  Thus, only when both electrodes have made contact should the relay be triggered.  Conversely, the relay should reset to bypass the plate when either of the electrodes break their connections.  This can be written as a boolean equation, where $A$ and $B$ are the status of the two detect electrodes (0 is disconnected, 1 is connected), and $R$ is the status of the relay, where 0 is plate-bypass and 1 is plate-active:
+
+		\begin{align}
+			R = A \cdot B
+		\end{align}
+
+		On the insert transition the limiting factor on switching time (from bypassed to active) is on the order of 100 ms, the detectability threshold for visual-sound delay \cite{RelativeTime}, which should not pose an issue with the switch debounce, logic, and relay switch times (~20 ms + ~0.1 ms + 2 ms = 22 ms \cite{EA2datasheet}).  However, the removal transition is limited by the time between the first detect electrode losing contact and the signal or power pins losing contact, which could cause transients in the output if the plate has not yet been bypassed.  By eliminating the switch debounce mechanism for this transition, the switch time can be lowered to approximately the operate time of the relay, which is about 2 ms.  This is quite close to the 1.33 ms estimate of the available window between the detect pin and the signal/power pins disconnecting.  As the estimate for this time difference is based on an order of magnitude type approximation, it is possible that there will be no issue, and no mitigation techniques need to be added.  A simple mitigation would be some transistor to pull the output to ground quickly (before the relay can be activated) so that any transients would be muted until the relay can successfully switch.  Because this would add complexity if not needed, this first prototype will proceed without this feature.
+
 		\subsubsection{Receiver Bypass Mechanism}
-		\subsubsection{Plate-Receiver Power Transfer}
+		The primary function of the entire solution is to automatically bypass any receivers that do not currently have a plate inserted, so the choice of switching element is a key part of the design.  The basic choice here was between solid state analog switches or electromechanical relays.  The major design considerations for this choice are the signal to noise ratio, and the frequency response of the switching element.
+
+		\color{gray}
+		The initial value expected for the signal to noise ratio for an electric guitar was near 120 dBV.  Guitar pickups convert the mechanical energy of the vibrating strings to electrical energy via a coil of wire.  When the string vibrates in the magnetic field of a permanent magnet situated underneath, current is induced in the coil.  In an ideal environment, there should be little source of self noise because of the passive simplicity of this device, so any noise in the guitar signal is a result of the environment.  As such, the signal to noise ratio of a guitar can vary significantly based on the guitar's environment.  For example, guitar pickups are well known for their susceptibility to 60Hz line noise.  Therefore, the measured 90dBV signal to noise ratio should be taken as a minimum value, with 100dBV or more preferable.
+
+		While solid state switches are more size, cost, and power efficient than mechanical relays, they may not have adequate signal to noise specifications, as well as crosstalk between channels on the same chip.  For example,the MT8808 Analog Switch Array \cite{Zarlink:MT8808} lists no specification on the device's signal to noise ratio, though it does boast a reasonable -90dB crosstalk between any channels for a 10kHz input with a $600 \Omega$ load.  The feed-through when a channel is off is listed as -95dB though, which is does not far exceed the minimum measured value for guitar signal to noise ratio, which could be an issue.  On the other hand, relay bypassing utilizing mechanical switches has no issues with signal to noise ratio, which would make it suitable for use in this project.
+
+		As a minimum, the system should accommodate signals across the full range of human hearing, which is typically noted as 20Hz - 20kHz.  While this is the minimum acceptable range, there should also be allowance for lower and higher frequencies, which when used as input to a distortion effect can create inter-modulation distortion with frequencies in the audio range.  Neither of these ranges will be an issue however.  In the case that switching is accomplished with a solid state device, these are designed for frequency responses up to the tens of MHz range (the MT8808 has a 3dB frequency response of 45MHz), which is far greater than required.  If mechanical relays are used, there will likewise be no issues with frequency response in the audio range.
+		
+		\color{black}
+
+		These considerations suggest a preference for using mechanical relays despite their costs.  An additional reason is some of the interactions between the circuits on the guitar and in the first engaged pedal.  As mentioned above, the guitar pickup is made from a coil of wire, typically about 42 AWG with thousands of turns around a 6 inch or so circumference bobbin \cite{StewMacpickups}.  This long thin wire produces a DC resistance on the order of $10k\Omega$, which itself is quite a high output impedance, and the inductance and some parasitic capacitances from within the pickup will result in a frequency dependent output impedance with the potential to interact with a connected circuit block with sufficiently low input impedance.  In addition, the position of the guitar's volume potentiometer can affect the output impedance (see Figure \ref{fig:guitarpickupmodel} for a model of a guitar pickup and volume control circuit).  There are a number of guitar pedals known for their interaction with the guitar's volume knob; one of the best known is the Fuzz Face, first released in 1966 by Arbitrer Electronics \cite{FuzzFace}.  Following the same calculations as \cite{FuzzFace}, the input impedance to this pedal is about $8k\Omega$.  This does not follow the rule of thumb suggesting the input impedance should be an order of magnitude greater than the output impedance of the previous circuit stage, which means that there will be interactions between the guitar and this pedal.
+
+		Whether or not these interactions are good or bad, they have an undeniable effect on the sound and feel of playing the guitar through this pedal.  Inserting a buffer, including a solid state switch, between these circuit elements would destroy this interaction, and thus would prevent the solution from being an effect tool for comparing different pedals.  Therefore, the signal path should pass through no buffers when all receivers are bypassed, and electromechanical relays should be used to perform the switching.
+
+		Because all of the signals being switched are low power, the relay can be in the "Low Signal Relays" category.  The cheapest available relay from Mouser was the EC2-12NJ from Kemet, a 12 V, 2 A, non-latching DPDT switch for \$1.69 each.  The DPDT type switch is preferable because only one package is required to perform the bypass switching per receiver.  The 12 V coil voltage requires less current (11 mA) than the 5 V coil which is also readily available (28 mA) \cite{EC2datasheet}.  The non-latching control makes for a very simple control circuit.  One issue with this though is that whenever the relay is activated, there is a constant 140 mW power dissipation required.  Though power is not a top priority, it would be beneficial to save power where possible, so a latching relay would be preferable in this aspect.  The EA2-5SNJ is available for just 9 cents more, and features a 5 V coil.  Although the lower voltage coil will draw more current when it is on, the relay needs be turned on only when being switched, so there is an overall savings in this regard.
+
+		The EA2-5SNJ is a Form C type relay, which means that the DPDT switch operates break-before-make, ideal for this type of audio switching.  The device is a single-coil latch, where the coil is energized in one polarity to set the switch to one position, and is energized in the opposite polarity to set the switch to the other position.  This calls for an H-bridge style driver.
+
+		A standard discrete H bridge like the one shown in Figure \ref{fig:DiscreteHBridge} uses a quartet of transistors to power a load in either polarity or not at all.  When the two transistors in opposite corners (such as Q1 and Q4) are turned on at the same time, current flows through these transistors and the load, in this case the latching relay coil.  When it is time to set the relay's switch to the opposite position, the other two transistors are turned on instead and the load is energized with opposite polarity.  This implementation features garden-variety 2N3904/2N3906 BJTs, which can supply plenty of current for the relay coil (just $5V/250\Omega = 20 mA$) \cite{EA2datasheet}\cite{2N3904datasheet}\cite{2N3906datasheet}.  D1-D4 are flyback diodes for the inductive relay coil.  To provide a load current of 
+
+		\begin{align}
+			i_{load} &= \frac{5V - V_{CE_4} - V_{CE_1}}{250 \Omega} = 18.4 mA
+		\end{align}
+
+		the base current of the transistors is related to the collector current by
+
+		\begin{align}
+			I_B &= \frac{I_C}{\beta}
+		\end{align}
+
+		The 2N3904 has a $\beta$ between 100 and 300 for a 10 mA $I_C$, so assuming $\beta = 200$ gives a required base current of
+
+		\begin{align}
+			I_B &= \frac{18.4mA}{200} &= 92 \mu A \quad \text{and} \\
+			R_2 &= 4.3V/92\mu A = 43 k\Omega
+		\end{align}
+
+		For a 10\% tolerance, use a $39k\Omega$ to ensure the transistor is turned fully on.
+
+		A major issue with the H-bridge design is that both sets of transistors can never be turned on at the same time.  This would create a low impedance path from power to ground, cause high currents and potential damage to the circuit.  Though more of an issue in PWM motor control, a common application of the H-bridge, this "shoot-through" can occur when one set of transistors is switched on just as the other set is switched off.  Special protection should be taken to prevent such issues.
+
+		For this reason, dedicated H-bridge driver ICs are offered.  One canonical example is the L298 dual H-bridge driver.  
+
+		===================MORE=========================
+
 		\subsubsection{Main Board Size}
 		\subsubsection{Main Board Routing Options}
 		\subsubsection{Main Board Routing Method}
+		Similar to the selection of relays for the bypassing mechanism 
+
 		\subsubsection{Main Board Routing User Interface}
+
 \section{Prototyping}
 	- Explain chosen prototyping methods \\
 	- Include CAD/schematic/flowchart/state diagrams of prototype \\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  3 NOV 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  4 NOV 2018 01:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -542,15 +542,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 
 
-LaTeX Warning: Reference `springloaded' on page 5 undefined on input line 94.
+LaTeX Warning: Reference `springloaded' on page 5 undefined on input line 95.
 
 
 Package natbib Warning: Citation `AVX_00-9258_Digikey' on page 5 undefined on i
-nput line 94.
+nput line 95.
 
 
 Package natbib Warning: Citation `AVX_00-9258_Datasheet' on page 5 undefined on
- input line 94.
+ input line 95.
 
 
 ! LaTeX Error: Environment subfigure undefined.
@@ -559,23 +559,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 			\begin{subfigure}
+l.98 			\begin{subfigure}
                          {0.4\textwidth}
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.97 			\begin{subfigure}{0.4\textwidth}
+l.98 			\begin{subfigure}{0.4\textwidth}
                                         
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.97 			\begin{subfigure}{0.4\textwidth}
+l.98 			\begin{subfigure}{0.4\textwidth}
                                         
 ? 
 
-LaTeX Warning: File `batteryconn.jpg' not found on input line 99.
+LaTeX Warning: File `batteryconn.jpg' not found on input line 100.
 
 
 ! Package pdftex.def Error: File `batteryconn.jpg' not found: using draft setti
@@ -585,17 +585,17 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...cs[width = 0.4\linewidth]{batteryconn.jpg}
+l.100 ...s[width = 0.4\linewidth]{batteryconn.jpg}
                                                   
 ? 
 
-! LaTeX Error: \begin{figure} on input line 96 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 97 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 			\end{subfigure}
+l.101 			\end{subfigure}
                         
 ? 
 
@@ -605,23 +605,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 			\begin{subfigure}
+l.102 			\begin{subfigure}
                           {0.4\textwidth}
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.101 			\begin{subfigure}{0.4\textwidth}
+l.102 			\begin{subfigure}{0.4\textwidth}
                                          
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.101 			\begin{subfigure}{0.4\textwidth}
+l.102 			\begin{subfigure}{0.4\textwidth}
                                          
 ? 
 
-LaTeX Warning: File `springpin.jpg' not found on input line 103.
+LaTeX Warning: File `springpin.jpg' not found on input line 104.
 
 
 ! Package pdftex.def Error: File `springpin.jpg' not found: using draft setting
@@ -631,62 +631,62 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...ics[width = 0.4\linewidth]{springpin.jpg}
+l.104 ...ics[width = 0.4\linewidth]{springpin.jpg}
                                                   
 ? 
 
-! LaTeX Error: \begin{figure} on input line 96 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 97 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 			\end{subfigure}
+l.105 			\end{subfigure}
                         
 ? 
 
 Package natbib Warning: Citation `MillMax_025' on page 5 undefined on input lin
-e 109.
+e 110.
 
 [5]
 
 Package natbib Warning: Citation `DesignforHotSwap' on page 6 undefined on inpu
-t line 111.
+t line 112.
 
 
 Package natbib Warning: Citation `Bourns70AA_datahseet' on page 6 undefined on 
-input line 113.
+input line 114.
 
 
 Package natbib Warning: Citation `MillMax_023' on page 6 undefined on input lin
-e 115.
+e 116.
 
 
 Package natbib Warning: Citation `MillMax_025' on page 6 undefined on input lin
-e 115.
+e 116.
 
 <MillMaxSeries0914_0908.png, id=25, 1768.6075pt x 518.93875pt>
 File: MillMaxSeries0914_0908.png Graphic file (type png)
 <use MillMaxSeries0914_0908.png>
-Package pdftex.def Info: MillMaxSeries0914_0908.png  used on input line 119.
+Package pdftex.def Info: MillMaxSeries0914_0908.png  used on input line 120.
 (pdftex.def)             Requested size: 469.75502pt x 137.82692pt.
 [6]
 
 Package natbib Warning: Citation `pedallsit' on page 7 undefined on input line 
-127.
+128.
 
 
 Package natbib Warning: Citation `Line6DL4manual' on page 7 undefined on input 
-line 127.
+line 128.
 
 
 LaTeX Warning: Reference `fig:parallelpowerschematic' on page 7 undefined on in
-put line 131.
+put line 132.
 
 [7 <./MillMaxSeries0914_0908.png>]
 
 Package natbib Warning: Citation `LM317datasheet' on page 8 undefined on input 
-line 136.
+line 137.
 
 
 ! LaTeX Error: File `LM317_typapp' not found.
@@ -695,7 +695,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 ...hics[width = 0.8\textwidth]{LM317_typapp}
+l.150 ...hics[width = 0.8\textwidth]{LM317_typapp}
                                                   
 ? 
 
@@ -705,24 +705,75 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 ...\textwidth]{AdjustableRegulatorSchematic}
+l.157 ...\textwidth]{AdjustableRegulatorSchematic}
                                                   
 ? 
 
 Package natbib Warning: Citation `NX7002AKdatasheet' on page 8 undefined on inp
-ut line 161.
+ut line 162.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 214--217
+
+Package natbib Warning: Citation `RelativeTime' on page 9 undefined on input li
+ne 217.
+
+
+Package natbib Warning: Citation `EA2datasheet' on page 9 undefined on input li
+ne 217.
+
+[9]
+
+Package natbib Warning: Citation `Zarlink:MT8808' on page 10 undefined on input
+ line 225.
+
+
+Package natbib Warning: Citation `StewMacpickups' on page 10 undefined on input
+ line 231.
+
+
+LaTeX Warning: Reference `fig:guitarpickupmodel' on page 10 undefined on input 
+line 231.
+
+
+Package natbib Warning: Citation `FuzzFace' on page 10 undefined on input line 
+231.
+
+
+Package natbib Warning: Citation `FuzzFace' on page 10 undefined on input line 
+231.
+
+[10]
+
+Package natbib Warning: Citation `EC2datasheet' on page 11 undefined on input l
+ine 235.
+
+
+LaTeX Warning: Reference `fig:DiscreteHBridge' on page 11 undefined on input li
+ne 239.
+
+
+Package natbib Warning: Citation `EA2datasheet' on page 11 undefined on input l
+ine 239.
+
+
+Package natbib Warning: Citation `2N3904datasheet' on page 11 undefined on inpu
+t line 239.
+
+
+Package natbib Warning: Citation `2N3906datasheet' on page 11 undefined on inpu
+t line 239.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
 
-[9] [10]
+[11] [12]
 
-Package natbib Warning: Citation `JackOrman' on page 11 undefined on input line
- 255.
+Package natbib Warning: Citation `JackOrman' on page 13 undefined on input line
+ 313.
 
-[11]
+[13] [14]
 
 Package natbib Warning: There were undefined citations.
 
@@ -732,10 +783,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7528 strings out of 494891
- 109639 string characters out of 3178553
- 251031 words of memory out of 3000000
- 10979 multiletter control sequences out of 15000+200000
+ 7621 strings out of 494891
+ 111308 string characters out of 3178553
+ 252891 words of memory out of 3000000
+ 11072 multiletter control sequences out of 15000+200000
  9191 words of font info for 34 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  45i,10n,39p,1972b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -754,9 +805,9 @@ pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on main.pdf (11 pages, 354407 bytes).
+Output written on main.pdf (14 pages, 368562 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
