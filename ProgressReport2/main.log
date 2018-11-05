@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  4 NOV 2018 01:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  4 NOV 2018 20:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -462,96 +462,304 @@ G,.JBIG2,.JB2,.eps]
 
 {/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map}] (main.gls)
 [2]
-Underfull \hbox (badness 1281) in paragraph at lines 48--49
+
+Package natbib Warning: Citation `ES100Lec3' on page 3 undefined on input line 
+41.
+
+
+Package natbib Warning: Citation `ReverbMostPopular' on page 3 undefined on inp
+ut line 52.
+
+
+LaTeX Warning: File `BossDisplay.jpg' not found on input line 56.
+
+
+! Package pdftex.def Error: File `BossDisplay.jpg' not found: using draft setti
+ng.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...s[width = 0.6 \textwidth]{BossDisplay.jpg}
+                                                  
+? 
+
+Package natbib Warning: Citation `BossDisplayPhoto' on page 3 undefined on inpu
+t line 57.
+
+
+Package natbib Warning: Citation `OrmanBypassMeasurements' on page 3 undefined 
+on input line 61.
+
+[3]
+
+! LaTeX Error: File `BufferedvTrueBypass' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ...dth = 0.6 \textwidth]{BufferedvTrueBypass}
+                                                  
+? 
+[4]
+
+LaTeX Warning: File `RoutingConfigs.png' not found on input line 75.
+
+
+! Package pdftex.def Error: File `RoutingConfigs.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...idth = 0.6 \textwidth]{RoutingConfigs.png}
+                                                  
+? 
+
+Package natbib Warning: Citation `EARTHBOARDSITE' on page 5 undefined on input 
+line 91.
+
+[5]
+
+Package natbib Warning: Citation `ABBATE:2016' on page 6 undefined on input lin
+e 95.
+
+
+Package natbib Warning: Citation `SPECTOR:1982' on page 6 undefined on input li
+ne 99.
+
+
+Package natbib Warning: Citation `FAORO:2015board' on page 6 undefined on input
+ line 103.
+
+
+Package natbib Warning: Citation `NexiIndustries' on page 6 undefined on input 
+line 103.
+
+
+Package natbib Warning: Citation `FAORO:2015pedal' on page 6 undefined on input
+ line 103.
+
+
+Package natbib Warning: Citation `conNEXI' on page 6 undefined on input line 10
+3.
+
+
+Package natbib Warning: Citation `conNEXI' on page 6 undefined on input line 10
+5.
+
+[6]
+Underfull \hbox (badness 1281) in paragraph at lines 119--120
 \OT1/cmr/m/n/10 of pedals available at typical retail
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 48--49
+Underfull \hbox (badness 1286) in paragraph at lines 119--120
 \OT1/cmr/m/n/10 is a trade-off between compatibility
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 62--63
+Underfull \hbox (badness 2617) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 a simple metric might be number
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 of words required to give working
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 134--135
 []|\OT1/cmr/m/n/10 There must also be a distinction drawn
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 63--64
+Underfull \hbox (badness 1132) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 pedals may have lower SNRs, it is vital
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 64--65
+Underfull \hbox (badness 4995) in paragraph at lines 136--137
 \OT1/cmr/m/n/10 voltage signals), the frequency response
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 64--65
+Underfull \hbox (badness 1688) in paragraph at lines 136--137
 \OT1/cmr/m/n/10 should extend down to DC. Ideally, the
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 64--65
+Underfull \hbox (badness 5331) in paragraph at lines 136--137
 \OT1/cmr/m/n/10 frequency response would exceed 20kHz
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 64--65
+Underfull \hbox (badness 1038) in paragraph at lines 136--137
 \OT1/cmr/m/n/10 to allow for higher frequency components
  []
 
 
-Package natbib Warning: Citation `BT1359-1' on page 3 undefined on input line 6
-5.
+Package natbib Warning: Citation `BT1359-1' on page 7 undefined on input line 1
+37.
 
 
-Package natbib Warning: Citation `PrecedenceEffect' on page 3 undefined on inpu
-t line 65.
+Package natbib Warning: Citation `PrecedenceEffect' on page 7 undefined on inpu
+t line 137.
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 66--67
+Underfull \hbox (badness 3291) in paragraph at lines 138--139
 \OT1/cmr/m/n/10 system, any transient created must not
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 67--68
+Underfull \hbox (badness 4416) in paragraph at lines 139--140
 \OT1/cmr/m/n/10 AC/DC converter. Through Separated
  []
 
 
-Overfull \hbox (20.38693pt too wide) in alignment at lines 57--69
+Overfull \hbox (20.38693pt too wide) in alignment at lines 129--141
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 69
+Underfull \vbox (badness 10000) detected at line 141
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 74--77
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
-[4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 			\paragraph{Through Screws}\\\\
+                                       
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 			O
+          ne important subsystem is the mounting of the pedals on their plat...
+
+? 
+[8]
+
+Package natbib Warning: Citation `ABBATE:2016' on page 9 undefined on input lin
+e 155.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 			\paragraph{Clamp}\\\\
+                              
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 			A
+          nother option for attaching pedals to their plates is via a clampi...
+
+? 
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ... method be examined further. \color{grey}
+                                                  
+? 
+
+LaTeX Warning: File `CornerBracketPerspective.jpg' not found on input line 163.
+
+
+
+! Package pdftex.def Error: File `CornerBracketPerspective.jpg' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...\textwidth]{CornerBracketPerspective.jpg}
+                                                  
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 			\paragraph{Linear Travel}\\\\
+                                      
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 			B
+          ecause of the incongruities between effects pedals of different ma...
+
+? 
+
+Package natbib Warning: Citation `MyDimData' on page 9 undefined on input line 
+171.
+
+
+LaTeX Warning: Reference `fig:MATLABdimdata' on page 9 undefined on input line 
+171.
+
+
+LaTeX Warning: Reference `fig:PlatePrototype' on page 9 undefined on input line
+ 171.
+
+[9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 177.
+
  (/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
 
 
-LaTeX Warning: Reference `springloaded' on page 5 undefined on input line 95.
+LaTeX Warning: Reference `springloaded' on page 10 undefined on input line 189.
 
 
-Package natbib Warning: Citation `AVX_00-9258_Digikey' on page 5 undefined on i
-nput line 95.
+
+Package natbib Warning: Citation `AVX_00-9258_Digikey' on page 10 undefined on 
+input line 189.
 
 
-Package natbib Warning: Citation `AVX_00-9258_Datasheet' on page 5 undefined on
- input line 95.
+Package natbib Warning: Citation `AVX_00-9258_Datasheet' on page 10 undefined o
+n input line 189.
 
+[10]
 
 ! LaTeX Error: Environment subfigure undefined.
 
@@ -559,23 +767,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 			\begin{subfigure}
-                         {0.4\textwidth}
+l.192 			\begin{subfigure}
+                          {0.4\textwidth}
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.98 			\begin{subfigure}{0.4\textwidth}
-                                        
+l.192 			\begin{subfigure}{0.4\textwidth}
+                                         
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.98 			\begin{subfigure}{0.4\textwidth}
-                                        
+l.192 			\begin{subfigure}{0.4\textwidth}
+                                         
 ? 
 
-LaTeX Warning: File `batteryconn.jpg' not found on input line 100.
+LaTeX Warning: File `batteryconn.jpg' not found on input line 194.
 
 
 ! Package pdftex.def Error: File `batteryconn.jpg' not found: using draft setti
@@ -585,17 +793,17 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 ...s[width = 0.4\linewidth]{batteryconn.jpg}
+l.194 ...s[width = 0.4\linewidth]{batteryconn.jpg}
                                                   
 ? 
 
-! LaTeX Error: \begin{figure} on input line 97 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 191 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 			\end{subfigure}
+l.195 			\end{subfigure}
                         
 ? 
 
@@ -605,23 +813,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 			\begin{subfigure}
+l.196 			\begin{subfigure}
                           {0.4\textwidth}
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.102 			\begin{subfigure}{0.4\textwidth}
+l.196 			\begin{subfigure}{0.4\textwidth}
                                          
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.102 			\begin{subfigure}{0.4\textwidth}
+l.196 			\begin{subfigure}{0.4\textwidth}
                                          
 ? 
 
-LaTeX Warning: File `springpin.jpg' not found on input line 104.
+LaTeX Warning: File `springpin.jpg' not found on input line 198.
 
 
 ! Package pdftex.def Error: File `springpin.jpg' not found: using draft setting
@@ -631,62 +839,62 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...ics[width = 0.4\linewidth]{springpin.jpg}
+l.198 ...ics[width = 0.4\linewidth]{springpin.jpg}
                                                   
 ? 
 
-! LaTeX Error: \begin{figure} on input line 97 ended by \end{subfigure}.
+! LaTeX Error: \begin{figure} on input line 191 ended by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 			\end{subfigure}
+l.199 			\end{subfigure}
                         
 ? 
 
-Package natbib Warning: Citation `MillMax_025' on page 5 undefined on input lin
-e 110.
-
-[5]
-
-Package natbib Warning: Citation `DesignforHotSwap' on page 6 undefined on inpu
-t line 112.
+Package natbib Warning: Citation `MillMax_025' on page 11 undefined on input li
+ne 204.
 
 
-Package natbib Warning: Citation `Bourns70AA_datahseet' on page 6 undefined on 
-input line 114.
+Package natbib Warning: Citation `DesignforHotSwap' on page 11 undefined on inp
+ut line 206.
 
 
-Package natbib Warning: Citation `MillMax_023' on page 6 undefined on input lin
-e 116.
+Package natbib Warning: Citation `Bourns70AA_datahseet' on page 11 undefined on
+ input line 208.
 
 
-Package natbib Warning: Citation `MillMax_025' on page 6 undefined on input lin
-e 116.
+Package natbib Warning: Citation `MillMax_023' on page 11 undefined on input li
+ne 210.
 
-<MillMaxSeries0914_0908.png, id=25, 1768.6075pt x 518.93875pt>
+
+Package natbib Warning: Citation `MillMax_025' on page 11 undefined on input li
+ne 210.
+
+[11]
+<MillMaxSeries0914_0908.png, id=46, 1768.6075pt x 518.93875pt>
 File: MillMaxSeries0914_0908.png Graphic file (type png)
 <use MillMaxSeries0914_0908.png>
-Package pdftex.def Info: MillMaxSeries0914_0908.png  used on input line 120.
+Package pdftex.def Info: MillMaxSeries0914_0908.png  used on input line 214.
 (pdftex.def)             Requested size: 469.75502pt x 137.82692pt.
-[6]
-
-Package natbib Warning: Citation `pedallsit' on page 7 undefined on input line 
-128.
 
 
-Package natbib Warning: Citation `Line6DL4manual' on page 7 undefined on input 
-line 128.
+Package natbib Warning: Citation `pedallsit' on page 12 undefined on input line
+ 222.
 
 
-LaTeX Warning: Reference `fig:parallelpowerschematic' on page 7 undefined on in
-put line 132.
+Package natbib Warning: Citation `Line6DL4manual' on page 12 undefined on input
+ line 222.
 
-[7 <./MillMaxSeries0914_0908.png>]
 
-Package natbib Warning: Citation `LM317datasheet' on page 8 undefined on input 
-line 137.
+LaTeX Warning: Reference `fig:parallelpowerschematic' on page 12 undefined on i
+nput line 226.
+
+[12 <./MillMaxSeries0914_0908.png>]
+
+Package natbib Warning: Citation `LM317datasheet' on page 13 undefined on input
+ line 230.
 
 
 ! LaTeX Error: File `LM317_typapp' not found.
@@ -695,7 +903,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 ...hics[width = 0.8\textwidth]{LM317_typapp}
+l.243 ...hics[width = 0.8\textwidth]{LM317_typapp}
                                                   
 ? 
 
@@ -705,75 +913,214 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 ...\textwidth]{AdjustableRegulatorSchematic}
+l.250 ...\textwidth]{AdjustableRegulatorSchematic}
                                                   
 ? 
 
-Package natbib Warning: Citation `NX7002AKdatasheet' on page 8 undefined on inp
-ut line 162.
+Package natbib Warning: Citation `NX7002AKdatasheet' on page 13 undefined on in
+put line 255.
 
-[8]
+[13]
 
-Package natbib Warning: Citation `RelativeTime' on page 9 undefined on input li
-ne 217.
+LaTeX Warning: Reference `fig:PlateDetectSwitch' on page 14 undefined on input 
+line 310.
 
+[14]
 
-Package natbib Warning: Citation `EA2datasheet' on page 9 undefined on input li
-ne 217.
-
-[9]
-
-Package natbib Warning: Citation `Zarlink:MT8808' on page 10 undefined on input
- line 225.
+Package natbib Warning: Citation `RelativeTime' on page 15 undefined on input l
+ine 312.
 
 
-Package natbib Warning: Citation `StewMacpickups' on page 10 undefined on input
- line 231.
+Package natbib Warning: Citation `EA2datasheet' on page 15 undefined on input l
+ine 312.
 
 
-LaTeX Warning: Reference `fig:guitarpickupmodel' on page 10 undefined on input 
-line 231.
+Package natbib Warning: Citation `Zarlink:MT8808' on page 15 undefined on input
+ line 320.
 
 
-Package natbib Warning: Citation `FuzzFace' on page 10 undefined on input line 
-231.
+Package natbib Warning: Citation `StewMacpickups' on page 15 undefined on input
+ line 326.
 
 
-Package natbib Warning: Citation `FuzzFace' on page 10 undefined on input line 
-231.
-
-[10]
-
-Package natbib Warning: Citation `EC2datasheet' on page 11 undefined on input l
-ine 235.
+LaTeX Warning: Reference `fig:guitarpickupmodel' on page 15 undefined on input 
+line 326.
 
 
-LaTeX Warning: Reference `fig:DiscreteHBridge' on page 11 undefined on input li
-ne 239.
+Package natbib Warning: Citation `FuzzFace' on page 15 undefined on input line 
+326.
 
 
-Package natbib Warning: Citation `EA2datasheet' on page 11 undefined on input l
-ine 239.
+Package natbib Warning: Citation `FuzzFace' on page 15 undefined on input line 
+326.
+
+[15]
+
+Package natbib Warning: Citation `EC2datasheet' on page 16 undefined on input l
+ine 330.
 
 
-Package natbib Warning: Citation `2N3904datasheet' on page 11 undefined on inpu
-t line 239.
+Package natbib Warning: Citation `EA2datasheet' on page 16 undefined on input l
+ine 330.
 
 
-Package natbib Warning: Citation `2N3906datasheet' on page 11 undefined on inpu
-t line 239.
+LaTeX Warning: Reference `fig:DiscreteHBridge' on page 16 undefined on input li
+ne 334.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--275
+Package natbib Warning: Citation `EA2datasheet' on page 16 undefined on input l
+ine 334.
+
+
+Package natbib Warning: Citation `2N3904datasheet' on page 16 undefined on inpu
+t line 334.
+
+
+Package natbib Warning: Citation `2N3906datasheet' on page 16 undefined on inpu
+t line 334.
+
+[16]
+
+Package natbib Warning: Citation `L298datasheet' on page 17 undefined on input 
+line 357.
+
+
+Package natbib Warning: Citation `LV8548MCdatasheet' on page 17 undefined on in
+put line 357.
+
+
+Package natbib Warning: Citation `LB1948MCdatasheet' on page 17 undefined on in
+put line 357.
+
+
+Package natbib Warning: Citation `EA2datasheet' on page 17 undefined on input l
+ine 359.
+
+
+LaTeX Warning: Reference `fig:HBridgeCTRL_Block' on page 17 undefined on input 
+line 359.
+
+
+LaTeX Warning: Reference `fig:BidirectinoalEdgeScheme' on page 17 undefined on 
+input line 361.
+
+
+LaTeX Warning: Reference `fig:RisingFallingParallel' on page 17 undefined on in
+put line 363.
+
+
+LaTeX Warning: Reference `fig:ImprovedEdge' on page 17 undefined on input line 
+363.
+
+
+LaTeX Warning: Reference `fig:ImprovedEdge' on page 17 undefined on input line 
+363.
+
+[17]
+
+LaTeX Warning: Reference `fig:NOREdge' on page 18 undefined on input line 390.
+
+
+Package natbib Warning: Citation `SN74HC7002datasheet' on page 18 undefined on 
+input line 390.
+
+
+Package natbib Warning: Citation `SN74HC7002datasheet' on page 18 undefined on 
+input line 392.
+
+
+LaTeX Warning: Reference `fig:FullSchemeA' on page 18 undefined on input line 4
+06.
+
+
+Package natbib Warning: Citation `74HCT14datasheet' on page 18 undefined on inp
+ut line 406.
+
+
+Package natbib Warning: Citation `74AHCT02datasheet' on page 18 undefined on in
+put line 406.
+
+[18]
+
+Package natbib Warning: Citation `ATTINY261Adatasheet' on page 19 undefined on 
+input line 431.
+
+
+Package natbib Warning: Citation `ATTINY40datasheet' on page 19 undefined on in
+put line 431.
+
+
+LaTeX Warning: Reference `fig:MicroBlockDiagram' on page 19 undefined on input 
+line 433.
+
+
+LaTeX Warning: Reference `MicroSchematic' on page 19 undefined on input line 43
+3.
+
+
+LaTeX Warning: Reference `fig:JunctionRouting' on page 19 undefined on input li
+ne 440.
+
+
+LaTeX Warning: Reference `fig:JunctionSchematic' on page 19 undefined on input 
+line 442.
+
+
+LaTeX Warning: Reference `fig:EdgeLitExample' on page 19 undefined on input lin
+e 444.
+
+[19]
+
+LaTeX Warning: Reference `fig:JunctionRouting' on page 20 undefined on input li
+ne 446.
+
+
+Package natbib Warning: Citation `MJTP1230datasheet' on page 20 undefined on in
+put line 446.
+
+
+Package natbib Warning: Citation `CypressCapSense' on page 20 undefined on inpu
+t line 448.
+
+
+Package natbib Warning: Citation `PSoC4datasheet' on page 20 undefined on input
+ line 448.
+
+
+Package natbib Warning: Citation `IQS127datasheet' on page 20 undefined on inpu
+t line 448.
+
+
+Package natbib Warning: Citation `ATTINY40datasheet' on page 20 undefined on in
+put line 448.
+
+
+Package natbib Warning: Citation `IQS127datasheet' on page 20 undefined on inpu
+t line 448.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--455
 
  []
 
-[11] [12]
 
-Package natbib Warning: Citation `JackOrman' on page 13 undefined on input line
- 313.
+LaTeX Warning: Reference `fig:Prototype1Block' on page 20 undefined on input li
+ne 458.
 
-[13] [14]
+
+LaTeX Warning: Reference `fig:Prototype1Schematic' on page 20 undefined on inpu
+t line 458.
+
+[20] [21]
+
+Package natbib Warning: Citation `JackOrman' on page 22 undefined on input line
+ 511.
+
+
+Package natbib Warning: Citation `APclickpopmeasurement' on page 22 undefined o
+n input line 515.
+
+[22] [23]
 
 Package natbib Warning: There were undefined citations.
 
@@ -783,13 +1130,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7621 strings out of 494891
- 111308 string characters out of 3178553
- 252891 words of memory out of 3000000
- 11072 multiletter control sequences out of 15000+200000
- 9191 words of font info for 34 fonts, out of 3000000 for 9000
+ 7648 strings out of 494891
+ 111837 string characters out of 3178553
+ 253822 words of memory out of 3000000
+ 11094 multiletter control sequences out of 15000+200000
+ 9537 words of font info for 35 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 45i,10n,39p,1972b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,39p,1972b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
@@ -803,11 +1150,12 @@ pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb>
-Output written on main.pdf (14 pages, 368562 bytes).
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on main.pdf (23 pages, 421594 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
