@@ -1,0 +1,216 @@
+\begin{thebibliography}{10}
+
+\bibitem{Line6DL4manual}
+Line 6.
+\newblock Dl4 delay modeler pilot's handbook.
+
+\bibitem{ABBATE:2016}
+Gregg Abbate.
+\newblock Effects pedal mounting bracket, September 2016.
+\newblock US Patent 9620094.
+
+\bibitem{MJTP1230datasheet}
+APEM.
+\newblock Mjtp series 6mm thru-hole mtg. tact switches.
+\newblock MJTP1230 datasheet.
+
+\bibitem{Timing}
+ITU~Radiocommunication Assembly.
+\newblock Recommendation itu-r bt.1359-1 relative timing of sound and vision
+  for broadcasting, 1998.
+
+\bibitem{ATTINY261Adatasheet}
+Atmel.
+\newblock 8-bit avr microcontroller with 2/4/8k bytes in-system programmable
+  flash attiny261a attiny461a attiny861a, May 2011.
+\newblock ATtiny261a datasheet.
+
+\bibitem{ATTINY40datasheet}
+Atmel.
+\newblock 8-bit atmel tinyavr microcontroller with 4k bytes in-system
+  programmable flash: Attiny40 summary datasheet, January 2013.
+\newblock ATtiny40 datasheet.
+
+\bibitem{IQS127datasheet}
+Azoteq.
+\newblock Iqs127d datasheet: Iq switch - proxsense series single channel
+  capacitive proximiy/touch controller, March 2015.
+
+\bibitem{Bourns70AA_datasheet}
+Bourns.
+\newblock 70aa/male - modular contact.
+\newblock 70AA series datasheet.
+
+\bibitem{MillMax_023}
+Mill-Max~Mfg. Corp.
+\newblock Spring-loaded pins: Discrete spring-loaded contact - surface mount.
+\newblock mechanical drawings.
+
+\bibitem{MillMax_025}
+Mill-Max~Mfg. Corp.
+\newblock Spring loaded pins: Discrete spring loaded contacts - through-hole
+  mount.
+\newblock mechanical drawings.
+
+\bibitem{EA2datasheet}
+Kemet~Electronics Corporation.
+\newblock Miniature signal relays ea2/eb2 series, August 2017.
+\newblock EA2 series datasheet.
+
+\bibitem{EC2datasheet}
+Kemet~Electronics Corporation.
+\newblock Miniature signal relays ec2/ee2 series, August 2017.
+\newblock EC2 series datasheet.
+
+\bibitem{FuzzFace}
+Electrosmash.
+\newblock Fuzz face analysis.
+\newblock Accessed: 2018-11-05.
+
+\bibitem{2N3904datasheet}
+Fairchild.
+\newblock 2n3904/mmbt3904/pzt3904 npn general-purpose amplifier, October 2014.
+\newblock 2N3904 datasheet.
+
+\bibitem{2N3906datasheet}
+Fairchild.
+\newblock 2n3906/mmbt3906/pzt3906 pnp general-purpose amplifier, April 2014.
+\newblock 2N3906 datasheet.
+
+\bibitem{FAORO:2015pedal}
+Franziska Faoro.
+\newblock Pedal for a musical instrument, September 2015.
+\newblock US Patent D782566S1.
+
+\bibitem{FAORO:2015board}
+Franziska Faoro.
+\newblock Pedalboard for a musical instrument, September 2015.
+\newblock US Patent D782567S1.
+
+\bibitem{ES100Lec3}
+Robert Howe.
+\newblock Engineering design.
+\newblock Harvard ES-100.
+
+\bibitem{conNEXI}
+NEXI Industries.
+\newblock connexi.
+\newblock Accessed: 2018-09-28.
+
+\bibitem{NexiIndustries}
+NEXI Industries.
+\newblock Nexi industries.
+\newblock Accessed: 2018-09-28.
+
+\bibitem{SN74HC7002datasheet}
+Texas Instruments.
+\newblock Sn54hc7002, sn74hc7002 quadruple positive-nor gates with
+  schmitt-trigger inputs, November 2004.
+\newblock SN74HC7002 datasheet.
+
+\bibitem{LM317datasheet}
+Texas Instruments.
+\newblock Lm317 3-terminal adjustable regulator, September 2016.
+\newblock LM317 datasheet.
+
+\bibitem{AVX_00-9258_Datasheet}
+AVX Interconnect.
+\newblock Ultra low profile stacker: Btb.
+\newblock 00-9258 datasheet.
+
+\bibitem{DesignforHotSwap}
+Storage Interface.
+\newblock Design considerations for hot swap, 2018.
+
+\bibitem{EARTHBOARDSITE}
+Rare Earth~Music LLC.
+\newblock Earth board.
+\newblock https://earthboardmusic.com/.
+\newblock Accessed: 2018-09-10.
+
+\bibitem{74AHCT02datasheet}
+Nexperia.
+\newblock 74ahc02; 74ahct02 quad 2-input nor gate, May 2008.
+\newblock 74AHCT02 datasheet.
+
+\bibitem{74HCT14datasheet}
+Nexperia.
+\newblock 74hc14; 74hct14 hex inverting schmitt trigger, November 2015.
+\newblock 74HCT14 datahseet.
+
+\bibitem{NX7002AKdatasheet}
+Nexperia.
+\newblock Nx7002ak 60v, single n-channel trench mosfet product data sheet,
+  August 2015.
+
+\bibitem{ReverbMostPopular}
+Dan Orkin.
+\newblock The best-selling pedals of 2017, November 2017.
+
+\bibitem{OrmanBypassMeasurements}
+Jack Orman.
+\newblock True bypass measurements, 2012.
+
+\bibitem{MyPedalData}
+Nicholas Pham.
+\newblock Pedal dimension and availablity data, September 2018.
+\newblock self conducted research.
+
+\bibitem{APclickpopmeasurement}
+Audio Precision.
+\newblock Click and pop measurement, July 2011.
+
+\bibitem{ProgrammableSwitcherExample}
+Sound Sculpture.
+\newblock The switchblade switching system overview.
+\newblock Accessed: 2018-11-05.
+
+\bibitem{CypressCapSense}
+Cypress Semiconductor.
+\newblock An85951 psoc 4 and psoc 6 mcu capsense design guide, 2018.
+
+\bibitem{LB1948MCdatasheet}
+ON~Semiconductor.
+\newblock Lb1948mc bi-cmos integrated circuit 12v low saturation voltage drive
+  forward/reverse motor driver application note, December 2013.
+\newblock LB1948MC datasheet.
+
+\bibitem{LV8548MCdatasheet}
+ON~Semiconductor.
+\newblock Lv8548mc motor driver, forward/reverse, low saturation voltage, 12v,
+  August 2015.
+\newblock LV8548MC datasheet.
+
+\bibitem{Zarlink:MT8808}
+Zarlink Semiconductor.
+\newblock {\em MT8808 ISO-CMOS 8 x 8 Analog Switch Array}, September 2011.
+
+\bibitem{PrecedenceEffect}
+Barbara Shinn-Cunningham.
+\newblock Auditory precedence effect, 2013.
+
+\bibitem{Sullinsdatasheet}
+Sullins~Connector Solutions.
+\newblock Sullins connector solutions swr201-nrtn-s02-sa-wh.
+\newblock mechanical drawing.
+
+\bibitem{SPECTOR:1982}
+Abner Spector.
+\newblock Audio effects system and method, September 1982.
+\newblock US Patent 4479238.
+
+\bibitem{StewMacpickups}
+Stewart-MacDonald.
+\newblock Pickup winding with the schatten pickup winder, January 2014.
+
+\bibitem{L298datasheet}
+STMicroelectronics.
+\newblock L298 dual full-bridge driver, January 2000.
+\newblock L298 datasheet.
+
+\bibitem{BossDisplayPhoto}
+user:mhuxtable.
+\newblock Boss pedal display.
+\newblock Accessed from Harmony Central: 2018-09-28.
+
+\end{thebibliography}

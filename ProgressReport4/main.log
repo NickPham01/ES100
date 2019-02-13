@@ -1,0 +1,562 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  9 FEB 2019 23:12
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2018-04-01> patch level 5
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/home/npham01/.miktex/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks17
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen113
+))
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks19
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks20
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks23
+\float@box=\box28
+\@float@everytoks=\toks24
+\@floatcapt=\box29
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count104
+\LTcapwidth=\dimen122
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks25
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count109
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2018/07/23 v4.41 (NLCT)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/npham01/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/npham01/.miktex/texmfs/install/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count111
+)
+\@glsmfirst=\toks28
+\@glsmrest=\toks29
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2018/04/16 v2.30 (NLCT)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count112
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2018/04/16 v2.30 (NLCT)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count113
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count114
+\FP@xia=\count115
+\FP@xib=\count116
+\FP@xfa=\count117
+\FP@xfb=\count118
+\FP@rega=\count119
+\FP@regb=\count120
+\FP@regs=\count121
+\FP@times=\count122
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count123
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks30
+\@dtl@tmpcount=\count124
+\dtl@tmplength=\skip52
+\dtl@sortresult=\count125
+\@dtl@numgrpsepcount=\count126
+\@dtl@datatype=\count127
+\dtl@codeA=\count128
+\dtl@codeB=\count129
+\@dtl@foreach@level=\count130
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries-comp
+atible-307.sty
+Package: glossaries-compatible-307 2018/07/23 v4.41 (NLCT)
+)
+\gls@level=\count131
+\@gls@tmpb=\toks31
+\gls@tmplen=\skip53
+\glskeylisttok=\toks32
+\glslabeltok=\toks33
+\glsshorttok=\toks34
+\glslongtok=\toks35
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-hype
+rnav.sty
+Package: glossary-hypernav 2018/07/23 v4.41 (NLCT)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-list
+.sty
+Package: glossary-list 2018/07/23 v4.41 (NLCT)
+\glslistdottedwidth=\skip54
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-long
+.sty
+Package: glossary-long 2018/07/23 v4.41 (NLCT)
+\glsdescwidth=\skip55
+\glspagelistwidth=\skip56
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-supe
+r.sty
+Package: glossary-super 2018/07/23 v4.41 (NLCT)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count132
+\ST@wd=\dimen123
+\ST@rightskip=\skip57
+\ST@leftskip=\skip58
+\ST@parfillskip=\skip59
+\ST@pageleft=\dimen124
+\ST@headht=\dimen125
+\ST@tailht=\dimen126
+\ST@pagesofar=\dimen127
+\ST@pboxht=\dimen128
+\ST@lineht=\dimen129
+\ST@stretchht=\dimen130
+\ST@prevht=\dimen131
+\ST@toadd=\dimen132
+\ST@dimen=\dimen133
+\ST@pbox=\box34
+))
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-tree
+.sty
+Package: glossary-tree 2018/07/23 v4.41 (NLCT)
+\glstreeindent=\skip60
+))
+\glswrite=\write3
+\glo@main@file=\write4
+\openout4 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 13.
+ (glossary.tex) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(/home/npham01/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen134
+\scratchbox=\box35
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen135
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks37
+) (/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+
+
+Package natbib Warning: Citation `ATTiny40_datasheet' on page 1 undefined on in
+put line 61.
+
+[1
+
+\openout3 = `main.ist'.
+
+{/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+
+Package natbib Warning: Citation `ATMEGA3209_digikey' on page 2 undefined on in
+put line 63.
+
+
+Package natbib Warning: Citation `PIC16F_datasheet' on page 2 undefined on inpu
+t line 63.
+
+
+Package natbib Warning: Citation `ATMEGA3209_datasheet' on page 2 undefined on 
+input line 63.
+
+
+LaTeX Warning: Reference `fig:module_mech_layout' on page 2 undefined on input 
+line 69.
+
+
+LaTeX Warning: Reference `fig:routing_schem' on page 2 undefined on input line 
+99.
+
+[2]
+
+Package natbib Warning: Citation `datasheet:LRS-150-48' on page 3 undefined on 
+input line 105.
+
+
+Package natbib Warning: Citation `Digikey:LRS-150-48' on page 3 undefined on in
+put line 105.
+
+
+Package natbib Warning: Citation `Digikey:PSA120U-480L6' on page 3 undefined on
+ input line 105.
+
+
+Package natbib Warning: Citation `atasheet:LM317' on page 3 undefined on input 
+line 113.
+
+[3]
+
+Package natbib Warning: Citation `datasheet:LM7805' on page 4 undefined on inpu
+t line 115.
+
+
+LaTeX Warning: Reference `fig:worstcaserouting' on page 4 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `datasheet:OPA1679IDR' on page 4 undefined on 
+input line 135.
+
+
+Package natbib Warning: There were undefined citations.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+[4] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7645 strings out of 494891
+ 111806 string characters out of 3178553
+ 247537 words of memory out of 3000000
+ 11118 multiletter control sequences out of 15000+200000
+ 9023 words of font info for 33 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 45i,9n,37p,1972b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on main.pdf (4 pages, 129548 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

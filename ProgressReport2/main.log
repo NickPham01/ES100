@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  4 NOV 2018 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  8 NOV 2018 17:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -462,681 +462,294 @@ G,.JBIG2,.JB2,.eps]
 
 {/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map}] (main.gls)
 [2]
+<PR2Images/GuitarCenterBoard.jpg, id=13, 4047.12pt x 3035.34pt>
+File: PR2Images/GuitarCenterBoard.jpg Graphic file (type jpg)
+<use PR2Images/GuitarCenterBoard.jpg>
+Package pdftex.def Info: PR2Images/GuitarCenterBoard.jpg  used on input line 53
+.
+(pdftex.def)             Requested size: 187.89914pt x 140.89174pt.
+<PR2Images/BossDisplay.jpg, id=14, 451.6875pt x 338.76563pt>
+File: PR2Images/BossDisplay.jpg Graphic file (type jpg)
+<use PR2Images/BossDisplay.jpg>
+Package pdftex.def Info: PR2Images/BossDisplay.jpg  used on input line 63.
+(pdftex.def)             Requested size: 281.85587pt x 211.40233pt.
+ [3] [4 <./PR2Images/GuitarCenterBoard.jpg> <./PR2Images/BossDisplay.jpg>]
+<PR2Images/BufferedvTrueBypass.png, id=22, 543.02875pt x 432.61626pt>
+File: PR2Images/BufferedvTrueBypass.png Graphic file (type png)
+<use PR2Images/BufferedvTrueBypass.png>
+Package pdftex.def Info: PR2Images/BufferedvTrueBypass.png  used on input line 
+72.
+(pdftex.def)             Requested size: 281.85587pt x 224.55247pt.
+<PR2Images/RoutingConfigs.png, id=24, 780.9175pt x 860.21375pt>
+File: PR2Images/RoutingConfigs.png Graphic file (type png)
+<use PR2Images/RoutingConfigs.png>
+Package pdftex.def Info: PR2Images/RoutingConfigs.png  used on input line 82.
+(pdftex.def)             Requested size: 187.89914pt x 206.98055pt.
 
-Package natbib Warning: Citation `ES100Lec3' on page 3 undefined on input line 
-41.
-
-
-Package natbib Warning: Citation `ReverbMostPopular' on page 3 undefined on inp
-ut line 52.
-
-
-LaTeX Warning: File `BossDisplay.jpg' not found on input line 56.
-
-
-! Package pdftex.def Error: File `BossDisplay.jpg' not found: using draft setti
-ng.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...s[width = 0.6 \textwidth]{BossDisplay.jpg}
-                                                  
-? 
-
-Package natbib Warning: Citation `BossDisplayPhoto' on page 3 undefined on inpu
-t line 57.
-
-
-Package natbib Warning: Citation `OrmanBypassMeasurements' on page 3 undefined 
-on input line 61.
-
-[3]
-
-! LaTeX Error: File `BufferedvTrueBypass' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...dth = 0.6 \textwidth]{BufferedvTrueBypass}
-                                                  
-? 
-[4]
-
-LaTeX Warning: File `RoutingConfigs.png' not found on input line 75.
-
-
-! Package pdftex.def Error: File `RoutingConfigs.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...idth = 0.6 \textwidth]{RoutingConfigs.png}
-                                                  
-? 
-
-Package natbib Warning: Citation `EARTHBOARDSITE' on page 5 undefined on input 
-line 91.
-
-[5]
-
-Package natbib Warning: Citation `ABBATE:2016' on page 6 undefined on input lin
-e 95.
-
-
-Package natbib Warning: Citation `SPECTOR:1982' on page 6 undefined on input li
-ne 99.
-
-
-Package natbib Warning: Citation `FAORO:2015board' on page 6 undefined on input
- line 103.
-
-
-Package natbib Warning: Citation `NexiIndustries' on page 6 undefined on input 
-line 103.
-
-
-Package natbib Warning: Citation `FAORO:2015pedal' on page 6 undefined on input
- line 103.
-
-
-Package natbib Warning: Citation `conNEXI' on page 6 undefined on input line 10
-3.
-
-
-Package natbib Warning: Citation `conNEXI' on page 6 undefined on input line 10
-5.
-
-[6]
-Underfull \hbox (badness 1281) in paragraph at lines 119--120
+[5 <./PR2Images/BufferedvTrueBypass.png>] [6 <./PR2Images/RoutingConfigs.png>]
+Underfull \hbox (badness 1281) in paragraph at lines 126--127
 \OT1/cmr/m/n/10 of pedals available at typical retail
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 119--120
+Underfull \hbox (badness 1286) in paragraph at lines 126--127
 \OT1/cmr/m/n/10 is a trade-off between compatibility
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 120--121
+Underfull \hbox (badness 2617) in paragraph at lines 127--128
 \OT1/cmr/m/n/10 a simple metric might be number
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 120--121
+Underfull \hbox (badness 2435) in paragraph at lines 127--128
 \OT1/cmr/m/n/10 of words required to give working
  []
 
-
-Underfull \hbox (badness 1960) in paragraph at lines 134--135
-[]|\OT1/cmr/m/n/10 There must also be a distinction drawn
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 135--136
-\OT1/cmr/m/n/10 pedals may have lower SNRs, it is vital
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 136--137
-\OT1/cmr/m/n/10 voltage signals), the frequency response
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 136--137
-\OT1/cmr/m/n/10 should extend down to DC. Ideally, the
- []
-
-
-Underfull \hbox (badness 5331) in paragraph at lines 136--137
-\OT1/cmr/m/n/10 frequency response would exceed 20kHz
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 136--137
-\OT1/cmr/m/n/10 to allow for higher frequency components
- []
-
-
-Package natbib Warning: Citation `BT1359-1' on page 7 undefined on input line 1
-37.
-
-
-Package natbib Warning: Citation `PrecedenceEffect' on page 7 undefined on inpu
-t line 137.
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 138--139
-\OT1/cmr/m/n/10 system, any transient created must not
- []
-
-
-Underfull \hbox (badness 4416) in paragraph at lines 139--140
-\OT1/cmr/m/n/10 AC/DC converter. Through Separated
- []
-
-
-Overfull \hbox (20.38693pt too wide) in alignment at lines 129--141
- [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 141
- []
-
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 148--151
-
+Underfull \hbox (badness 1776) in paragraph at lines 140--141
+\OT1/cmr/m/n/10 sold to a retailer is dependent on
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 			\paragraph{Through Screws}\\\\
-                                       
-? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 			O
-          ne important subsystem is the mounting of the pedals on their plat...
-
-? 
-[8]
-
-Package natbib Warning: Citation `ABBATE:2016' on page 9 undefined on input lin
-e 155.
+Underfull \hbox (badness 1067) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 pedal to interface with the system.
+ []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 			\paragraph{Clamp}\\\\
-                              
-? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 			A
-          nother option for attaching pedals to their plates is via a clampi...
-
-? 
-
-! Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ... method be examined further. \color{grey}
-                                                  
-? 
-
-LaTeX Warning: File `CornerBracketPerspective.jpg' not found on input line 163.
+Underfull \hbox (badness 3547) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 have a very high SNR, measured
+ []
 
 
-
-! Package pdftex.def Error: File `CornerBracketPerspective.jpg' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 ...\textwidth]{CornerBracketPerspective.jpg}
-                                                  
-? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 			\paragraph{Linear Travel}\\\\
-                                      
-? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 			B
-          ecause of the incongruities between effects pedals of different ma...
-
-? 
-
-Package natbib Warning: Citation `MyDimData' on page 9 undefined on input line 
-171.
+Underfull \hbox (badness 3439) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 in non-ideal circumstances at +90
+ []
 
 
-LaTeX Warning: Reference `fig:MATLABdimdata' on page 9 undefined on input line 
-171.
+Underfull \hbox (badness 1194) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 dBV. Higher values in a controlled
+ []
 
 
-LaTeX Warning: Reference `fig:PlatePrototype' on page 9 undefined on input line
- 171.
+Underfull \hbox (badness 2980) in paragraph at lines 143--144
+[]|\OT1/cmr/m/n/10 As an audio system, the solution
+ []
 
-[9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 177.
+
+Underfull \hbox (badness 3068) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 must at minimum pass the audio
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 be used with processors that could
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 delay between when the pedal is
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 146--147
+[]|\OT1/cmr/m/n/10 For ease of design and safety, the
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 146--147
+\OT1/cmr/m/n/10 solution should accept DC voltage
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 148
+ []
+
+[8] [9]
+<PR2Images/GCpedals.jpg, id=44, 4047.12pt x 3035.34pt>
+File: PR2Images/GCpedals.jpg Graphic file (type jpg)
+<use PR2Images/GCpedals.jpg>
+Package pdftex.def Info: PR2Images/GCpedals.jpg  used on input line 160.
+(pdftex.def)             Requested size: 281.85587pt x 211.38394pt.
+<PR2Images/SystemBlockDiagram.PNG, id=45, 744.98325pt x 364.9635pt>
+File: PR2Images/SystemBlockDiagram.PNG Graphic file (type png)
+<use PR2Images/SystemBlockDiagram.PNG>
+Package pdftex.def Info: PR2Images/SystemBlockDiagram.PNG  used on input line 1
+71.
+(pdftex.def)             Requested size: 469.75502pt x 230.13426pt.
+ [10 <./PR2Images/GCpedals.jpg>] [11 <./PR2Images/SystemBlockDiagram.PNG>]
+<PR2Images/CornerBracketPerspective.jpg, id=53, 3031.325pt x 1933.2225pt>
+File: PR2Images/CornerBracketPerspective.jpg Graphic file (type jpg)
+<use PR2Images/CornerBracketPerspective.jpg>
+Package pdftex.def Info: PR2Images/CornerBracketPerspective.jpg  used on input 
+line 200.
+(pdftex.def)             Requested size: 140.92793pt x 89.85262pt.
+<PR2Images/PedalBestFit.jpg, id=54, 562.1pt x 421.575pt>
+File: PR2Images/PedalBestFit.jpg Graphic file (type jpg)
+<use PR2Images/PedalBestFit.jpg>
+Package pdftex.def Info: PR2Images/PedalBestFit.jpg  used on input line 212.
+(pdftex.def)             Requested size: 281.85587pt x 211.39165pt.
+<PR2Images/PlatePrototype.png, id=55, 1006.76125pt x 473.77pt>
+File: PR2Images/PlatePrototype.png Graphic file (type png)
+<use PR2Images/PlatePrototype.png>
+Package pdftex.def Info: PR2Images/PlatePrototype.png  used on input line 219.
+(pdftex.def)             Requested size: 281.85587pt x 132.633pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 228.
 
  (/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
-
-
-LaTeX Warning: Reference `springloaded' on page 10 undefined on input line 189.
-
-
-
-Package natbib Warning: Citation `AVX_00-9258_Digikey' on page 10 undefined on 
-input line 189.
-
-
-Package natbib Warning: Citation `AVX_00-9258_Datasheet' on page 10 undefined o
-n input line 189.
-
-[10]
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 			\begin{subfigure}
-                          {0.4\textwidth}
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.192 			\begin{subfigure}{0.4\textwidth}
-                                         
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.192 			\begin{subfigure}{0.4\textwidth}
-                                         
-? 
-
-LaTeX Warning: File `batteryconn.jpg' not found on input line 194.
-
-
-! Package pdftex.def Error: File `batteryconn.jpg' not found: using draft setti
-ng.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 ...s[width = 0.4\linewidth]{batteryconn.jpg}
-                                                  
-? 
-
-! LaTeX Error: \begin{figure} on input line 191 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 			\end{subfigure}
-                        
-? 
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 			\begin{subfigure}
-                          {0.4\textwidth}
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.196 			\begin{subfigure}{0.4\textwidth}
-                                         
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.196 			\begin{subfigure}{0.4\textwidth}
-                                         
-? 
-
-LaTeX Warning: File `springpin.jpg' not found on input line 198.
-
-
-! Package pdftex.def Error: File `springpin.jpg' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 ...ics[width = 0.4\linewidth]{springpin.jpg}
-                                                  
-? 
-
-! LaTeX Error: \begin{figure} on input line 191 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 			\end{subfigure}
-                        
-? 
-
-Package natbib Warning: Citation `MillMax_025' on page 11 undefined on input li
-ne 204.
-
-
-Package natbib Warning: Citation `DesignforHotSwap' on page 11 undefined on inp
-ut line 206.
-
-
-Package natbib Warning: Citation `Bourns70AA_datahseet' on page 11 undefined on
- input line 208.
-
-
-Package natbib Warning: Citation `MillMax_023' on page 11 undefined on input li
-ne 210.
-
-
-Package natbib Warning: Citation `MillMax_025' on page 11 undefined on input li
-ne 210.
-
-[11]
-<MillMaxSeries0914_0908.png, id=46, 1768.6075pt x 518.93875pt>
-File: MillMaxSeries0914_0908.png Graphic file (type png)
-<use MillMaxSeries0914_0908.png>
-Package pdftex.def Info: MillMaxSeries0914_0908.png  used on input line 214.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
+ [12 <./PR2Images/CornerBracketPerspective.jpg>] [13 <./PR2Images/PedalBestFit.
+jpg> <./PR2Images/PlatePrototype.png>]
+<PR2Images/batteryconn.JPG, id=65, 602.25pt x 602.25pt>
+File: PR2Images/batteryconn.JPG Graphic file (type jpg)
+<use PR2Images/batteryconn.JPG>
+Package pdftex.def Info: PR2Images/batteryconn.JPG  used on input line 244.
+(pdftex.def)             Requested size: 187.89914pt x 187.8994pt.
+<PR2Images/springpin.jpg, id=66, 501.875pt x 282.05376pt>
+File: PR2Images/springpin.jpg Graphic file (type jpg)
+<use PR2Images/springpin.jpg>
+Package pdftex.def Info: PR2Images/springpin.jpg  used on input line 245.
+(pdftex.def)             Requested size: 187.89914pt x 105.60204pt.
+ [14]
+<PR2Images/MillMaxSeries0914_0908.png, id=71, 1768.6075pt x 518.93875pt>
+File: PR2Images/MillMaxSeries0914_0908.png Graphic file (type png)
+<use PR2Images/MillMaxSeries0914_0908.png>
+Package pdftex.def Info: PR2Images/MillMaxSeries0914_0908.png  used on input li
+ne 260.
 (pdftex.def)             Requested size: 469.75502pt x 137.82692pt.
-
-
-Package natbib Warning: Citation `pedallsit' on page 12 undefined on input line
- 222.
-
-
-Package natbib Warning: Citation `Line6DL4manual' on page 12 undefined on input
- line 222.
-
-
-LaTeX Warning: Reference `fig:parallelpowerschematic' on page 12 undefined on i
-nput line 226.
-
-[12 <./MillMaxSeries0914_0908.png>]
-
-Package natbib Warning: Citation `LM317datasheet' on page 13 undefined on input
- line 230.
-
-
-! LaTeX Error: File `LM317_typapp' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 ...hics[width = 0.8\textwidth]{LM317_typapp}
-                                                  
-? 
-
-! LaTeX Error: File `AdjustableRegulatorSchematic' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 ...\textwidth]{AdjustableRegulatorSchematic}
-                                                  
-? 
-
-Package natbib Warning: Citation `NX7002AKdatasheet' on page 13 undefined on in
-put line 255.
-
-[13]
-
-LaTeX Warning: Reference `fig:PlateDetectSwitch' on page 14 undefined on input 
-line 310.
-
-[14]
-
-Package natbib Warning: Citation `RelativeTime' on page 15 undefined on input l
-ine 312.
-
-
-Package natbib Warning: Citation `EA2datasheet' on page 15 undefined on input l
-ine 312.
-
-
-Package natbib Warning: Citation `Zarlink:MT8808' on page 15 undefined on input
- line 320.
-
-
-Package natbib Warning: Citation `StewMacpickups' on page 15 undefined on input
- line 326.
-
-
-LaTeX Warning: Reference `fig:guitarpickupmodel' on page 15 undefined on input 
-line 326.
-
-
-Package natbib Warning: Citation `FuzzFace' on page 15 undefined on input line 
-326.
-
-
-Package natbib Warning: Citation `FuzzFace' on page 15 undefined on input line 
-326.
-
-[15]
-
-Package natbib Warning: Citation `EC2datasheet' on page 16 undefined on input l
-ine 330.
-
-
-Package natbib Warning: Citation `EA2datasheet' on page 16 undefined on input l
-ine 330.
-
-
-LaTeX Warning: Reference `fig:DiscreteHBridge' on page 16 undefined on input li
-ne 334.
-
-
-Package natbib Warning: Citation `EA2datasheet' on page 16 undefined on input l
-ine 334.
-
-
-Package natbib Warning: Citation `2N3904datasheet' on page 16 undefined on inpu
-t line 334.
-
-
-Package natbib Warning: Citation `2N3906datasheet' on page 16 undefined on inpu
-t line 334.
-
-[16]
-
-Package natbib Warning: Citation `L298datasheet' on page 17 undefined on input 
-line 357.
-
-
-Package natbib Warning: Citation `LV8548MCdatasheet' on page 17 undefined on in
-put line 357.
-
-
-Package natbib Warning: Citation `LB1948MCdatasheet' on page 17 undefined on in
-put line 357.
-
-
-Package natbib Warning: Citation `EA2datasheet' on page 17 undefined on input l
-ine 359.
-
-
-LaTeX Warning: Reference `fig:HBridgeCTRL_Block' on page 17 undefined on input 
-line 359.
-
-
-LaTeX Warning: Reference `fig:BidirectinoalEdgeScheme' on page 17 undefined on 
-input line 361.
-
-
-LaTeX Warning: Reference `fig:RisingFallingParallel' on page 17 undefined on in
-put line 363.
-
-
-LaTeX Warning: Reference `fig:ImprovedEdge' on page 17 undefined on input line 
-363.
-
-
-LaTeX Warning: Reference `fig:ImprovedEdge' on page 17 undefined on input line 
-363.
-
-[17]
-
-LaTeX Warning: Reference `fig:NOREdge' on page 18 undefined on input line 390.
-
-
-Package natbib Warning: Citation `SN74HC7002datasheet' on page 18 undefined on 
-input line 390.
-
-
-Package natbib Warning: Citation `SN74HC7002datasheet' on page 18 undefined on 
-input line 392.
-
-
-LaTeX Warning: Reference `fig:FullSchemeA' on page 18 undefined on input line 4
-06.
-
-
-Package natbib Warning: Citation `74HCT14datasheet' on page 18 undefined on inp
-ut line 406.
-
-
-Package natbib Warning: Citation `74AHCT02datasheet' on page 18 undefined on in
-put line 406.
-
-[18]
-
-Package natbib Warning: Citation `ATTINY261Adatasheet' on page 19 undefined on 
-input line 431.
-
-
-Package natbib Warning: Citation `ATTINY40datasheet' on page 19 undefined on in
-put line 431.
-
-
-LaTeX Warning: Reference `fig:MicroBlockDiagram' on page 19 undefined on input 
-line 433.
-
-
-LaTeX Warning: Reference `MicroSchematic' on page 19 undefined on input line 43
-3.
-
-
-LaTeX Warning: Reference `fig:JunctionRouting' on page 19 undefined on input li
-ne 440.
-
-
-LaTeX Warning: Reference `fig:JunctionSchematic' on page 19 undefined on input 
-line 442.
-
-
-LaTeX Warning: Reference `fig:EdgeLitExample' on page 19 undefined on input lin
-e 444.
-
-[19]
-
-LaTeX Warning: Reference `fig:JunctionRouting' on page 20 undefined on input li
+ [15 <./PR2Images/batteryconn.JPG> <./PR2Images/springpin.jpg> <./PR2Images/Mil
+lMaxSeries0914_0908.png>]
+<PR2Images/ParallelPowerSchematic.PNG, id=76, 309.5565pt x 469.15276pt>
+File: PR2Images/ParallelPowerSchematic.PNG Graphic file (type png)
+<use PR2Images/ParallelPowerSchematic.PNG>
+Package pdftex.def Info: PR2Images/ParallelPowerSchematic.PNG  used on input li
+ne 276.
+(pdftex.def)             Requested size: 187.89914pt x 284.77965pt.
+ [16]
+<PR2Images/LM317_typicalapplication.PNG, id=82, 536.60475pt x 310.15875pt>
+File: PR2Images/LM317_typicalapplication.PNG Graphic file (type png)
+<use PR2Images/LM317_typicalapplication.PNG>
+Package pdftex.def Info: PR2Images/LM317_typicalapplication.PNG  used on input 
+line 296.
+(pdftex.def)             Requested size: 375.80544pt x 217.21849pt.
+<PR2Images/AdjustableRegulatorSchematic.PNG, id=83, 413.74574pt x 324.0105pt>
+File: PR2Images/AdjustableRegulatorSchematic.PNG Graphic file (type png)
+<use PR2Images/AdjustableRegulatorSchematic.PNG>
+Package pdftex.def Info: PR2Images/AdjustableRegulatorSchematic.PNG  used on in
+put line 303.
+(pdftex.def)             Requested size: 375.80544pt x 294.31606pt.
+ [17 <./PR2Images/ParallelPowerSchematic.PNG>] [18 <./PR2Images/LM317_typicalap
+plication.PNG> <./PR2Images/AdjustableRegulatorSchematic.PNG>] [19]
+<PR2Images/PlateDetectSwitch.PNG, id=99, 80.09924pt x 252.34274pt>
+File: PR2Images/PlateDetectSwitch.PNG Graphic file (type png)
+<use PR2Images/PlateDetectSwitch.PNG>
+Package pdftex.def Info: PR2Images/PlateDetectSwitch.PNG  used on input line 36
+7.
+(pdftex.def)             Requested size: 46.97836pt x 147.99916pt.
+ [20 <./PR2Images/PlateDetectSwitch.PNG>]
+<PR2Images/GuitarPickupModel.PNG, id=104, 215.00325pt x 257.16075pt>
+File: PR2Images/GuitarPickupModel.PNG Graphic file (type png)
+<use PR2Images/GuitarPickupModel.PNG>
+Package pdftex.def Info: PR2Images/GuitarPickupModel.PNG  used on input line 39
+0.
+(pdftex.def)             Requested size: 140.92793pt x 168.56119pt.
+ [21 <./PR2Images/GuitarPickupModel.PNG>]
+<PR2Images/DiscreteHBridge.png, id=109, 598.235pt x 586.19pt>
+File: PR2Images/DiscreteHBridge.png Graphic file (type png)
+<use PR2Images/DiscreteHBridge.png>
+Package pdftex.def Info: PR2Images/DiscreteHBridge.png  used on input line 403.
+
+(pdftex.def)             Requested size: 281.85587pt x 276.18018pt.
+ [22 <./PR2Images/DiscreteHBridge.png>]
+<PR2Images/HBridgeCTRL_Block.PNG, id=114, 703.428pt x 117.43875pt>
+File: PR2Images/HBridgeCTRL_Block.PNG Graphic file (type png)
+<use PR2Images/HBridgeCTRL_Block.PNG>
+Package pdftex.def Info: PR2Images/HBridgeCTRL_Block.PNG  used on input line 43
+7.
+(pdftex.def)             Requested size: 469.75502pt x 78.42729pt.
+<PR2Images/BidirectionalEdgeSchem.PNG, id=115, 342.68025pt x 199.947pt>
+File: PR2Images/BidirectionalEdgeSchem.PNG Graphic file (type png)
+<use PR2Images/BidirectionalEdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/BidirectionalEdgeSchem.PNG  used on input li
 ne 446.
+(pdftex.def)             Requested size: 281.85587pt x 164.4671pt.
+<PR2Images/ParallelEdgeSchem.PNG, id=116, 366.77025pt x 263.7855pt>
+File: PR2Images/ParallelEdgeSchem.PNG Graphic file (type png)
+<use PR2Images/ParallelEdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/ParallelEdgeSchem.PNG  used on input line 45
+3.
+(pdftex.def)             Requested size: 281.85587pt x 202.72101pt.
+<PR2Images/NOREdgeSchem.PNG, id=117, 393.26926pt x 254.1495pt>
+File: PR2Images/NOREdgeSchem.PNG Graphic file (type png)
+<use PR2Images/NOREdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/NOREdgeSchem.PNG  used on input line 460.
+(pdftex.def)             Requested size: 281.85587pt x 182.15373pt.
+ [23 <./PR2Images/HBridgeCTRL_Block.PNG>] [24 <./PR2Images/BidirectionalEdgeSch
+em.PNG> <./PR2Images/ParallelEdgeSchem.PNG>] [25 <./PR2Images/NOREdgeSchem.PNG>
+]
+Overfull \hbox (2.2909pt too wide) in paragraph at lines 508--509
+[]\OT1/cmr/m/n/10 A full subsystem schematic of the receiver thus far is attach
+ed at the end of the document. As implemented,
+ []
 
+<PR2Images/ReceiverBlockDiagramMCU.PNG, id=133, 771.48225pt x 352.9185pt>
+File: PR2Images/ReceiverBlockDiagramMCU.PNG Graphic file (type png)
+<use PR2Images/ReceiverBlockDiagramMCU.PNG>
+Package pdftex.def Info: PR2Images/ReceiverBlockDiagramMCU.PNG  used on input l
+ine 539.
+(pdftex.def)             Requested size: 469.75502pt x 214.89224pt.
+[26]
+<PR2Images/JunctionRouting.png, id=137, 294.09875pt x 219.82124pt>
+File: PR2Images/JunctionRouting.png Graphic file (type png)
+<use PR2Images/JunctionRouting.png>
+Package pdftex.def Info: PR2Images/JunctionRouting.png  used on input line 553.
 
-Package natbib Warning: Citation `MJTP1230datasheet' on page 20 undefined on in
-put line 446.
-
-
-Package natbib Warning: Citation `CypressCapSense' on page 20 undefined on inpu
-t line 448.
-
-
-Package natbib Warning: Citation `PSoC4datasheet' on page 20 undefined on input
- line 448.
-
-
-Package natbib Warning: Citation `IQS127datasheet' on page 20 undefined on inpu
-t line 448.
-
-
-Package natbib Warning: Citation `ATTINY40datasheet' on page 20 undefined on in
-put line 448.
-
-
-Package natbib Warning: Citation `IQS127datasheet' on page 20 undefined on inpu
-t line 448.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--455
-
+(pdftex.def)             Requested size: 187.89914pt x 140.4436pt.
+<PR2Images/SignalJunctionSchematic.PNG, id=138, 852.18375pt x 384.83775pt>
+File: PR2Images/SignalJunctionSchematic.PNG Graphic file (type png)
+<use PR2Images/SignalJunctionSchematic.PNG>
+Package pdftex.def Info: PR2Images/SignalJunctionSchematic.PNG  used on input l
+ine 560.
+(pdftex.def)             Requested size: 469.75502pt x 212.14293pt.
+ [27 <./PR2Images/ReceiverBlockDiagramMCU.PNG>] [28 <./PR2Images/JunctionRoutin
+g.png> <./PR2Images/SignalJunctionSchematic.PNG>]
+<PR2Images/AcrylicEdge.jpg, id=148, 1003.75pt x 752.8125pt>
+File: PR2Images/AcrylicEdge.jpg Graphic file (type jpg)
+<use PR2Images/AcrylicEdge.jpg>
+Package pdftex.def Info: PR2Images/AcrylicEdge.jpg  used on input line 571.
+(pdftex.def)             Requested size: 140.92793pt x 105.69168pt.
+ [29 <./PR2Images/AcrylicEdge.jpg>] [30] [31]
+Overfull \hbox (7.50385pt too wide) in paragraph at lines 674--675
+[][][][][][][]
  []
 
 
-LaTeX Warning: Reference `fig:Prototype1Block' on page 20 undefined on input li
-ne 458.
+Underfull \hbox (badness 1325) in paragraph at lines 675--676
+[]\OT1/cmr/m/n/10 Begin prototyping key features, such as pedalboard - plate
+ []
 
+[32] [33] [34] (main.bbl [35]
+Underfull \hbox (badness 2080) in paragraph at lines 173--177
+[]\OT1/cmr/m/n/10 ON Semiconductor.  Lb1948mc bi-cmos integrated circuit 12v lo
+w saturation voltage drive
+ []
 
-LaTeX Warning: Reference `fig:Prototype1Schematic' on page 20 undefined on inpu
-t line 458.
+) [36] (main.aux)
 
-[20] [21]
-
-Package natbib Warning: Citation `JackOrman' on page 22 undefined on input line
- 511.
-
-
-Package natbib Warning: Citation `APclickpopmeasurement' on page 22 undefined o
-n input line 515.
-
-[22] [23]
-
-Package natbib Warning: There were undefined citations.
-
-(main.aux)
-
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7648 strings out of 494891
- 111837 string characters out of 3178553
- 253822 words of memory out of 3000000
- 11094 multiletter control sequences out of 15000+200000
- 9537 words of font info for 35 fonts, out of 3000000 for 9000
+ 7948 strings out of 494891
+ 119781 string characters out of 3178553
+ 255549 words of memory out of 3000000
+ 11378 multiletter control sequences out of 15000+200000
+ 9369 words of font info for 34 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 45i,11n,39p,1972b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,39p,1972b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
@@ -1151,11 +764,10 @@ pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
 pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7
 .pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb>
-Output written on main.pdf (23 pages, 421594 bytes).
+0.pfb>
+Output written on main.pdf (36 pages, 23237002 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,286 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}   \geometry{margin=1in}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{natbib}
+\usepackage[nonumberlist]{glossaries}
+
+\makeglossaries
+\loadglsentries{glossary}
+
+
+\title{Hot Swappable Pedalboard and Routing System:\\Progress Report 4}
+\author{Nicholas Pham}
+\date{February 2019}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    Electrical Engineering \\
+    Scott Kuindersma, Jim MacAurthur
+\end{center}
+
+% \newpage
+% \glsaddall
+% \printglossaries
+% \newpage
+
+
+% \newpage
+% \bibliographystyle{plain}
+% \bibliography{ThesisSources}
+
+% \section{Appendix}
+
+\section{Full System Implementation}
+	With verification of the prototype complete, the implementation of the full system can move forward.  The full system will contain:
+
+	\begin{itemize}
+		\item (6) receiver units
+		\item (4) 2x2 analog multiplexer for signal routing
+		\item User Interface
+		\item Power supplies for the above components
+	\end{itemize}
+
+	Because of the necessity to order PCBs in quantity, it is beneficial to design the system in a modular fashion such that several boards can be used to construct the entire system.  This is a feasible goal because of the system topology.  In addition, during the design phase for the prototype components were selected to allow for two receivers per board.  In particular, these include the LV8548MC dual H-bridge driver, and the ATTiny40 microcontroller, which was selected to provide enough GPIOs to control two receivers.  With this in mind, the additional signal routing and user interface components can be integrated locally on each of the boards.
+
+	INSERT FIGURE DEMONSTRATING THE MODULARITY
+
+	This method would also allow a larger system to be constructed simply by connecting more of these modular boards (and increasing the maximum supply current of the power supply).  The following sections will detail the changes made to the prototype designs to accommodate this, as well as the new designs for the analog signal routing and user interface.
+
+	\subsection{Microcontroller Selection}
+
+	Though the prototype was initially designed for easy integration of the additional routing and user interface subsystems, the ATTiny40 is not adequate to support these.  The main issue with the ATTiny40 is its limited GPIO count.  In addition to the 16 pins required for the two receivers, fourteen pins must be allocated for the user interface and eight for the routing on each module.  This totals to 38, the minimum requirement for GPIO pins.  Extra pins for serial communications, debugging, and future potential connections should be included as well. 
+
+	Another issue with the ATTiny40 was its lack of on-chip debugging capability.  Because of the device's focus on a limited feature set, it's proprietary TPI (Tiny Programming Interface) for programming did not support on-chip debugging via JTAG or similar \cite{ATTiny40_datasheet}.  However, the programming interface should be compatible with Atmel's ICE in-system programmer which had already been purchased for use with the ATTiny40.  Other desirable features include an on-board oscillator to drive the clock for applications such as this that do not require a highly accurate clock, and 5V compatibility to interface easily with the existing system, most notably the relays.  This will reduce the number of external components necessary, minimizing cost and complexity.
+
+	With these requirements, the ATMEGA3209-AFR was selected as the best option.  At \$1.47 a piece \cite{ATMEGA3209_digikey}, the device is not quite as cheap as the PIC16F15385 (\$1.25 a piece) \cite{PIC16F_datasheet}, but it uses the same development toolchain as the ATTiny40 from before, which will make the switch of devices easier.  In a hand-solderable 48-TQFP package, this chip comes with 41 GPIO each capable of generating an interrupt, an internal 20 MHz oscillator, and a one-wire Unified Program Debug Interface (UPDI) which, as the name suggests, allows for in-system programming and debugging \cite{ATMEGA3209_datasheet}.
+
+	\subsection{Receiver Subsystems}
+
+	Adapting the receiver from the prototype into the module is fairly straightforward as a result of the prototype's success.  Each of the two receivers on board a single module has the same LM317 programmable voltage regulator set up as before.  The two receivers will share one LV8548MC dual H-bridge driver, which is driven by the ATMEGA3209.
+
+	One major difference in the implementation is the mechanical configuration of the pogo-pins.  Because the pogo-pins were directly connected to the board on the prototype, much of the board area was wasted, with a major fraction of the surface devoted to the mechanical alignment of these electrodes.  This issue is even more important when designing the two-receiver module, as now the pins must be aligned for each of the receivers, meaning that the separation between the pins and hence the length of the circuit board must be no shorter than the height of one receiver (see Figure \ref{fig:module_mech_layout}).  To be more space efficient, the module will consist of a main board with all of the devices along with several remote boards connected via board-to-board connectors for the pogo-pins and user interface.  This will allow the mechanical placement of the main board to be independent (relatively) of the pogo-pins.  This will also reduce the vibrations and shocks to the main board as a result of the pogo-pins being depressed and released.
+
+	\subsection{Analog Signal Routing}
+
+	Each module will contain a two input, two output mixer.  Each of the two outputs 1 and 2 can be connected to either input $A$ or $B$, as well as the sum of the two inputs $A + B$.  Table \ref{tab:routing_outputs} shows the possible outputs.  As can be seen, there are only signals that must be available for the output.
+
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{ |c|c c| }
+	\hline
+	 Permutation & Output 1 & Output 2 \\ 
+	 \hline
+	 1 	& $A$ 	& $A$ \\  
+	 2 	& $A$ 	& $B$ \\
+	 3	& $A$ 	& $A+B$ \\
+	 4	& $B$ 	& $A$ \\
+	 5	& $B$ 	& $B$ \\
+	 6	& $B$ 	& $A+B$ \\
+	 7	& $A+B$ & $A$ \\
+	 8	& $A+B$ & $B$ \\
+	 9	& $A+B$ & $A+B$ \\
+	 \hline
+	\end{tabular}
+	\caption{List of the $2^3$ possible output signals for each routing module.}
+	\label{tab:routing_outputs}
+	\end{center}
+	\end{table}
+
+	With this in mind, the specific implementation of the routing mechanism can be designed.  For the same reasons that relays were chosen to actuate the signal switching in the receiver subsystem, they should also be used here.  This is essential especially when an output is connected directly to an input, such as permutation 2 in Table \ref{tab:routing_outputs}, which will preserve both the SNR and frequency content of the signals in addition to the signal's output impedance.  However, when a summed output is chosen ($A+B$), the signals must necessarily pass through a summing amplifier, which will result in a low impedance output.  In this instance, the use of a mechanical relay is not strictly necessary.
+
+	The specific implementation of the routing subsystem is shown in Figure \ref{fig:routing_schem}.  Each output selector is in essence a three-to-one multiplexer.  The requirement for mechanical relays when the sum output is not selected requires the use of mechanical relays throughout, as each can only switch between two inputs.  Thus, each three-to-one multiplexer includes two of the same DPDT relays used for the receivers despite not all of the throws being in use, as they were cheaper than any SPDT relay.  Using the same EA2-5SNJ relays also minimizes additional components on the BOM.  The use of latching relays here is even more beneficial than in the receiver, as these relays will likely be set in a position for long periods of time, so the reduced current and heat dissipation compared to a non-latching relay is very beneficial.
+
+	To generate the summed $A+B$ signal, a standard inverted summing amplifier is used.  The resistors were chosen to each be $10K\Omega$ so that each input is at unity gain.  Higher resistor values were avoided to reduce thermal noise.  However, the input impedance to the inverted amplifier is just the value of the input resistance, so non-inverting op-amp buffers are required to prevent preceding circuits on $A$ and $B$ from interacting with the summing amplifier.  As this already requires three op-amps and the output signal would be inverted, an additional unity gain inverted buffer is used at the output to re-invert the signal, resulting in $A+B$.
+
+	This summing amplifier and related circuitry requires its own analog supply voltage.  In the worst case, the maximum voltage swing of each input signal $A$ and $B$ should be no more than 18Vpp, which is the maximum supply voltage available to a pedal from a receiver.  This means that the summing amplifier should ideally be able to swing 36Vpp.  However, the power supply currently being used provides 24VDC.  This means that without modification, the summing amplifier will not be able to sum all possible signals without clipping.
+
+	There are several possible solutions to this issue.  One would be to change the device's power supply.  Moving to a chassis mount 48V supply like Mean Well's LRS-150-48 \cite{datasheet:LRS-150-48} (\$22.50 from Digikey \cite{Digikey:LRS-150-48}) would allow for plenty of headroom and could provide much more current (in this case 3.3A), enough for six pedals each drawing 500 mA while leaving some budget for the device's own circuits.  A new power supply could be chosen to avoid the issue of switching noise in the audio range; the switching frequency of the LRS-150-48 is 65kHz, well above the audio spectrum.  Linear regulators could be used to drop the input voltage to the desired level, in this case just above 36V.  This supply could then be split with a resistive divider to provide the virtual ground needed for the op amp summer.  However, a chassis mount supply would involve introducing 120VAC wall voltages into the unit, which would not satisfy the SELV compliance specification.  Brick-type supplies in this voltage and current range are prohibitively expensive, such as the PSA120U-480L6 from Philhong USA for \$38 \cite{Digikey:PSA120U-480L6}.
+
+	A second option would be designing an on-board boost-buck converter to create the desired supply voltages.  In this case, this switching supply could be used to generate an arbitrary voltage, so a bipolar 18V or 24V set of rails could be created.  This would allow for sufficient headroom for the summing amplifier, and by virtue of the bipolar supply would not require AC coupling the summed signals to a virtual ground: they could remain DC coupled.  A switching supply would also be more efficient than a linear regulator.  However, the added complexity of implementing a switching voltage regulator, is probably not worth the benefits.  Noise from the on-board supply would need to be carefully controlled so as to avoid corrupting the audio signals.  In addition, a linear regulator would likely still be used to really clean up the residual ripple from a switching regulator.
+
+	The third option is simply using a linear regulator to even out the current 24V supply and allowing the summing amplifier to clip at a lower voltage.  This is not as big an issue as it seems at first.  Though the worst case scenario is two 18Vpp signals being summed in phase, this would require the user to be using two pedals in 18V mode at full output level.  The more likely use case with two 9V pedals would work fine with the 24V supply.  If the user does cause the summing amplifier to clip, they can simply reduce the output level of the two pedals.  In addition, if the amplifier were able to sum two outputs to 36Vpp, this would cause the next pedal in the chain to clip as well because of its voltage could be 18V at maximum, so the 36Vpp output would only be usable at the input of the amplifier where it would not clip the amplifier input.  This is also the simplest option, as it requires only a linear regulator to clean up the 24V input and a resistive divider to generate the virtual ground reference voltage.  
+
+	INSERT TABLE COMPARING PROS AND CONS OF THE POWER SUPPLY OPTIONS
+
+	Because of the simplicity of the third option and its relatively limited negative effects, this method was chosen to provide the supply for the summing amplifier.  To maximize the dynamic range of the summing amplifier, the regulated supply rail should be as close as possible to the 24V input.  The 200mV noise spec on the power supply means that the regulator must drop at least 200mV.  An adjustable regulator would be useful here to precisely set the output voltage.  The LM317 adjustable regulator used for the receiver is one option.  However, it's minimum 3V drop between input and output means that the analog supply rail cannot be set any higher than 21V \cite{atasheet:LM317}.  This decreased headroom is not desirable, so a lower dropout device would be preferable.
+
+	Although the LM317 is billed specially as an adjustable regulator, most fixed voltage regulators can also be used in an adjustable mode in a similar configuration.  This is noted in the LM7805 datasheet, which shows in Figure 3 how the fixed voltage across the output and common terminals can be used to set the current through a second resistor between the common terminal and ground, much like the LM317 application \cite{datasheet:LM7805}.
+
+	FINISH DESIGN OF REGULATOR CIRCUIT
+
+	From this analog supply voltage, a virtual ground can be produced from a simple resistive divider circuit.  Though in theory this is susceptible to sagging due to large current loads, this should not be an issue for this application because the reference voltage is connected only to the inputs of two op-amps, and tied to the audio signal through large resistors.
+
+	ADD SCHEMATIC AND MATH TO SHOW THAT LITTLE SAG WILL OCCUR
+
+	The $A$ and $B$ inputs are each connected through a decoupling capacitor to their respective op-amp buffer inputs, and are pulled to the reference voltage via 1M resistors.  The 2.2M resistors were chosen to prevent the $A$ and $B$ signals from being heavily loaded down.  In the worst case, a signal could pass by six of these buffers, as show in Figure \ref{fig:worstcaserouting} without being buffered, so the equivalent resistance of six of these pull-up resistors must not be too low.  The equivalent resistance of six resistors in parallel is
+
+	$$ R_{eq} = \frac{1}{\sum\limits_{i=1}^{6}\frac{1}{R}} = \frac{R}{6} $$
+
+	INSERT FIGURE SHOWING WORST CASE ROUTING FOR LOADING
+
+	so for 2.2M this is 367k$\Omega$.  Assuming a 10K$\Omega$ purely resistive output impedance from the guitar's pickups (on the high side for DC resistance but fairly reasonable for AC impedance), the input impedance should not be a major issue.  A large resistor value here also means the capacitance of the decoupling capacitor can be less to maintain a similar cutoff frequency, and it will be cheaper to have a higher quality plastic film or C0G ceramic capacitor in a smaller value.  The limit to choosing a very large resistor is the thermal noise, which may become a concern even with this value.  If this becomes an issue, the values can be adjusted once the board has been fabricated.  The cutoff frequency for the high pass filter formed by pull-up resistor and the decoupling capacitor should have its cutoff frequency on the order of 5-10Hz so it will pass the full audio range.  For a 2.2M resistor, this means
+
+	$$ C = \frac{1}{2\pi R F_c} = \frac{1}{2\pi (2.2 \text{M}\Omega) (10 \text{Hz})} = 7.2 \text{nF}$$
+
+	Because this is on the high end of the frequency range, the next larger standard value capacitor, 0.01uF, is used.  Kemet offers a 0.01uF film capacitor in through hole mounting for just \$0.25.  The film capacitors are more linear and have lower ESR and self inductance than typical ceramic caps, making them suitable for audio signal path usage.  The resistors can be standard.
+
+	The op-amp selected should have low noise, low input bias current to prevent loading the input signal lines, and a rail-to-rail output to maximize headroom.  For op-amps compatible with a supply of 24V or more, Texas Instrument's OPA1679IDR is a good candidate.  At \$1.20 from Digikey, it is not cheap, but its datasheet claims 0.0001\% THD+N, a 10 pA max input bias current, and voltage output within 800mV of each rail \cite{datasheet:OPA1679IDR}.  These specs compare admirably to the TLV4172IDR and OPA4172IDR, each of which are twice the price.  Because there are not too many components in the audio path and its value as a reliable reference is paramount, it is appropriate to use more expensive and higher quality parts here.
+
+	\subsection{User Interface}
+
+	The above analog signal routing subsystem needs to be controlled by the user.  Because this device is designed to simplify the user experience, the user interface should be intuitive to use; no or few instructions should be needed to operate it.  The user interface should clearly indicate the current state of the signal routing, and the method by which the user can change the routing should be likewise linked to the physical signal connections being made.  To avoid disrupting the user from their focus on audio, the interface should be primarily visual and tactile in nature, as opposed to auditory.  For these reasons, the indication and actuation elements should be meshed, taking the form of push buttons with an integrated light.
+
+	As described in Table \ref{tab:routing_outputs} above, each of the two inputs can be connected to each of the two outputs.  This includes cases where both inputs are connected to one or both of the outputs.  In no cases can an output be connected to no input, which means that the user will always be able to hear 
+
+
+
+
+
+\end{document}
+
+PR4 Outline:
+
+\color{gray}
+\section{Define}
+	\subsection{Introduction}
+	\subsection{Motivation and Use Cases}
+		\subsubsection{Testing Effects}
+		\subsubsection{Sales Displays}
+		\subsubsection{Studio Musicians}
+	\subsection{Prior Art}
+		\subsubsection{Magnetic Pedal Attachment}
+		\subsubsection{Bracket Attachment}
+		\subsubsection{Modular Effect System}
+	\subsection{Specifications}
+\section{Design}
+	\subsection{System Level Description}
+		\subsection{Plate}
+		\subsection{Signal Routing}
+		\subsection{User Interface}
+		\subsection{Power Supply}
+	\subsection{Design Choices}
+		\subsubsection{Pedal-Plate Mounting}
+		\color{gray}
+			\paragraph{Through Screws}
+			\paragraph{Clamp}
+			\paragraph{Linear Travel}
+		\subsubsection{Plate Material}
+		\subsubsection{Plate-Receiver Electrical Connection Mechanism}
+		\subsubsection{Plate Power Selection Method}
+		\subsubsection{Receiver Plate-Removal Detection Method}
+		\subsubsection{Receiver Bypass Mechanism}
+		\subsubsection{Main Board Size, Routing, and User Interface}
+	\subsection{}
+\color{black}
+
+\section{Build}
+	\subsection{PCB Milling Considerations}
+
+\section{Measure}
+	\subsection{Swapping Time}
+	\subsection{Compatibility}
+	\subsection{Cost}
+	\subsection{Signal to Noise Ratio}
+	\subsection{Frequency Response}
+	\subsection{Switching Speed}
+	\subsection{Transient}
+	\subsection{Intuition}
+	\subsection{SELV Compliance}
+
+\section{Analyze}
+	\subsection{}
+\section{Iterate}
+	\subsection{Design Choices and Lessons}
+		\subsubsection{}
+
+\section{Logistics}
+
+Changes that I've made/will make that need to be included:
+	- need to widen the plate to accommodate medium sized pedals easily
+	- adding choke on power supply
+	- changing pogo pin spacing
+	- changing attachment force to comply with pogo pin spring force
+	- changing pogo pin location in reference to plate
+		- also includes putting pins on separate boards to allow for a smaller main board
+	- routing mechanism
+		- switching topology
+		- switching elements
+	- UI design
+		- overview of design
+		- mechanicals
+	- integration of routing + UI + 2x receiver onto single board
+	- Schematic revisions for rev 2
+		- choosing uC
+		- refining LM317 values for more accuracy, current?
+			- include measurements
+	- Determine power supply localizations
+		- 5V uC, UI
+		- 5V relay
+		- 18/12/9 pedal
+		- bipolar or other for summing amp
+	- Power supply issues and choke
+	- Relay current consumption considerations when programming uC
+		-  no circuit board will allow more than ~100mA at a time for the relays
+	- Connector placement on plate
+		- including issues constructing the current connectors
+		- 
+
+
+
+
+PR2 Outline:
+
+\section{Define}
+	\subsection{Introduction}
+	\subsection{Motivation and Use Cases}
+	\subsection{Testing Effects}
+	\subsection{Sales Displays}
+	\subsection{Studio Musicians}
+	\subsection{Prior Art}
+		\subsubsection{Magnetic Pedal Attachment}
+		\subsubsection{Bracket Attachment}
+		\subsubsection{Modular Effect System}
+	\subsection{Specifications}
+\section{Design}
+	\subsection{System Level Description}
+	\subsubsection{Plate}
+	\subsection{Junction Signal Router}
+	\subsection{User Interface}
+	\subsection{Design Choices}
+		\subsubsection{Pedal-Plate Mounting}
+		\color{gray}
+			\paragraph{Through Screws}
+			\paragraph{Clamp}
+			\paragraph{Linear Travel}
+		\subsubsection{Plate Material}
+		\subsubsection{Plate-Receiver Electrical Connection Mechanism}
+		\subsubsection{Plate Power Selection Method}
+		\subsubsection{Receiver Plate-Removal Detection Method}
+		\subsubsection{Receiver Bypass Mechanism}
+		\subsubsection{Main Board Size, Routing, and User Interface}
+\section{Prototyping Plan}
+
+\section{Measurements}
+	\subsection{Swapping Time}
+	\subsection{Compatibility}
+	\subsection{Cost}
+	\subsection{Signal to Noise Ratio}
+	\subsection{Frequency Response}
+	\subsection{Switching Speed}
+	\subsection{Transient}
+	\subsection{Intuition}
+	\subsection{SELV Compliance}
+
+\section{Analysis}
+
+\section{Logistics}
+	\subsection{Updated Schedule}
+	\subsection{Updated Budget}

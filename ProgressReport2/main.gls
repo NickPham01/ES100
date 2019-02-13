@@ -22,4 +22,9 @@
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{receiver}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glossentry{receive}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossentry{send}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \end{theglossary}\glossarypostamble

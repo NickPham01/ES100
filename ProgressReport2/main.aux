@@ -14,114 +14,201 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Motivation and Use Cases}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Testing Effects}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Sales Displays}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A display of Boss pedals typical to those found at retail stores such as Guitar Center \cite  {BossDisplayPhoto}}}{4}}
-\newlabel{fig:BossDisplay}{{1}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of Buffered Bypass vs True Bypass topologies. With the former, a buffer is in still placed in the signal even when the effect circuit is bypassed (some forms include the buffer prior to the effects circuit so the input is always buffered). The true bypass topologies mechanically bypasses the effect circuit with a wire.}}{4}}
-\newlabel{fig:BufferedBypassConfig}{{2}{4}}
-\citation{EARTHBOARDSITE}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example of the different ways to combine just two pedals. More than two effects will have exponentially more options}}{5}}
-\newlabel{fig:PedalConnectionTopologies}{{3}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A typical "test bench" for most guitar pedals. Guitar Center, Boston MA, September 2018.}}{4}}
+\newlabel{fig:GuitarCenterBoard}{{1}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A display of Boss pedals typical to those found at retail stores such as Guitar Center \cite  {BossDisplayPhoto}}}{4}}
+\newlabel{fig:BossDisplay}{{2}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Comparison of Buffered Bypass vs True Bypass topologies. With the former, a buffer is in still placed in the signal even when the effect circuit is bypassed (some forms include the buffer prior to the effects circuit so the input is always buffered). The true bypass topologies mechanically bypasses the effect circuit with a wire.}}{5}}
+\newlabel{fig:BufferedBypassConfig}{{3}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Studio Musicians}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6}Prior Art}{5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.1}Magnetic Pedal Attachment}{5}}
+\citation{EARTHBOARDSITE}
 \citation{ABBATE:2016}
 \citation{SPECTOR:1982}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of the different ways to combine just two pedals. More than two effects will have exponentially more options}}{6}}
+\newlabel{fig:PedalConnectionTopologies}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6}Prior Art}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.1}Magnetic Pedal Attachment}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.2}Bracket Attachment}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.3}Modular Effect System}{6}}
 \citation{FAORO:2015board}
 \citation{NexiIndustries}
 \citation{FAORO:2015pedal}
 \citation{conNEXI}
 \citation{conNEXI}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.2}Bracket Attachment}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.3}Modular Effect System}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.4}Waterproof Swappable Effects System}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.7}Specifications}{6}}
-\citation{BT1359-1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.4}Waterproof Swappable Effects System}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.7}Specifications}{7}}
+\citation{Timing}
 \citation{PrecedenceEffect}
 \gdef \LT@i {\LT@entry 
     {1}{105.2502pt}\LT@entry 
     {1}{89.25014pt}\LT@entry 
     {1}{84.47234pt}\LT@entry 
-    {1}{211.16928pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Design}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}System Level Description}{8}}
+    {1}{182.71652pt}}
+\citation{MyPedalData}
+\citation{MyPedalData}
+\citation{ProgrammableSwitcherExample}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Just some of the many pedals available on hand at Guitar Center, Boston MA.}}{10}}
+\newlabel{fig:GCpedalscase}{{5}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Design}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}System Level Description}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Plate}{10}}
 \citation{ABBATE:2016}
-\citation{MyDimData}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces View of prospective design for corner clamp.}}{9}}
-\newlabel{fig:CornerClamp}{{4}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Design Choices}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Pedal-Plate Mounting}{9}}
-\@writefile{toc}{\contentsline {paragraph}{Through Screws}{9}}
-\@writefile{toc}{\contentsline {paragraph}{Clamp}{9}}
-\@writefile{toc}{\contentsline {paragraph}{Linear Travel}{9}}
-\citation{}
-\citation{}
-\citation{AVX_00-9258_Digikey}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Block Diagram of the Solution}}{11}}
+\newlabel{fig:SystemBlockDiagram}{{6}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Receiver}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Junction Signal Router}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}User Interface}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Design Choices}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Pedal-Plate Mounting}{11}}
+\@writefile{toc}{\contentsline {paragraph}{Through Screws}{11}}
+\citation{MyPedalData}
+\citation{Sullinsdatasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces View of prospective design for corner clamp.}}{12}}
+\newlabel{fig:CornerClamp}{{7}{12}}
+\@writefile{toc}{\contentsline {paragraph}{Clamp}{12}}
+\@writefile{toc}{\contentsline {paragraph}{Linear Travel}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Plate Material}{12}}
+\newlabel{Plate Material}{{2.5.2}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Plot of Common Guitar Pedals' Dimensions with Best Fit line through their bottom plate screw holes.}}{13}}
+\newlabel{fig:MATLABdimdata}{{8}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Prototypes of the pedal-plate attachment design.}}{13}}
+\newlabel{fig:PlatePrototype}{{9}{13}}
 \citation{AVX_00-9258_Datasheet}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Plate Material}{10}}
-\newlabel{Plate Material}{{2.2.2}{10}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Plate-Receiver Electrical Connection Mechanism}{10}}
-\newlabel{Pogo Pins}{{2.2.3}{10}}
 \citation{MillMax_025}
 \citation{DesignforHotSwap}
-\citation{Bourns70AA_datahseet}
+\citation{Bourns70AA_datasheet}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.3}Plate-Receiver Electrical Connection Mechanism}{14}}
+\newlabel{Pogo Pins}{{2.5.3}{14}}
 \citation{MillMax_023}
 \citation{MillMax_025}
-\newlabel{fig:springloaded}{{2.2.3}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Spring Loaded Connectors}}{11}}
-\citation{pedallsit}
+\newlabel{fig:springloaded}{{2.5.3}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Spring Loaded Connectors}}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Mill Max Spring Pins, Through Hole, Long and Short Stroke}}{15}}
+\newlabel{fig:millmax0914_0908}{{11}{15}}
+\citation{MyPedalData}
 \citation{Line6DL4manual}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mill Max Spring Pins, Through Hole, Long and Short Stroke}}{12}}
-\newlabel{fig:millmax0914_0908}{{6}{12}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.4}Plate Power Selection Method}{12}}
 \citation{LM317datasheet}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.4}Plate Power Selection Method}{16}}
+\newlabel{eqn:LM317_R2}{{4}{16}}
 \citation{NX7002AKdatasheet}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Typical Application of LM317, from datasheet.}}{13}}
-\newlabel{fig:LM317_typicalapp}{{7}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces MOSFET controlled adjustable regulator, with 9, 12, and 18 VDC selectable output.}}{13}}
-\newlabel{fig:adjustableregulatorschematic}{{8}{13}}
-\newlabel{eqn:LM317_R2}{{4}{13}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5}Receiver Plate-Removal Detection Method}{14}}
-\citation{RelativeTime}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Power supply implementation where all voltages are available at all times.}}{17}}
+\newlabel{fig:parallelpowerschematic}{{12}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Typical Application of LM317, from datasheet.}}{18}}
+\newlabel{fig:LM317_typicalapp}{{13}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces MOSFET controlled adjustable regulator, with 9, 12, and 18 VDC selectable output.}}{18}}
+\newlabel{fig:adjustableregulatorschematic}{{14}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.5}Receiver Plate-Removal Detection Method}{19}}
+\citation{Timing}
 \citation{EA2datasheet}
 \citation{Zarlink:MT8808}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The spring loaded pins act as an SPST switch. To reduce the necessary pins, they will connect the circuit to ground when the plate is in contact with the receiver, otherwise the pullup resistors will keep the signal high.}}{20}}
+\newlabel{fig:PlateDetectSwitch}{{15}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.6}Receiver Bypass Mechanism}{20}}
 \citation{StewMacpickups}
 \citation{FuzzFace}
 \citation{FuzzFace}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.6}Receiver Bypass Mechanism}{15}}
 \citation{EC2datasheet}
 \citation{EA2datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Model of guitar circuit. These values are highly dependent on the particular pickups. The potentiometer is either 250k or 500k.}}{21}}
+\newlabel{fig:guitarpickupmodel}{{16}{21}}
 \citation{EA2datasheet}
 \citation{2N3904datasheet}
 \citation{2N3906datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Discrete H Bridge implementation. The inductor coil K1C load is the relay coil.}}{22}}
+\newlabel{fig:DiscreteHBridge}{{17}{22}}
 \citation{L298datasheet}
 \citation{LV8548MCdatasheet}
 \citation{LB1948MCdatasheet}
 \citation{EA2datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Block Diagram depicting the control signals needed to drive the H bridge.}}{23}}
+\newlabel{fig:HBridgeCTRL_Block}{{18}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Edge detector and pulse generator. This method first generate the necessary pulse on any edge, then extracts which edge (rising or falling) and sends the appropriate signal.}}{24}}
+\newlabel{fig:BidirectionalEdgeScheme}{{19}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Edge detector and pulse generator. This method applies one rising edge detector in parallel with one falling edge detector. Note that the falling edge detector (top) is the just a rising edge detector with the input inverted.}}{24}}
+\newlabel{fig:RisingFallingParallel}{{20}{24}}
 \citation{SN74HC7002datasheet}
 \citation{SN74HC7002datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Edge detector and pulse generator. This improved method combines the delay element of the previous one, and is implemented only with NOR gates, which helps with implementation.}}{25}}
+\newlabel{fig:ImprovedEdge}{{21}{25}}
 \citation{74HCT14datasheet}
 \citation{74AHCT02datasheet}
 \citation{ATTINY261Adatasheet}
 \citation{ATTINY40datasheet}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.7}Main Board Size, Routing, and User Interface}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Receiver block diagram. The blocks within the microcontroller are to be implemented in firmware.}}{27}}
+\newlabel{fig:MicroBlockDiagram}{{22}{27}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.7}Main Board Size, Routing, and User Interface}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Possible signal routings at a 2 x 2 junction. Each of the arrows can be on or off, so there are $2^4$ possible combinations at this junction alone.}}{28}}
+\newlabel{fig:JunctionRouting}{{23}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Implementation of signal routing at junctions.}}{28}}
+\newlabel{fig:JunctionSchematic}{{24}{28}}
 \citation{MJTP1230datasheet}
 \citation{CypressCapSense}
-\citation{PSoC4datasheet}
-\citation{IQS127datasheet}
 \citation{ATTINY40datasheet}
 \citation{IQS127datasheet}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Prototyping Plan}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Measurements}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Swapping Time}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Compatibility}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Cost}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Signal to Noise Ratio}{21}}
-\citation{JackOrman}
+\citation{IQS127datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces One possible user interface for display the current routing state. Designs may be rastered into the acrylic's surface as well.}}{29}}
+\newlabel{fig:EdgeLitExample}{{25}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Prototyping Plan}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Measurements}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Swapping Time}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Compatibility}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Cost}{30}}
+\citation{OrmanBypassMeasurements}
 \citation{APclickpopmeasurement}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Frequency Response}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Switching Speed}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Transient}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Intuition}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}SELV Compliance}{22}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Analysis}{22}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Logistics}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Signal to Noise Ratio}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Frequency Response}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Switching Speed}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Transient}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Intuition}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}SELV Compliance}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Analysis}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Logistics}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Updated Schedule}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Updated Budget}{33}}
+\bibstyle{plain}
+\bibdata{ThesisSources}
+\bibcite{Line6DL4manual}{{1}{}{{}}{{}}}
+\bibcite{ABBATE:2016}{{2}{}{{}}{{}}}
+\bibcite{MJTP1230datasheet}{{3}{}{{}}{{}}}
+\bibcite{Timing}{{4}{}{{}}{{}}}
+\bibcite{ATTINY261Adatasheet}{{5}{}{{}}{{}}}
+\bibcite{ATTINY40datasheet}{{6}{}{{}}{{}}}
+\bibcite{IQS127datasheet}{{7}{}{{}}{{}}}
+\bibcite{Bourns70AA_datasheet}{{8}{}{{}}{{}}}
+\bibcite{MillMax_023}{{9}{}{{}}{{}}}
+\bibcite{MillMax_025}{{10}{}{{}}{{}}}
+\bibcite{EA2datasheet}{{11}{}{{}}{{}}}
+\bibcite{EC2datasheet}{{12}{}{{}}{{}}}
+\bibcite{FuzzFace}{{13}{}{{}}{{}}}
+\bibcite{2N3904datasheet}{{14}{}{{}}{{}}}
+\bibcite{2N3906datasheet}{{15}{}{{}}{{}}}
+\bibcite{FAORO:2015pedal}{{16}{}{{}}{{}}}
+\bibcite{FAORO:2015board}{{17}{}{{}}{{}}}
+\bibcite{ES100Lec3}{{18}{}{{}}{{}}}
+\bibcite{conNEXI}{{19}{}{{}}{{}}}
+\bibcite{NexiIndustries}{{20}{}{{}}{{}}}
+\bibcite{SN74HC7002datasheet}{{21}{}{{}}{{}}}
+\bibcite{LM317datasheet}{{22}{}{{}}{{}}}
+\bibcite{AVX_00-9258_Datasheet}{{23}{}{{}}{{}}}
+\bibcite{DesignforHotSwap}{{24}{}{{}}{{}}}
+\bibcite{EARTHBOARDSITE}{{25}{}{{}}{{}}}
+\bibcite{74AHCT02datasheet}{{26}{}{{}}{{}}}
+\bibcite{74HCT14datasheet}{{27}{}{{}}{{}}}
+\bibcite{NX7002AKdatasheet}{{28}{}{{}}{{}}}
+\bibcite{ReverbMostPopular}{{29}{}{{}}{{}}}
+\bibcite{OrmanBypassMeasurements}{{30}{}{{}}{{}}}
+\bibcite{MyPedalData}{{31}{}{{}}{{}}}
+\bibcite{APclickpopmeasurement}{{32}{}{{}}{{}}}
+\bibcite{ProgrammableSwitcherExample}{{33}{}{{}}{{}}}
+\bibcite{CypressCapSense}{{34}{}{{}}{{}}}
+\bibcite{LB1948MCdatasheet}{{35}{}{{}}{{}}}
+\bibcite{LV8548MCdatasheet}{{36}{}{{}}{{}}}
+\bibcite{Zarlink:MT8808}{{37}{}{{}}{{}}}
+\bibcite{PrecedenceEffect}{{38}{}{{}}{{}}}
+\bibcite{Sullinsdatasheet}{{39}{}{{}}{{}}}
+\bibcite{SPECTOR:1982}{{40}{}{{}}{{}}}
+\bibcite{StewMacpickups}{{41}{}{{}}{{}}}
+\bibcite{L298datasheet}{{42}{}{{}}{{}}}
+\bibcite{BossDisplayPhoto}{{43}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {section}{\numberline {8}Appendix}{36}}
