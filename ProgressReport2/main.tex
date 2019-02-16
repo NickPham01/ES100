@@ -33,17 +33,17 @@
 
 \section{Define}
 	\subsection{Introduction}
-	\color{gray}
+	
 	Many electric guitarists use effect pedals to augment their guitar amp's sound.  First developed in the 1960s, there are now thousands of pedals available for guitarists to use.  Because of the plethora of options, guitarists need an easy way to compare and interchange effects.
 
 	In my project proposal, I proposed an integrated \emph{hot-swappable} guitar effect pedalboard and switching unit to improve the efficiency by which guitarists can change out their effects pedals to create new sounds.  The proposal focused on two main use cases: performing musicians who need to quickly change sounds, and studio musicians who need ways to radically alter their sound via new combinations of effects.
 
 	Through discussions with my advisors, the focus of this project has shifted away from the first use model to an expanded version of the second.  Following the first step of the design process \cite{ES100Lec3}, marketing, led to this shift of focus, as there are already products available that allow performing musicians to program combinations of effects to be switched on and off at once.  Now the product will aim less to be portable and usable in real-time by a gigging musician and more useful for off-line effects swapping.  As will be further described in the next section, the product will be designed as a sales tool for retailers such as Guitar Center who sell guitar effects pedals.  By making it easier for customers to try out new combinations of pedals, this product will help retailers sell more units, and help customers discover and purchase additional processors to expand and improve their guitar systems.
-	\color{black}
+	
 
 	\subsection{Motivation and Use Cases}
 
-	\color{gray}
+	
 	Though in an age of Internet shopping there are many guitar related products available for purchase on-line, most players want to test potential purchases in person before buying them.  As such, brick-and-mortar music stores such as Guitar Center still have a place in the industry.
 	\subsection{Testing Effects}
 	The existing method for testing effects pedals at brick-and-mortar retail store such as Guitar Center is a slow process.  Once a customer requests to test a pedal, an employee brings the particular unit being test to a padded table (see Figure \ref{fig:GuitarCenterBoard}.  The employee must also find the correct power supply before connecting the unit to the guitar and the amplifier.  If a customer would like to test two pedals, for instance to decide between them which one to purchase, the employee would need to grab an additional power supply and cable for connection.  Then to perform an A-B test, the customer must turn the amplifier output off to prevent pops before disconnecting the current pedal and replacing it with the other one.  This time required for swapping the pedals limits the customer's ability to accurately judge the relative qualities of the units under test.  This cost can result in several negative consequences.  First, because of the reduction in accuracy of the A-B test, the guitarist may not be able to make a well-informed decision as to which effect best suits them, which could result in them either purchasing an inferior product, or in them deciding not to purchase any product at all.  Second, the known difficulties of testing effects pedals in this way may deter potential customers from even bothering at all, which limits the number of "impulse" purchases.  An improved method for testing guitar effects pedals at guitar stores would be beneficial to both consumers of these effects and their producers and retailers.
@@ -87,10 +87,10 @@
 	\subsection{Studio Musicians}
 
 	While this discussion has so far focused on guitarists as customers in a store, the same issues can face studio musicians hired for recordings.  These musicians must be able to produce any tone that their boss, the producer or artist who hired them, wants for the recording.  Because studio and musician time is very expensive, these studio musicians may have limited time to decide on and set up their equipment before recording begins.  Typically they might plug in pedals individually much as a customer does at a guitar store, which shares the issues described above.  Alternatively, some studio musicians might have their effects pedals integrated into an automatic switching system alluded to in the Overview.  However, these systems are often not intuitive to program, which means that the musician may set up a limited number of "presets", combinations of effects, that they will use.  This can limit their creativity in developing new sounds for their recordings.  A more intuitive system for connecting the effects pedals they already own would facilitate their creativity and save money by reducing the time spent on the mechanics of changing out equipment.
-	\color{black}
+	
 
 	\subsection{Prior Art}
-	\color{gray}
+	
 
 	In addition to the displays mentioned above, there are several patents related to this project.
 
@@ -111,7 +111,7 @@
 
 		The product does offer a solution to many issues thus far described.  In particular, it allows for fast swapping of effects pedals without the need for unplugging signal and power cables.  However, it does have some issues.  The interface between the pedal and the plate still relies on uncontrolled lengths of cable required to make connections with the pedal's input and output jacks.  The system also supposes a single power supply type, 9VDC through a 2.1 mm center negative plug.  While this is fairly standard, there are a number of popular effects, particularly more powerful digital ones, that require different power supplies.  There is also no improvement on the mechanism for attaching third party effects to the plates: the marketing examples show zip-ties being used, which can damage the pedal \cite{conNEXI}.  The pedal plates also only come in one size which is not suitable for many larger pedals.  Finally, the system supports only a single series routing option, which eliminates many possible routing topologies.
 
-	\color{black}
+	
 
 	\subsection{Specifications}
 	The main issue with the current system of testing guitar pedals is the inconvenience and speed of switching between different units.  The following specifications directly relate to reducing the inconvenience and time required to swap between different units when demoing.
@@ -187,13 +187,13 @@
 	
 	\subsection{Design Choices}
 		\subsubsection{Pedal-Plate Mounting}
-		\color{gray}
+		
 			\paragraph{Through Screws}
-			One important subsystem is the mounting of the pedals on their plates.  One attractive option is the use of screws through the pedal's bottom cover, as described in \cite{ABBATE:2016}.  This is the most visually simple technique, but relies on pedals that have similar screw hole locations.  As discussed below, while pedals from a single manufacturer tend to come in only a handful of form factors, the locations are not always standard across manufacturers.  In addition, some pedals do not have screws on opposite corners, which is required for a secure connection.  For instance, the Ibanez TS-9 Tubescreamer has bottom cover screws only on the upper (north) side of the pedal.  Because of this type of issue, the screw-through-plate method may not work for all pedals.  \color{black}{
-			In addition, to make use of the pedal's original screws, the plate material must be thin enough to allow the screws to pass through and still firmly grasp their threads.  This is discussed and accounted for in the choice of plate material.}\color{gray}
+			One important subsystem is the mounting of the pedals on their plates.  One attractive option is the use of screws through the pedal's bottom cover, as described in \cite{ABBATE:2016}.  This is the most visually simple technique, but relies on pedals that have similar screw hole locations.  As discussed below, while pedals from a single manufacturer tend to come in only a handful of form factors, the locations are not always standard across manufacturers.  In addition, some pedals do not have screws on opposite corners, which is required for a secure connection.  For instance, the Ibanez TS-9 Tubescreamer has bottom cover screws only on the upper (north) side of the pedal.  Because of this type of issue, the screw-through-plate method may not work for all pedals.  {
+			In addition, to make use of the pedal's original screws, the plate material must be thin enough to allow the screws to pass through and still firmly grasp their threads.  This is discussed and accounted for in the choice of plate material.}
 
 			\paragraph{Clamp}
-			Another option for attaching pedals to their plates is via a clamping mechanism.  Figure \ref{fig:CornerClamp} shows a preliminary design for such a clamp, which would be used to attach pedals with irregular bottom screws.  The bracket would be located in x-y position by the bolt hole to the corner of the pedal, and would be firmly held down in the z direction by a bolt clamping through the plate. The inner sides of the bracket should be rubber or a similar surface that will not damage the finish of the pedal. \color{black} Because the screw method is compatible with so many effects, the clamp will not be pursued in the near future.  Only if a higher compatibility is required and time permits will this clamp method be examined further. \color{gray}
+			Another option for attaching pedals to their plates is via a clamping mechanism.  Figure \ref{fig:CornerClamp} shows a preliminary design for such a clamp, which would be used to attach pedals with irregular bottom screws.  The bracket would be located in x-y position by the bolt hole to the corner of the pedal, and would be firmly held down in the z direction by a bolt clamping through the plate. The inner sides of the bracket should be rubber or a similar surface that will not damage the finish of the pedal.  Because the screw method is compatible with so many effects, the clamp will not be pursued in the near future.  Only if a higher compatibility is required and time permits will this clamp method be examined further. 
 
 			\begin{figure}
 				\centering
@@ -204,7 +204,7 @@
 
 			\paragraph{Linear Travel}
 			Because of the incongruities between effects pedals of different manufactures, a single set of bolt holes through the pedal plate will not suffice to accommodate most effects.  To solve this, the design will incorporate some combination of multiple holes in different locations and some slots through which the bolts can pass.
-			\color{black}
+			
 			To develop a flexible pattern of screw slots and holes, the dimension data collected from a sample of pedals from a Guitar Center retail location \cite{MyPedalData} was plotted in MATLAB, according to the dimension of the pedals' bottom plate screw holes, as seen in Figure \ref{fig:MATLABdimdata}.  The dimensions were grouped and a best fit line drawn for the main cluster.  This line was use to design a rapid prototype plate, seen in Figure \ref{fig:PlatePrototype}.  Fabricated using a laser cuter, the plate easily accommodates several average sized pedals that were easily available for this test.  Because of this success, this method of implementation of plate-pedal mechanical interface will be pursued for the first main prototype.
 
 			\begin{figure}
@@ -374,14 +374,14 @@
 		\subsubsection{Receiver Bypass Mechanism}
 		The primary function of the entire solution is to automatically bypass any receivers that do not currently have a plate inserted, so the choice of switching element is a key part of the design.  The basic choice here was between solid state analog switches or electromechanical relays.  The major design considerations for this choice are the signal to noise ratio, and the frequency response of the switching element.
 
-		\color{gray}
+		
 		The initial value expected for the signal to noise ratio for an electric guitar was near 120 dBV.  Guitar pickups convert the mechanical energy of the vibrating strings to electrical energy via a coil of wire.  When the string vibrates in the magnetic field of a permanent magnet situated underneath, current is induced in the coil.  In an ideal environment, there should be little source of self noise because of the passive simplicity of this device, so any noise in the guitar signal is a result of the environment.  As such, the signal to noise ratio of a guitar can vary significantly based on the guitar's environment.  For example, guitar pickups are well known for their susceptibility to 60Hz line noise.  Therefore, the measured 90dBV signal to noise ratio should be taken as a minimum value, with 100dBV or more preferable.
 
 		While solid state switches are more size, cost, and power efficient than mechanical relays, they may not have adequate signal to noise specifications, as well as crosstalk between channels on the same chip.  For example,the MT8808 Analog Switch Array \cite{Zarlink:MT8808} lists no specification on the device's signal to noise ratio, though it does boast a reasonable -90dB crosstalk between any channels for a 10kHz input with a $600 \Omega$ load.  The feed-through when a channel is off is listed as -95dB though, which is does not far exceed the minimum measured value for guitar signal to noise ratio, which could be an issue.  On the other hand, relay bypassing utilizing mechanical switches has no issues with signal to noise ratio, which would make it suitable for use in this project.
 
 		As a minimum, the system should accommodate signals across the full range of human hearing, which is typically noted as 20Hz - 20kHz.  While this is the minimum acceptable range, there should also be allowance for lower and higher frequencies, which when used as input to a distortion effect can create inter-modulation distortion with frequencies in the audio range.  Neither of these ranges will be an issue however.  In the case that switching is accomplished with a solid state device, these are designed for frequency responses up to the tens of MHz range (the MT8808 has a 3dB frequency response of 45MHz), which is far greater than required.  If mechanical relays are used, there will likewise be no issues with frequency response in the audio range.
 		
-		\color{black}
+		
 
 		These considerations suggest a preference for using mechanical relays despite their costs.  An additional reason is some of the interactions between the circuits on the guitar and in the first engaged pedal.  As mentioned above, the guitar pickup is made from a coil of wire, typically about 42 AWG with thousands of turns around a 6 inch or so circumference bobbin \cite{StewMacpickups}.  This long thin wire produces a DC resistance on the order of $10k\Omega$, which itself is quite a high output impedance, and the inductance and some parasitic capacitances from within the pickup will result in a frequency dependent output impedance with the potential to interact with a connected circuit block with sufficiently low input impedance.  In addition, the position of the guitar's volume potentiometer can affect the output impedance (see Figure \ref{fig:guitarpickupmodel} for a model of a guitar pickup and volume control circuit).  There are a number of guitar pedals known for their interaction with the guitar's volume knob; one of the best known is the Fuzz Face, first released in 1966 by Arbitrer Electronics \cite{FuzzFace}.  Following the same calculations as \cite{FuzzFace}, the input impedance to this pedal is about $8k\Omega$.  This does not follow the rule of thumb suggesting the input impedance should be an order of magnitude greater than the output impedance of the previous circuit stage, which means that there will be interactions between the guitar and this pedal.
 
@@ -671,9 +671,9 @@
 	Weeks    & Dates         & Plan \\
 	\hline
 	1 \& 2   & 9/2 - 9/15    &  \colorbox{green}{Complete and revise Project Proposal and meet with advisers}      \\
-	3 \& 4   & 9/16 - 9/29   &  \colorbox{green}{Conduct experiments described above to help refine specifications.}  \color{green}Begin higher level block diagrams of system.  Progress Report \#1 due 9/28 \color{black}    \\
-	5 \& 6   & 9/30 - 10/13  &  \color{green}Begin prototyping key features, such as pedalboard - plate interface. Rapid prototyping of features such as plate design to inform first prototype. Develop lower level block diagrams and begin schematic design. \color{black}    \\
-	7 \& 8   & 10/14 - 10/27 &  \color{yellow}Electronic and Mechanical CAD design for first prototype.  The first prototype will be a single slot for testing the 1) reliability of electrical connections between plate and board, 2) mechanisms for attaching pedal to plate (mechanical and electrical), 3) strength of magnets needed to hold plate to board, 4) method for hot-swappable bypassing (sensing and actuation) \color{black}    \\
+	3 \& 4   & 9/16 - 9/29   &  \colorbox{green}{Conduct experiments described above to help refine specifications.}  \color{green}Begin higher level block diagrams of system.  Progress Report \#1 due 9/28     \\
+	5 \& 6   & 9/30 - 10/13  &  \color{green}Begin prototyping key features, such as pedalboard - plate interface. Rapid prototyping of features such as plate design to inform first prototype. Develop lower level block diagrams and begin schematic design.     \\
+	7 \& 8   & 10/14 - 10/27 &  \color{yellow}Electronic and Mechanical CAD design for first prototype.  The first prototype will be a single slot for testing the 1) reliability of electrical connections between plate and board, 2) mechanisms for attaching pedal to plate (mechanical and electrical), 3) strength of magnets needed to hold plate to board, 4) method for hot-swappable bypassing (sensing and actuation)     \\
 	9 \& 10  & 10/28 - 11/10 & Complete ECAD and MCAD design of single receiver prototype.  Progress Report \#2 due 11/5    \\
 	11 \& 12 & 11/11 - 11/24 &  Begin fabrication of PCB, mechanicals.  Write code for receiver microcontroller.  In parallel, begin schematic design for full scale Prototype 2.  \\
 	13 \& 14 & 11/25 - 12/8  &  Fabricate mechanical parts.  Assemble circuit boards.  Perform preliminary testing on first prototype.      \\
@@ -693,9 +693,9 @@
 
 	\section{Updated Budget}
 
-	\color{gray}
+	
 	Like the schedule, the budget is becoming more clear than the one from the project proposal.  One piece of feedback I received from a number of people is the lack of representation in my budget for acquiring guitar pedals for testing and design purposes.  Some possible sources of pedals might be from my own personal collection, from a collection held by the Music Department, and by interested Harvard affiliates and professors.  Purchasing pedals for this project seems to be an unnecessary expense, so I will avoid purchasing new units if possible.  
-	\color{black}
+	
 
 	The cost of the solution will be related to the cost of its individual subsystems.  So far, the cost of each receiver subsystem is about:
 

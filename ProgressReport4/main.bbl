@@ -9,11 +9,6 @@ Gregg Abbate.
 \newblock Effects pedal mounting bracket, September 2016.
 \newblock US Patent 9620094.
 
-\bibitem{MJTP1230datasheet}
-APEM.
-\newblock Mjtp series 6mm thru-hole mtg. tact switches.
-\newblock MJTP1230 datasheet.
-
 \bibitem{Timing}
 ITU~Radiocommunication Assembly.
 \newblock Recommendation itu-r bt.1359-1 relative timing of sound and vision
@@ -30,11 +25,6 @@ Atmel.
 \newblock 8-bit atmel tinyavr microcontroller with 4k bytes in-system
   programmable flash: Attiny40 summary datasheet, January 2013.
 \newblock ATtiny40 datasheet.
-
-\bibitem{IQS127datasheet}
-Azoteq.
-\newblock Iqs127d datasheet: Iq switch - proxsense series single channel
-  capacitive proximiy/touch controller, March 2015.
 
 \bibitem{Bourns70AA_datasheet}
 Bourns.
@@ -61,6 +51,11 @@ Kemet~Electronics Corporation.
 Kemet~Electronics Corporation.
 \newblock Miniature signal relays ec2/ee2 series, August 2017.
 \newblock EC2 series datasheet.
+
+\bibitem{digikey}
+Digikey Electronics.
+\newblock Digikey electronics, February 2019.
+\newblock Electronics Components Website.
 
 \bibitem{FuzzFace}
 Electrosmash.
@@ -113,6 +108,10 @@ Texas Instruments.
 \newblock Lm317 3-terminal adjustable regulator, September 2016.
 \newblock LM317 datasheet.
 
+\bibitem{OPA1679IDRdatasheet}
+Texas Instruments.
+\newblock Opa167x low-distortion audio operational amplifiers, June 2018.
+
 \bibitem{AVX_00-9258_Datasheet}
 AVX Interconnect.
 \newblock Ultra low profile stacker: Btb.
@@ -127,6 +126,12 @@ Rare Earth~Music LLC.
 \newblock Earth board.
 \newblock https://earthboardmusic.com/.
 \newblock Accessed: 2018-09-10.
+
+\bibitem{ADI_switches_notes}
+Mary McCarthy and Anthony Collins.
+\newblock Ask the applications engineer—26: Switches and multiplexers, July
+  1997.
+\newblock Analog Dialogue.
 
 \bibitem{74AHCT02datasheet}
 Nexperia.
@@ -156,24 +161,21 @@ Nicholas Pham.
 \newblock Pedal dimension and availablity data, September 2018.
 \newblock self conducted research.
 
-\bibitem{APclickpopmeasurement}
-Audio Precision.
-\newblock Click and pop measurement, July 2011.
-
 \bibitem{ProgrammableSwitcherExample}
 Sound Sculpture.
 \newblock The switchblade switching system overview.
 \newblock Accessed: 2018-11-05.
-
-\bibitem{CypressCapSense}
-Cypress Semiconductor.
-\newblock An85951 psoc 4 and psoc 6 mcu capsense design guide, 2018.
 
 \bibitem{LB1948MCdatasheet}
 ON~Semiconductor.
 \newblock Lb1948mc bi-cmos integrated circuit 12v low saturation voltage drive
   forward/reverse motor driver application note, December 2013.
 \newblock LB1948MC datasheet.
+
+\bibitem{LM2931datasheet}
+ON~Semiconductor.
+\newblock Lm2931, ncv2931 series 100 ma, adjustable output, ldo voltage
+  regulator with 60 v load dump protection, April 2013.
 
 \bibitem{LV8548MCdatasheet}
 ON~Semiconductor.
@@ -208,9 +210,21 @@ STMicroelectronics.
 \newblock L298 dual full-bridge driver, January 2000.
 \newblock L298 datasheet.
 
+\bibitem{ATMEGA3209_datasheet}
+Microchip Technology.
+\newblock Atmega3209/4809 – 48-pin data sheet, 2018.
+
+\bibitem{SolidsDensities}
+Engineering Toolbox.
+\newblock Densities of common solids, 2009.
+
 \bibitem{BossDisplayPhoto}
 user:mhuxtable.
 \newblock Boss pedal display.
 \newblock Accessed from Harmony Central: 2018-09-28.
+
+\bibitem{datasheet:LRS-150-48}
+Mean Well.
+\newblock 150w single output switching power supply lrs-150 series, May 2016.
 
 \end{thebibliography}

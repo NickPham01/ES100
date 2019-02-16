@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  15 FEB 2019 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.9.16)  15 FEB 2019 22:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -351,22 +351,22 @@ Package: glossary-tree 2018/07/23 v4.41 (NLCT)
 \glo@main@file=\write4
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 14.
+Package glossaries Info: Writing glossary file main.glo on input line 13.
  (glossary.tex) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (/home/npham01/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -463,179 +463,403 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-LaTeX Warning: Reference `fig:SwapTimeControlSetup' on page 1 undefined on inpu
-t line 46.
-
 [1
 
 \openout3 = `main.ist'.
 
-{/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+{/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map}] (main.gls)
+[2]
+<PR2Images/GuitarCenterBoard.jpg, id=13, 4047.12pt x 3035.34pt>
+File: PR2Images/GuitarCenterBoard.jpg Graphic file (type jpg)
+<use PR2Images/GuitarCenterBoard.jpg>
+Package pdftex.def Info: PR2Images/GuitarCenterBoard.jpg  used on input line 55
+.
+(pdftex.def)             Requested size: 187.89914pt x 140.89174pt.
+<PR2Images/BossDisplay.jpg, id=14, 451.6875pt x 338.76563pt>
+File: PR2Images/BossDisplay.jpg Graphic file (type jpg)
+<use PR2Images/BossDisplay.jpg>
+Package pdftex.def Info: PR2Images/BossDisplay.jpg  used on input line 65.
+(pdftex.def)             Requested size: 281.85587pt x 211.40233pt.
+ [3] [4 <./PR2Images/GuitarCenterBoard.jpg> <./PR2Images/BossDisplay.jpg>]
+<PR2Images/BufferedvTrueBypass.png, id=22, 543.02875pt x 432.61626pt>
+File: PR2Images/BufferedvTrueBypass.png Graphic file (type png)
+<use PR2Images/BufferedvTrueBypass.png>
+Package pdftex.def Info: PR2Images/BufferedvTrueBypass.png  used on input line 
+74.
+(pdftex.def)             Requested size: 281.85587pt x 224.55247pt.
+<PR2Images/RoutingConfigs.png, id=24, 780.9175pt x 860.21375pt>
+File: PR2Images/RoutingConfigs.png Graphic file (type png)
+<use PR2Images/RoutingConfigs.png>
+Package pdftex.def Info: PR2Images/RoutingConfigs.png  used on input line 84.
+(pdftex.def)             Requested size: 187.89914pt x 206.98055pt.
 
-(/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
+[5 <./PR2Images/BufferedvTrueBypass.png>] [6 <./PR2Images/RoutingConfigs.png>]
+Underfull \hbox (badness 1281) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 of pedals available at typical retail
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 is a trade-off between compatibility
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 a simple metric might be number
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 of words required to give working
+ []
+
+[7]
+Underfull \hbox (badness 1776) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 sold to a retailer is dependent on
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 pedal to interface with the system.
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 have a very high SNR, measured
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 in non-ideal circumstances at +90
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 dBV. Higher values in a controlled
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 145--146
+[]|\OT1/cmr/m/n/10 As an audio system, the solution
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 145--146
+\OT1/cmr/m/n/10 must at minimum pass the audio
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 145--146
+\OT1/cmr/m/n/10 be used with processors that could
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 146--147
+\OT1/cmr/m/n/10 delay between when the pedal is
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 148--149
+[]|\OT1/cmr/m/n/10 For ease of design and safety, the
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 148--149
+\OT1/cmr/m/n/10 solution should accept DC voltage
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 150
+ []
+
+[8] [9]
+<PR2Images/GCpedals.jpg, id=44, 4047.12pt x 3035.34pt>
+File: PR2Images/GCpedals.jpg Graphic file (type jpg)
+<use PR2Images/GCpedals.jpg>
+Package pdftex.def Info: PR2Images/GCpedals.jpg  used on input line 162.
+(pdftex.def)             Requested size: 281.85587pt x 211.38394pt.
+<PR2Images/SystemBlockDiagram.PNG, id=45, 744.98325pt x 364.9635pt>
+File: PR2Images/SystemBlockDiagram.PNG Graphic file (type png)
+<use PR2Images/SystemBlockDiagram.PNG>
+Package pdftex.def Info: PR2Images/SystemBlockDiagram.PNG  used on input line 1
+73.
+(pdftex.def)             Requested size: 469.75502pt x 230.13426pt.
+ [10 <./PR2Images/GCpedals.jpg>] [11 <./PR2Images/SystemBlockDiagram.PNG>]
+<PR2Images/CornerBracketPerspective.jpg, id=53, 3031.325pt x 1933.2225pt>
+File: PR2Images/CornerBracketPerspective.jpg Graphic file (type jpg)
+<use PR2Images/CornerBracketPerspective.jpg>
+Package pdftex.def Info: PR2Images/CornerBracketPerspective.jpg  used on input 
+line 202.
+(pdftex.def)             Requested size: 140.92793pt x 89.85262pt.
+<PR2Images/PedalBestFit.jpg, id=54, 562.1pt x 421.575pt>
+File: PR2Images/PedalBestFit.jpg Graphic file (type jpg)
+<use PR2Images/PedalBestFit.jpg>
+Package pdftex.def Info: PR2Images/PedalBestFit.jpg  used on input line 214.
+(pdftex.def)             Requested size: 281.85587pt x 211.39165pt.
+<PR2Images/PlatePrototype.png, id=55, 1006.76125pt x 473.77pt>
+File: PR2Images/PlatePrototype.png Graphic file (type png)
+<use PR2Images/PlatePrototype.png>
+Package pdftex.def Info: PR2Images/PlatePrototype.png  used on input line 221.
+(pdftex.def)             Requested size: 281.85587pt x 132.633pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 230.
+
+ (/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
- [2]
-Underfull \hbox (badness 1221) in paragraph at lines 105--106
-[]\OT1/cmr/m/n/10 Measure relay noise. No power. AP output
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 230.
+ [12 <./PR2Images/CornerBracketPerspective.jpg>] [13 <./PR2Images/PedalBestFit.
+jpg> <./PR2Images/PlatePrototype.png>]
+<PR2Images/batteryconn.JPG, id=65, 602.25pt x 602.25pt>
+File: PR2Images/batteryconn.JPG Graphic file (type jpg)
+<use PR2Images/batteryconn.JPG>
+Package pdftex.def Info: PR2Images/batteryconn.JPG  used on input line 246.
+(pdftex.def)             Requested size: 187.89914pt x 187.8994pt.
+<PR2Images/springpin.jpg, id=66, 501.875pt x 282.05376pt>
+File: PR2Images/springpin.jpg Graphic file (type jpg)
+<use PR2Images/springpin.jpg>
+Package pdftex.def Info: PR2Images/springpin.jpg  used on input line 247.
+(pdftex.def)             Requested size: 187.89914pt x 105.60204pt.
+ [14]
+<PR2Images/MillMaxSeries0914_0908.png, id=71, 1768.6075pt x 518.93875pt>
+File: PR2Images/MillMaxSeries0914_0908.png Graphic file (type png)
+<use PR2Images/MillMaxSeries0914_0908.png>
+Package pdftex.def Info: PR2Images/MillMaxSeries0914_0908.png  used on input li
+ne 262.
+(pdftex.def)             Requested size: 469.75502pt x 137.82692pt.
+ [15 <./PR2Images/batteryconn.JPG> <./PR2Images/springpin.jpg> <./PR2Images/Mil
+lMaxSeries0914_0908.png>]
+<PR2Images/ParallelPowerSchematic.PNG, id=76, 309.5565pt x 469.15276pt>
+File: PR2Images/ParallelPowerSchematic.PNG Graphic file (type png)
+<use PR2Images/ParallelPowerSchematic.PNG>
+Package pdftex.def Info: PR2Images/ParallelPowerSchematic.PNG  used on input li
+ne 278.
+(pdftex.def)             Requested size: 187.89914pt x 284.77965pt.
+ [16]
+<PR2Images/LM317_typicalapplication.PNG, id=82, 536.60475pt x 310.15875pt>
+File: PR2Images/LM317_typicalapplication.PNG Graphic file (type png)
+<use PR2Images/LM317_typicalapplication.PNG>
+Package pdftex.def Info: PR2Images/LM317_typicalapplication.PNG  used on input 
+line 298.
+(pdftex.def)             Requested size: 375.80544pt x 217.21849pt.
+<PR2Images/AdjustableRegulatorSchematic.PNG, id=83, 413.74574pt x 324.0105pt>
+File: PR2Images/AdjustableRegulatorSchematic.PNG Graphic file (type png)
+<use PR2Images/AdjustableRegulatorSchematic.PNG>
+Package pdftex.def Info: PR2Images/AdjustableRegulatorSchematic.PNG  used on in
+put line 305.
+(pdftex.def)             Requested size: 375.80544pt x 294.31606pt.
+ [17 <./PR2Images/ParallelPowerSchematic.PNG>] [18 <./PR2Images/LM317_typicalap
+plication.PNG> <./PR2Images/AdjustableRegulatorSchematic.PNG>] [19]
+<PR2Images/PlateDetectSwitch.PNG, id=99, 80.09924pt x 252.34274pt>
+File: PR2Images/PlateDetectSwitch.PNG Graphic file (type png)
+<use PR2Images/PlateDetectSwitch.PNG>
+Package pdftex.def Info: PR2Images/PlateDetectSwitch.PNG  used on input line 36
+9.
+(pdftex.def)             Requested size: 46.97836pt x 147.99916pt.
+ [20 <./PR2Images/PlateDetectSwitch.PNG>]
+<PR2Images/GuitarPickupModel.PNG, id=104, 215.00325pt x 257.16075pt>
+File: PR2Images/GuitarPickupModel.PNG Graphic file (type png)
+<use PR2Images/GuitarPickupModel.PNG>
+Package pdftex.def Info: PR2Images/GuitarPickupModel.PNG  used on input line 39
+2.
+(pdftex.def)             Requested size: 140.92793pt x 168.56119pt.
+ [21 <./PR2Images/GuitarPickupModel.PNG>]
+<PR2Images/DiscreteHBridge.png, id=109, 598.235pt x 586.19pt>
+File: PR2Images/DiscreteHBridge.png Graphic file (type png)
+<use PR2Images/DiscreteHBridge.png>
+Package pdftex.def Info: PR2Images/DiscreteHBridge.png  used on input line 405.
+
+(pdftex.def)             Requested size: 281.85587pt x 276.18018pt.
+ [22 <./PR2Images/DiscreteHBridge.png>]
+<PR2Images/HBridgeCTRL_Block.PNG, id=114, 703.428pt x 117.43875pt>
+File: PR2Images/HBridgeCTRL_Block.PNG Graphic file (type png)
+<use PR2Images/HBridgeCTRL_Block.PNG>
+Package pdftex.def Info: PR2Images/HBridgeCTRL_Block.PNG  used on input line 43
+9.
+(pdftex.def)             Requested size: 469.75502pt x 78.42729pt.
+<PR2Images/BidirectionalEdgeSchem.PNG, id=115, 342.68025pt x 199.947pt>
+File: PR2Images/BidirectionalEdgeSchem.PNG Graphic file (type png)
+<use PR2Images/BidirectionalEdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/BidirectionalEdgeSchem.PNG  used on input li
+ne 448.
+(pdftex.def)             Requested size: 281.85587pt x 164.4671pt.
+<PR2Images/ParallelEdgeSchem.PNG, id=116, 366.77025pt x 263.7855pt>
+File: PR2Images/ParallelEdgeSchem.PNG Graphic file (type png)
+<use PR2Images/ParallelEdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/ParallelEdgeSchem.PNG  used on input line 45
+5.
+(pdftex.def)             Requested size: 281.85587pt x 202.72101pt.
+<PR2Images/NOREdgeSchem.PNG, id=117, 393.26926pt x 254.1495pt>
+File: PR2Images/NOREdgeSchem.PNG Graphic file (type png)
+<use PR2Images/NOREdgeSchem.PNG>
+Package pdftex.def Info: PR2Images/NOREdgeSchem.PNG  used on input line 462.
+(pdftex.def)             Requested size: 281.85587pt x 182.15373pt.
+ [23 <./PR2Images/HBridgeCTRL_Block.PNG>] [24 <./PR2Images/BidirectionalEdgeSch
+em.PNG> <./PR2Images/ParallelEdgeSchem.PNG>] [25 <./PR2Images/NOREdgeSchem.PNG>
+]
+Overfull \hbox (2.2909pt too wide) in paragraph at lines 510--511
+[]\OT1/cmr/m/n/10 A full subsystem schematic of the receiver thus far is attach
+ed at the end of the document. As implemented,
  []
 
-
-Underfull \hbox (badness 1622) in paragraph at lines 107--108
-\OT1/cmr/m/n/10 output connected to DUT input, DUT set to
- []
-
-[3]
-<PR4Images/PedalsAvailable.jpg, id=18, 862.22125pt x 658.46pt>
+<PR2Images/ReceiverBlockDiagramMCU.PNG, id=133, 771.48225pt x 352.9185pt>
+File: PR2Images/ReceiverBlockDiagramMCU.PNG Graphic file (type png)
+<use PR2Images/ReceiverBlockDiagramMCU.PNG>
+Package pdftex.def Info: PR2Images/ReceiverBlockDiagramMCU.PNG  used on input l
+ine 541.
+(pdftex.def)             Requested size: 469.75502pt x 214.89224pt.
+[26] [27 <./PR2Images/ReceiverBlockDiagramMCU.PNG>] [28] [29] [30]
+<PR4Images/PedalsAvailable.jpg, id=150, 862.22125pt x 658.46pt>
 File: PR4Images/PedalsAvailable.jpg Graphic file (type jpg)
 <use PR4Images/PedalsAvailable.jpg>
-Package pdftex.def Info: PR4Images/PedalsAvailable.jpg  used on input line 132.
+Package pdftex.def Info: PR4Images/PedalsAvailable.jpg  used on input line 673.
 
-(pdftex.def)             Requested size: 281.85587pt x 215.24283pt.
- [4] [5 <./PR4Images/PedalsAvailable.jpg>]
-<PR4Images/PEdalCompatibility.jpg, id=25, 736.7525pt x 543.02875pt>
+(pdftex.def)             Requested size: 375.80544pt x 286.99043pt.
+<PR4Images/PEdalCompatibility.jpg, id=151, 736.7525pt x 543.02875pt>
 File: PR4Images/PEdalCompatibility.jpg Graphic file (type jpg)
 <use PR4Images/PEdalCompatibility.jpg>
-Package pdftex.def Info: PR4Images/PEdalCompatibility.jpg  used on input line 1
-80.
+Package pdftex.def Info: PR4Images/PEdalCompatibility.jpg  used on input line 7
+21.
 (pdftex.def)             Requested size: 469.75502pt x 346.23631pt.
- [6 <./PR4Images/PEdalCompatibility.jpg>] [7]
+ [31 <./PR4Images/PedalsAvailable.jpg>] [32] [33 <./PR4Images/PEdalCompatibilit
+y.jpg>]
+[34]
+<PR4Images/FRactive.jpg, id=165, 562.1pt x 421.575pt>
+File: PR4Images/FRactive.jpg Graphic file (type jpg)
+<use PR4Images/FRactive.jpg>
+Package pdftex.def Info: PR4Images/FRactive.jpg  used on input line 764.
+(pdftex.def)             Requested size: 375.80544pt x 281.85553pt.
+<tekmeasurements/tek0004.png, id=166, 803.0pt x 481.8pt>
+File: tekmeasurements/tek0004.png Graphic file (type png)
+<use tekmeasurements/tek0004.png>
+Package pdftex.def Info: tekmeasurements/tek0004.png  used on input line 785.
+(pdftex.def)             Requested size: 375.80544pt x 225.49031pt.
+ [35 <./PR4Images/FRactive.jpg>]
+Overfull \hbox (8.01424pt too wide) in paragraph at lines 795--796
+[]\OT1/cmr/m/n/10 The other type of transients are related to the signals thems
+elves that are being switched. Any instantaneous
+ []
 
-Package natbib Warning: Citation `ATTiny40_datasheet' on page 8 undefined on in
-put line 246.
-
-
-Package natbib Warning: Citation `ATMEGA3209_digikey' on page 8 undefined on in
-put line 248.
-
-
-Package natbib Warning: Citation `PIC16F_datasheet' on page 8 undefined on inpu
-t line 248.
-
-
-Package natbib Warning: Citation `ATMEGA3209_datasheet' on page 8 undefined on 
-input line 248.
-
-[8]
-
-LaTeX Warning: Reference `fig:module_mech_layout' on page 9 undefined on input 
-line 254.
-
-
-LaTeX Warning: Reference `fig:routing_schem' on page 9 undefined on input line 
-284.
-
-[9]
-
-Package natbib Warning: Citation `datasheet:LRS-150-48' on page 10 undefined on
- input line 290.
-
-
-Package natbib Warning: Citation `Digikey:LRS-150-48' on page 10 undefined on i
-nput line 290.
+[36 <./tekmeasurements/tek0004.png (PNG copy)>]
+<PR4Images/ModularHierarchy.png, id=173, 1812.7725pt x 596.2275pt>
+File: PR4Images/ModularHierarchy.png Graphic file (type png)
+<use PR4Images/ModularHierarchy.png>
+Package pdftex.def Info: PR4Images/ModularHierarchy.png  used on input line 814
+.
+(pdftex.def)             Requested size: 469.75502pt x 154.49692pt.
+ [37 <./PR4Images/ModularHierarchy.png>] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+[]\OT1/cmr/m/n/10 Allow increased headroom for
+ []
 
 
-Package natbib Warning: Citation `Digikey:PSA120U-480L6' on page 10 undefined o
-n input line 290.
+Underfull \hbox (badness 7397) in paragraph at lines 882--883
+[]\OT1/cmr/m/n/10 Potentially expensive for quality
+ []
 
 
-Package natbib Warning: Citation `atasheet:LM317' on page 10 undefined on input
- line 298.
+Underfull \hbox (badness 6708) in paragraph at lines 883--884
+[]\OT1/cmr/m/n/10 Bipolar supply possible for DC
+ []
 
-
-Package natbib Warning: Citation `datasheet:LM7805' on page 10 undefined on inp
-ut line 300.
-
-[10]
-
-LaTeX Warning: Reference `fig:worstcaserouting' on page 11 undefined on input l
-ine 308.
-
-
-Package natbib Warning: Citation `datasheet:OPA1679IDR' on page 11 undefined on
- input line 320.
-
-[11]
-
-LaTeX Warning: Reference `fig:UIsketch' on page 12 undefined on input line 332.
-
-
-
-LaTeX Warning: Reference `fig:UIFBD' on page 12 undefined on input line 334.
-
-
-Package natbib Warning: Citation `SolidsDensities' on page 12 undefined on inpu
-t line 344.
-
-
-Package natbib Warning: Citation `SolidsDensities' on page 12 undefined on inpu
-t line 348.
-
-[12]
-<PR4Images/UIOverview.png, id=53, 1791.69376pt x 853.1875pt>
+[39]
+<PR4Images/AVDDregulator.PNG, id=185, 975.04276pt x 327.02174pt>
+File: PR4Images/AVDDregulator.PNG Graphic file (type png)
+<use PR4Images/AVDDregulator.PNG>
+Package pdftex.def Info: PR4Images/AVDDregulator.PNG  used on input line 908.
+(pdftex.def)             Requested size: 469.75502pt x 157.55247pt.
+<PR4Images/WorstCaseInputImpedancePath.png, id=186, 1003.75pt x 466.74374pt>
+File: PR4Images/WorstCaseInputImpedancePath.png Graphic file (type png)
+<use PR4Images/WorstCaseInputImpedancePath.png>
+Package pdftex.def Info: PR4Images/WorstCaseInputImpedancePath.png  used on inp
+ut line 921.
+(pdftex.def)             Requested size: 375.80544pt x 174.75072pt.
+ [40] [41 <./PR4Images/AVDDregulator.PNG> <./PR4Images/WorstCaseInputImpedanceP
+ath.png>]
+<PR4Images/RoutingSchem.PNG, id=195, 1046.10825pt x 304.7385pt>
+File: PR4Images/RoutingSchem.PNG Graphic file (type png)
+<use PR4Images/RoutingSchem.PNG>
+Package pdftex.def Info: PR4Images/RoutingSchem.PNG  used on input line 936.
+(pdftex.def)             Requested size: 469.75502pt x 136.84276pt.
+<PR4Images/oldUIsideview.png, id=196, 1606.0pt x 492.84125pt>
+File: PR4Images/oldUIsideview.png Graphic file (type png)
+<use PR4Images/oldUIsideview.png>
+Package pdftex.def Info: PR4Images/oldUIsideview.png  used on input line 951.
+(pdftex.def)             Requested size: 375.80544pt x 115.32137pt.
+ [42 <./PR4Images/RoutingSchem.PNG>]
+<PR4Images/UIFBD.png, id=201, 1269.74374pt x 552.0625pt>
+File: PR4Images/UIFBD.png Graphic file (type png)
+<use PR4Images/UIFBD.png>
+Package pdftex.def Info: PR4Images/UIFBD.png  used on input line 964.
+(pdftex.def)             Requested size: 375.80544pt x 163.39613pt.
+ [43 <./PR4Images/oldUIsideview.png> <./PR4Images/UIFBD.png>]
+<PR4Images/UIOverview.png, id=207, 1791.69376pt x 853.1875pt>
 File: PR4Images/UIOverview.png Graphic file (type png)
 <use PR4Images/UIOverview.png>
-Package pdftex.def Info: PR4Images/UIOverview.png  used on input line 366.
+Package pdftex.def Info: PR4Images/UIOverview.png  used on input line 995.
 (pdftex.def)             Requested size: 469.75502pt x 223.68517pt.
- [13 <./PR4Images/UIOverview.png>]
-<PR4Images/UIarrowlabels.png, id=60, 226.8475pt x 434.62375pt>
+ [44 <./PR4Images/UIOverview.png>]
+<PR4Images/UIarrowlabels.png, id=212, 226.8475pt x 434.62375pt>
 File: PR4Images/UIarrowlabels.png Graphic file (type png)
 <use PR4Images/UIarrowlabels.png>
-Package pdftex.def Info: PR4Images/UIarrowlabels.png  used on input line 379.
+Package pdftex.def Info: PR4Images/UIarrowlabels.png  used on input line 1008.
 (pdftex.def)             Requested size: 70.46037pt x 134.99724pt.
-<PR4Images/UIFSM.png, id=61, 880.28876pt x 671.50874pt>
+<PR4Images/UIFSM.png, id=213, 880.28876pt x 671.50874pt>
 File: PR4Images/UIFSM.png Graphic file (type png)
 <use PR4Images/UIFSM.png>
-Package pdftex.def Info: PR4Images/UIFSM.png  used on input line 388.
+Package pdftex.def Info: PR4Images/UIFSM.png  used on input line 1017.
 (pdftex.def)             Requested size: 234.8775pt x 179.16829pt.
+ [45 <./PR4Images/UIarrowlabels.png>] [46 <./PR4Images/UIFSM.png>]
+<PR4Images/LEDconstcurrentdriver.PNG, id=223, 492.03825pt x 361.95226pt>
+File: PR4Images/LEDconstcurrentdriver.PNG Graphic file (type png)
+<use PR4Images/LEDconstcurrentdriver.PNG>
+Package pdftex.def Info: PR4Images/LEDconstcurrentdriver.PNG  used on input lin
+e 1066.
+(pdftex.def)             Requested size: 234.8775pt x 172.77963pt.
+
+Overfull \hbox (7.50385pt too wide) in paragraph at lines 1085--1086
+[][][][][][][]
+ []
 
 
-LaTeX Warning: Reference `tab:FSMtransistions' on page 14 undefined on input li
-ne 397.
+Underfull \hbox (badness 1325) in paragraph at lines 1086--1087
+[]\OT1/cmr/m/n/10 Begin prototyping key features, such as pedalboard - plate
+ []
 
-[14 <./PR4Images/UIarrowlabels.png> <./PR4Images/UIFSM.png>]
+[47 <./PR4Images/LEDconstcurrentdriver.PNG>] [48] [49] (main.bbl [50]
+Underfull \hbox (badness 2080) in paragraph at lines 170--174
+[]\OT1/cmr/m/n/10 ON Semiconductor.  Lb1948mc bi-cmos integrated circuit 12v lo
+w saturation voltage drive
+ []
 
-Package natbib Warning: There were undefined citations.
-
-
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-[15] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [51] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 7735 strings out of 494891
- 113582 string characters out of 3178553
- 253137 words of memory out of 3000000
- 11194 multiletter control sequences out of 15000+200000
- 9527 words of font info for 36 fonts, out of 3000000 for 9000
+ 8140 strings out of 494891
+ 123637 string characters out of 3178553
+ 257185 words of memory out of 3000000
+ 11551 multiletter control sequences out of 15000+200000
+ 9873 words of font info for 37 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 45i,10n,37p,1972b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
-.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
-5.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb>
-Output written on main.pdf (15 pages, 387395 bytes).
+ 45i,11n,39p,1987b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/npham01/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr5.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (51 pages, 23729714 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 290 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
