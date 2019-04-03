@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+
+\usepackage{helvet}
+\usepackage{xcolor}
+\usepackage[left=0.5cm, right=0.5cm, top=2cm]{geometry}
+
+\pagecolor[rgb]{0,0,0}
+\color[rgb]{1,1,1}
+
+
+\begin{document}
+\huge
+
+	$$ r = \text{\% Reduction} = \frac{t_\text{Standard} - t_\text{Solution}}{t_\text{Standard}} $$
+
+	$$ w_k = \frac{1}{\sigma^2} \left( \sum_i \frac{1}{\sigma^2} \right) ^{-1} $$
+
+	$$ \overline{R} = \sum_i r_i w_i = 65\%$$
+
+	$$ \sigma = 8.0\% $$
+
+	\begin{align*}
+	Let\\
+	n &= \text{noise floor} \\
+	m &= \text{maximum signal level}
+	\end{align*}
+
+	\begin{align*}
+	\text{max signal} &= 18 V_{pp} = 18.3 \text{ dBu} \\
+	n_{direct} &= - 96.4 \text{ dBu} \quad (\sigma = 0.30 \text{ for } n = 20) \\
+	n_{sum} &= -72.2 \text{ dBu} \quad (\sigma = 0.11 \text{ for } n = 20)
+	\end{align*}
+
+	\begin{align*}
+	SNR &= \frac{\text{m}(V)}{\text{n} (V)} = \text{m(dBu)} - \text{n (dBu)} \\
+	SNR_{direct} &= 114.7 \text{ dBu} \\
+	SNR_{sum} &= 90.5 \text{ dBu} 
+	\end{align*}
+
+	
+
+\end{document}

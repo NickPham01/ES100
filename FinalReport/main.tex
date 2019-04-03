@@ -1,0 +1,75 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,caption}
+\usepackage{subcaption}
+\usepackage{geometry}   \geometry{margin=1.25in}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{multirow}
+
+\usepackage{natbib}
+\usepackage[nonumberlist]{glossaries}
+\makeglossaries
+\loadglsentries{glossary}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[R]{Guitar Effects Auditioning System}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{Chapter \thechapter}
+\fancyfoot[L]{Nicholas Pham}
+
+\renewcommand{\baselinestretch}{1.2}
+
+\newcommand{\insertimage}[4] {
+	\begin{figure}[!htbp]
+		\centering
+		\captionsetup{width= #1 \textwidth}
+		\includegraphics[width = #1\textwidth]{#2}
+		\caption{#3}
+		\label{#4}
+	\end{figure}
+}
+
+
+\begin{document}
+
+	\pagestyle{plain}
+	\input{titlepage}
+
+	\input{abstract}
+
+	\tableofcontents
+
+	\listoffigures
+
+	\listoftables
+
+	\pagestyle{fancy}
+
+	\chapter{Introduction}
+	\input{chapters/Introduction}
+
+	\chapter{Problem Definition}
+	\input{chapters/ProblemDefinition}
+
+	\chapter{System Design}
+	\input{chapters/SystemDesign}
+
+	\chapter{System Implementation}
+	\input{chapters/SystemImplementation}
+
+	\chapter{System Evaluation}
+	\input{chapters/SystemEvaluation}
+
+	\chapter{Budget}
+
+	\chapter{Conclusion}
+	\input{chapters/Conclusion}
+
+\end{document}
