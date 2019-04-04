@@ -1,5 +1,78 @@
 \section{Problem Statement}
-*include table comparing pros and cons of the two methods
+
+The benefits and drawbacks of the two guitar effects pedal auditioning methods are summarized in Table \ref{tab:prev_method_pro_con}.  Clearly, neither method is ideal, and the issues resulting from each's drawbacks are a detriment to both potential customers and to retailers.  Therefore, guitarists need an improved process to audition guitar pedals to facilitate more expedient and accurate purchasing decisions.
+
+	\begin{table}
+	\begin{center}
+	\renewcommand{\arraystretch}{2}
+	\captionsetup{justification=centering}
+	\caption{Summary of Current Guitar Effects Pedal Auditioning Methods.  \\A good solution system would combine the benefits of both methods.}
+	\raggedbottom
+	\begin{tabular}{|c|c p{2in}|c p{2in}|}
+		\hline
+		\multirow{2}{*}{Method} & \multicolumn{4}{c|}{Attributes} \\
+		 & \multicolumn{2}{c}{Ease of Use} & \multicolumn{2}{c|}{Flexibility} \\
+		\hline
+		Display Board & 
+		\cmark & 
+		Just activate footswitch to engage effects &
+		\xmark &
+		Single manufacturer; fixed routing order; potential signal degradation unavoidable\\
+
+		\hline
+
+		Free Connection &
+		\xmark & 
+		Requires plugging and unplugging signal and power; generally slow
+		&
+		\cmark & 
+		Any manufacturer; many connection topologies possible; power supply can be selected\\
+		\hline
+	\end{tabular}
+	\label{tab:prev_method_pro_con}
+	\end{center}
+	\end{table}
+
 \section{Design Requirements}
 
-Note that $dBu$ is a standard audio unit compared to a reference voltage resulting from a $600\Omega$ load disspitaing $1mW$ of power.  $0dBu = 0.775V_{rms}$.
+In practice, a solution should combine the best attributes of the two current methods.  This involves fulfilling two broad categories of requirements.  The requirements of the first category ensure that the solution shows a functional improvement over the previous methods; it should solve the problem described in the problem statement.  The most pertinent requirement for this is a reduction in the "swap time", or the time required to switch between two pedals in an A-B test.  This fundamental situation is important to any sort of auditioning.  To make it worth the effort of going through this project and for retail stores to implement, a solution should offer a major improvement in swap time.  An order of magnitude improvement seems like a reach goal, but an 80\% improvement in swap time over the free connection method is reasonable.
+
+In order for the solution to be effective, it must be usable with a majority of pedals available at typical retail locations.  An 80\% market coverage is reasonable because a majority of retailer stock contains pedals by just a handful of brands.  There is a trade-off between universal compatibility versus form and function, so designing for every possible pedal should not be a priority, though a solution design should not preclude an eventual expansion of compatibility.
+
+For a retail store to use a solution, the cost to implement it in the store should not be obtrusive.  As the solution developed in this project is not intended to be production ready, the material cost rather than the final cost is specified.  A initial cost of \$200 should cover the main part of the system, and the incremental cost to make any additional pedals compatible with the system should be no more than \$20 per pedal.  The latter cost is a more important point, because many retail stores may stock hundreds of guitar pedals, so the individual cost must 
+
+Finally, the solution system should be as intuitive as possible.  This is not easy to quantify, though a simple metric might be the number of words required to give useful working knowledge of the system in a user guide.  However, this seems fairly artificial, as an instruction manual could be continually optimized to reduce word count ad nauseam, so performing an actual verification measurement on this requirement would be rather contrived.  Instead, this requirement should be kept in mind during the design phase as an important consideration.
+
+The second set of requirements deals with the ability of the system to be an unbiased method of comparison, adding no coloration to the sound.  These signal quality properties include signal-to-noise ratio (SNR) and frequency response.  The signal-to-noise ratio of the electric guitar itself, by virtue of its simple passive magnetic pickups, can be very high.  Preliminary measurements suggested an SNR around $90dB$.  Higher values in a controlled environment are likely.  Noise in guitar audio is particularly important, as guitar amplifiers apply a high level of compression and amplification which can significantly increase the noise floor at the speaker.  Particular care must be taken to reduce noise earlier in the signal chain to prevent its amplification.  Most guitar effects are specified with SNR ranging from $80-120dB$, but some of these manufacturer-supplied specifications may be over-inflated, and in most cases are A-weighted, deemphasizing certain parts of the frequency spectrum.  Thus, a $90dB$ SNR is a good baseline requirement.
+
+As in any audio system, the solution's frequency response should be flat across the audio range.  Because very subtle differences in the timbre and frequency content resulting from the use of different pedals is vitally important, a $0.1dBu$\footnote{Note that $dBu$ is a standard audio unit compared to a reference voltage resulting from a $600\Omega$ load dissipating $1mW$ of power.  $0dBu = 0.775V_{rms}$.} flatness is required across the audio frequency range $20Hz$ - $20kHz$.  Performance down to very low frequencies or even DC would be useful for some subharmonic effects and synthesizer pedals, so this would be a plus.
+
+In addition to these signal quality considerations that are important during the actual listening process, the system should also have a short switching time so the user perceives no delay when swapping a pedal in or out of the system.  Because it should be easily achievable with most switching method that might be used while being short enough to have no perceived discontinuities, the system should have a switching time of no longer than $20ms$.  Note that this is the time required by the system to switch signals and is a separate requirement than the swapping time described above.
+
+Finally, to ensure the safety of the equipment following the solution system, switching transients should be limited when switching a pedal in or out of the system.  The transients added by the system should be no larger than $0.5dBu$.
+
+These requirements are summarized in Table \ref{tab:requirements}
+
+	\begin{table}
+	\begin{center}
+	\captionsetup{justification=centering}
+	\caption{Summary of Design Requirements.}
+	\renewcommand{\arraystretch}{2}
+	\raggedbottom
+	\begin{tabular}{|c|c|p{2in}|}
+		\hline
+		Metric & Target Value & Notes \\
+		\hline
+		Swap Time 			& 80\% Reduction 	&	\\
+		Compatibility 		& 80\%	 		 	&	\\
+		System cost 		& \$200				& Materials cost for the initial system	\\
+		Incremental cost 	& \$20 				& Materials cost for each additional pedal that is made compatible with the system. \\
+		SNR 				& $90dBu$ 			& 	\\
+		Frequency Response  & $0.1dBu$ flat over $20Hz - 20kHz$ 	& \\
+		Switching Time 		& $20ms$ 			& \\
+		Transient 			& $0.5dBu$ 			& Transient added by system during switching \\
+		\hline
+	\end{tabular}
+	\label{tab:requirements}
+	\end{center}
+	\end{table}

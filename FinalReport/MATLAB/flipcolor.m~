@@ -1,0 +1,4 @@
+%% Flip the black and white, leave the other colors
+
+filename = "../FinalImages/SystemBlock_black.png"
+im = imread(

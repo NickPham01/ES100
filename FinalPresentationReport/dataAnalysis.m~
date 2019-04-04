@@ -1,0 +1,139 @@
+%% Plot the Swap Time Test
+
+clear;
+clc;
+
+% Enter the data:
+% data = [participant, prototype, top, ehx, boss]
+data = [1, 6.0, 23.0, 18.3, 17.3;
+        1, 4.1, 15.0, 15.5, 14.6;
+        1, 3.2, 13.3, 13.0, 11.9;
+        2, 5.6, 16.0, 15.4, 16.0;
+        2, 5.1, 13.6, 16.4, 11.5;
+        2, 5.1, 11.4, 11.0, 12.6;
+        3, 3.5, 10.7,  9.4,  7.3;
+        3, 3.5, 11.3,  5.9,  8.2;
+        3, 3.6,  8.7,  6.5,  5.5;
+        4, 4.6, 15.2,  9.8, 15.8;
+        4, 3.4, 10.8, 10.5, 12.2;
+        4, 3.2, 11.5,  9.8, 10.2;
+        5, 4.2, 24.0, 18.8, 19.6;
+        5, 4.4, 18.2, 16.4, 19.2;
+        5, 5.2, 23.3, 18.6, 16.8;
+        6, 4.3, 17.6, 11.2, 18.6;
+        6, 4.3, 18.4, 13.9, 16.5;
+        6, 3.2, 15.4, 12.5, 16.4]
+    
+% Find the mean and standard deviation by participant
+    
+data_avg = mean(data(1:3,:))
+data_std = std(data(1:3,:))
+
+for i = 1:size(data,1)/3 -1
+    participant_data = data(3*i+1:3*i+3,:)
+    data_avg = [data_avg; mean(participant_data)]
+    data_std = [data_std; std(participant_data)]
+end
+
+% plot these as a multiple bar graph
+figure('Color',[0 0 0],'InvertHardcopy','off');
+set(gcf,'units','normalized','outerposition',[0 0 1 1]);
+%figure(1);clf;
+barH = bar(data_avg(:,2:end));
+ax = gca;
+
+
+hold on
+for i = 1:4
+    errH = errorbar(data_avg(:,1) - 0.45 + (i*0.18), data_avg(:, 1+i), data_std(:, 1+i));
+    %colormap = lines(i);
+    %errH.Color = colormap(i,:);
+    errH.LineStyle = 'none';
+    errH.Color = [0 0 0];
+end
+hold off
+
+set(gca, 'Color', [0 0 0]);
+
+font.size = 36;
+font.wt = 'bold'
+font.color = 'w'
+font.name = 'Helvetica'
+
+ax.TitleFontSizeMultiplier = 2
+ax.XColor = [1 1 1]
+ax.YColor = [1 1 1]
+ax.XAxis.FontSize = font.size
+ax.YAxis.FontSize = font.size
+ax.XAxisLocation = 'bottom'
+ax.YAxisLocation = 'left'
+
+H_leg = legend(barH, {'Hot Swapping Solution', 'Pedal: Top Mounted Jacks', 'Pedal: Wide Side Mounted Jacks', 'Pedal: Compact Size Mounted Jacks'}, ...
+    'FontSize', 20, 'TextColor', font.color, 'FontWeight', font.wt, 'Location', 'north')
+legend boxoff
+
+xlabel('Participant', ...
+    'FontSize', font.size, 'FontWeight', font.wt, 'Color', font.color, 'FontName', font.name)
+ylabel('Average Time (s)', ...
+    'FontSize', font.size, 'FontWeight', font.wt, 'Color', font.color, 'FontName', font.name)
+title({'Comparison of Swap Time by Participant', 'for 4 Devices'}, ...
+    'FontSize', font.size, 'FontWeight', font.wt, 'Color', font.color, 'FontName', font.name)
+
+%% Find the average improvement for each participant
+
+% average savings per pedal per participant
+savings = (data_avg(:,3:end) - data_avg(:,2))./data_avg(:,3:end)
+
+% now average these together weighted by the inverse of the standard
+% deviation (so values with lower standard deviation will be counted more
+% than values with higher standard deviation)
+savings_std = std(savings)
+
+weights = (1./(savings_std.^2)) .* (1./( sum(sum( 1./(savings_std.^2) )) ))
+savings_weightedavg = sum(sum(savings .* weights))
+
+savings_weightedavg_std = sum(sum((weights) .* (savings_std)))
+
+%% Make the same plot as above but with white background
+
+fig = gcf
+fig.Color = [1 1 1]
+set(gca, 'Color', [1 1 1]);
+
+font.size = 18;
+font.wt = 'bold';
+font.color = 'k';
+font.name = 'Helvetica';
+
+ax.TitleFontSizeMultiplier = 2;
+ax.XColor = [0 0 0];
+ax.YColor = [0 0 0];
+ax.XAxis.FontSize   = font.size;
+ax.YAxis.FontSize   = font.size;
+ax.XLabel.Color     = font.color;
+ax.XLabel.FontSize  = font.size;
+ax.YLabel.FontSize  = font.size;
+ax.YLabel.Color     = font.color;
+ax.Title.Color      = font.color;
+ax.Title.FontSize   = font.size;
+
+H_leg.FontSize     = font.size - 8;
+H_leg.TextColor    = [0 0 0];
+H_leg.FontWeight   = 'normal';
+
+set(gcf,'units','normalized','outerposition',[0.55 -0.75 0.45 0.5]);
+
+saveas(g
+
+
+
+
+
+
+
+
+
+
+
+
+

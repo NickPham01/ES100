@@ -1,7 +1,7 @@
-\documentclass{report}
+\documentclass[11pt]{report}
 
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx,caption}
+\usepackage{graphicx,caption,setspace}
 \usepackage{subcaption}
 \usepackage{geometry}   \geometry{margin=1.25in}
 \usepackage{amsmath}
@@ -9,11 +9,17 @@
 \usepackage{float}
 \usepackage{longtable}
 \usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{pifont}
 
 \usepackage{natbib}
 \usepackage[nonumberlist]{glossaries}
 \makeglossaries
 \loadglsentries{glossary}
+
+\captionsetup{font={stretch=1.1}}
+% \renewcommand{\baselinestretch}{1.2}
+\setstretch{1.25}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -24,7 +30,7 @@
 \fancyfoot[R]{Chapter \thechapter}
 \fancyfoot[L]{Nicholas Pham}
 
-\renewcommand{\baselinestretch}{1.2}
+
 
 \newcommand{\insertimage}[4] {
 	\begin{figure}[!htbp]
@@ -35,6 +41,9 @@
 		\label{#4}
 	\end{figure}
 }
+
+\newcommand{\cmark}{\ding{51}}	% check mark
+\newcommand{\xmark}{\ding{55}}	% x mark
 
 
 \begin{document}
@@ -52,10 +61,8 @@
 
 	\pagestyle{fancy}
 
-	\chapter{Introduction}
+	\chapter{Introduction}	% combine the intro and problem definition into one chapter
 	\input{chapters/Introduction}
-
-	\chapter{Problem Definition}
 	\input{chapters/ProblemDefinition}
 
 	\chapter{System Design}

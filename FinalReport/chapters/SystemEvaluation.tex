@@ -1,9 +1,64 @@
 \section{Functional Improvements}
+
+The first main category of system evaluation measurements are related to determining if this solution was successful in solving the problem: did it actually allow guitarists to more easily and quickly test out guitar effects pedals?  
+
 	\subsection{Swap Time}
 		\subsubsection{Experiment Description}
+		The most important measurement related to this is comparing the time required for users to swap between pedals.  This experiment used to measure this difference was designed to simulate the expected operating conditions of the system.  In this case, each participant conducted four tasks, and the time required to complete each of these tasks was recorded.  For each task, the user began wearing a guitar with its output connected through a single guitar pedal.  They were instructed to safely remove this guitar pedal from the signal chain, and set it down in a defined location.  Then they were instructed to touch a second location before re-inserted the pedal back into the signal chain.
+
+
+		\insertimage{0.8}{PR5Images/SwapTimeSetup.png}{Swap Time Experimental Setup.  Top: Starting and Ending position, with guitar pedal fully connected.  Bottom: Unplugged position, with guitar pedal disconnected and placed in the blue box in the upper left.  In this experiment, the subjects started in the fully connected position, moved to the unplugged position, touched the blue rectangle on left with one hand and then returned to the fully connected position.  This imitates the process of swapping between two guitar pedals.}{fig:swaptime_setup}
+
+
+		\begin{table}
+		\begin{center}
+		\begin{tabular}{ |c|p{8cm}| }
+		\hline
+		Type Name & Description \\ 
+		\hline
+		$A$ & Standard sized pedal with side mounted jacks (similar to a Boss Compact pedal) \\
+		$B$ & Standard sized pedal with top mounted jacks (similar to the EarthQuaker Devices Bit Commander) \\
+		$C$ & Wide pedal with side mounted jacks (similar to Electro Harmonix B9) \\
+		\hline
+		\end{tabular}
+		\caption{Set of three pedals used to represent the range of available products in the swap time test.}
+		\label{tab:swaptest_pedals} 
+		\end{center}
+		\end{table}
+
+
+		The first three tasks were controls, each conducted with a different standard guitar effects pedal.  These test pedals were chosen to represent some of the breadth of products available on the market (see Table \ref{tab:swaptest_pedals} for details).  The guitar pedal was connected in the standard way, with an instrument cable connected from the output of the guitar to the input of the pedal.  The output of the pedal was connected to the input of a guitar amplifier.  The pedal was powered with a standard $9VDC$ wall wart adapter.  To begin, the participant started with their hands on the guitar.  The pedal was set on a table of standard height to mimic the environment of testing pedals in a guitar store, instead of on the floor.  After a countdown to let the participant know when to start, the timer was started.  From here, the participant disconnected the pedal, placed it in a rectangle marked on the table (shown in Figure \ref{fig:swaptime_setup} as the blue rectangle on the right), then proceeded to touch the second marker (the blue square on the left of the same image).  This simulated the need for a user to grab a second pedal without the experiment actually requiring the use of two separate but identical pedals for each task.  After touching this marker, the participant returned to the larger blue rectangle to grab the pedal and re-insert it into the signal chain, making the required input, output, and power connections.  At this point, once, the participant placed their hands back on the guitar as if to continue playing to test the sound of this "new" pedal, the timer was stopped and the time recorded.  This measurement represents the time required to swap between pedals in the standard manual method.
+
+		The second test tests the hypothesis that the solution decreased the swapping time.  This time the device was sitting on the table, with the instrument cable from the guitar plugged into its master input, and its master output connected to the input of a guitar amplifier.  One of the pedals used for the control was connected to a plate (only one needed to be used for these tests because the mechanics of the swap event is the same regardless of which pedal is being used).  Before the task began, this pedal and plate are inserted into one of the hot-swap connector receiving units.  Again, the participant began with their hands on the guitar and followed the same sequence of steps as before, but this time instead of needing to unplug all of the cables, they needed only remove the plate from the receiver before placing it in the blue rectangle.  During the second half of the task, they again needed only insert the plate into the receiver rather than plugging in cables.
+
 		\subsubsection{Results}
+		Six participants were used for this experiment, and each participant performed three trials of each task.  Figure \ref{fig:swaptime_data} shows the averages and standard deviations for each device tested, by participant.  Visually, the plot indicates that there was a clear improvement in the hot swapping solution over all of the other pedals.  It also appears that there were larger variations in the recorded times for the pedals than for the hot swapping solution.  This might be because of the simplicity of the hot swapping solution.  There is little place for error in inserting a plate into the hot swapping receiver, while when plugging in a pedal participants sometimes misaligned the plugs and jacks or even dropped the cable off the table, which is a realistic occurrence.
+
+		\insertimage{0.8}{FinalImages/SwapTime_data.png}{Swap time test data.  Each participant performed the swapping test with three different standard effects pedals (shown in orange, yellow, and purple) as well as with the solution detailed in this report (shown in blue).  The participants performed each test three times, and the average time is shown per participant with standard deviation bars included.}{fig:swaptime_data}
+
 		\subsubsection{Analysis}
+		In order to determine if the measurements show success or failure of the solution to meet the design requirements, this data must be synthesized into a single value.  First, the measured times must be converted to a percent time savings by dividing the difference in time between using the hot swapping solution and a standard plugging method by the latter time as a reference:
+
+		$$ r = \% \text{ Reduction} = \frac{t_\text{standard} - t_\text{solution}}{t_\text{standard}} $$
+
+		These data sets are paired by participant, so the percent reduction in time must be calculated for each participant and for each standard pedal tested compared to the participant's time for the hot swapping solution.
+
+		Combining these values requires some sort of averaging, but taking a simple average would not be ideal, as each set of measurements has a different associated standard deviation.  To minimize the variance in the final value, inverse variance weighting was used in taking this average, whereby data points with lower standard deviation are weighted stronger than data points with higher standard deviation.  The weight $w$ for a certain data point $k$ with standard deviation $\sigma$ is given by
+
+		$$ w_k = \frac{1}{\sigma^2} \left( \sum_i \frac{1}{\sigma^2} \right)^{-1} $$
+
+		Then each time reduction data point $r_k$ is weighted by its associated weight and summed to get the average reduction $\overline{R}$:
+
+		$$ \overline{R} = \sum_i r_i w_i $$
+
+		Using this inverse variance weighting, the data indicates that the hot swapping solution has a 65\% time improvement ($\sigma = 8.0\%$) over the standard method.  While this fails to meet the design requirement, which called for an 80\% improvement, it indicates that this solution method shows promise.
+
+		The swap time test provided a clue as to a direction for further improvement.  Many participants had a hard time get the plate to mechanically align with the receiver, which increased the measured time for the solution.  Although sliding one edge in place then letting the rest of the plate fall flat into the receiver is an effective method, this was not discovered by most participants on their own, and most attempted to keep the plate parallel to the table as they inserted it.  A mechanical redesign of the receiver body to include features for guiding the plate into the correct position, including curved or slanted walls instead of right angles might help alleviate this issue and allow the hot swapping method to meet or exceed the 80\% goal.
+
 	\subsection{Compatibility}
+
+		Because of the impracticality of physically testing the solution with many products, this compatibility requirement was designed for during the design phase of the project and thus no tests were conducted in this area.
+
 \section{Signal Quality Verifications}
 
 The second main category of system verification measurements are related to maintaining the same signal integrity as if the guitar were connected directly to the amplifier using an instrument cable.  This allows users to make objective and unbiased comparisons between the products being tested.
@@ -22,13 +77,13 @@ The second main category of system verification measurements are related to main
 
 		\begin{figure}[!htbp]
 			\centering
-			\begin{subfigure}{0.66\textwidth}
+			\begin{subfigure}{0.6\textwidth}
 				\includegraphics[width = \textwidth]{FinalImages/NF_direct.png}
 				\caption{\emph{Direct} routing noise floor measurement output.}
 				\label{fig:NF_AP_direct}
 			\end{subfigure}
 			\vspace{0.5in}
-			\begin{subfigure}{0.66\textwidth}
+			\begin{subfigure}{0.6\textwidth}
 				\includegraphics[width = \textwidth]{FinalImages/NF_sum.png}
 				\caption{\emph{Summed} routing noise floor measurement output.}
 				\label{fig:NF_AP_sum}
@@ -104,11 +159,9 @@ The second main category of system verification measurements are related to main
 		The switching time was measured using the single-shot trigger function of an oscilloscope.  Again the AP was used to output audio signals, in this case sinusoids on both of the channels.  The device output was switched between a direct signal connection to one of the AP outputs and the sum of the two AP outputs.  The trigger level was set higher than the maximum signal level of a single output but below the maximum amplitude of the summed signal.  When the relay switched the output from the single signal to the sum, the oscilloscope triggered and stopped.  The cursors were then used to measure the time difference between when the first signal is lost and begins to float back to ground and when the relay contact stops bouncing and makes solid contact to the second signal.  To capture the relay switching in the opposite direction, one of the AP output signals was inverted so that when the two AP outputs were summed, they canceled, resulting in a lower output.  This was used as the "first" signal, and the trigger level was set to trigger when the relay switched to a single sinusoid.
 
 		\subsubsection{Results}
-		Figure 
+		Figure \ref{fig:Switchscope} shows one of the oscilloscope traces used to record the switching time measurements.  Twenty trials of each switching direction were performed and their times recorded.
 
-		\insertimage{0.8}{FinalImages/Switching_oscope.png}{Example oscilloscope trace showing the }
-
-
+		\insertimage{0.95}{FinalImages/switch2sum.png}{Example oscilloscope trace showing a relay switching event.  This particular capture involved switching from a single signal to a summed signal.  As can be seen at the far left (to the left of cursor $a$), the signal is a sinusoid with an amplitude around $0dBu$.  To the right of cursor $b$ shows the output after the signal switched to the summed signal (now with amplitude $+6dBu$).  In between cursors $a$ and $b$ is the relay switching event.  When the contact blade is disconnected at time $a$, the output floats back to ground for approximately $350\mu s$.  After this, the relay blade begins to connect with the other contact, and the other summed output can begin to be seen.  However it takes a full $\Delta t = b - a = 519 \mu s$ before the bouncing appears to stop.  In this trial, the $519 \mu s$ was recorded as the switching time.}{fig:Switchscope}
 
 		\subsubsection{Analysis}
 

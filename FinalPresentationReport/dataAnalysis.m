@@ -49,7 +49,7 @@ for i = 1:4
     %colormap = lines(i);
     %errH.Color = colormap(i,:);
     errH.LineStyle = 'none';
-    errH.Color = [1 1 1];
+    errH.Color = [0 0 0];
 end
 hold off
 
@@ -68,7 +68,7 @@ ax.YAxis.FontSize = font.size
 ax.XAxisLocation = 'bottom'
 ax.YAxisLocation = 'left'
 
-legend(barH, {'Hot Swapping Solution', 'Pedal: Top Mounted Jacks', 'Pedal: Wide Side Mounted Jacks', 'Pedal: Compact Size Mounted Jacks'}, ...
+H_leg = legend(barH, {'Hot Swapping Solution', 'Pedal: Top Mounted Jacks', 'Pedal: Wide Side Mounted Jacks', 'Pedal: Compact Size Mounted Jacks'}, ...
     'FontSize', 20, 'TextColor', font.color, 'FontWeight', font.wt, 'Location', 'north')
 legend boxoff
 
@@ -94,7 +94,39 @@ savings_weightedavg = sum(sum(savings .* weights))
 
 savings_weightedavg_std = sum(sum((weights) .* (savings_std)))
 
-%% Show results of noise floor measurements:
+%% Make the same plot as above but with white background
+
+fig = gcf
+fig.Color = [1 1 1]
+set(gca, 'Color', [1 1 1]);
+
+font.size = 18;
+font.wt = 'bold';
+font.color = 'k';
+font.name = 'Helvetica';
+
+ax.TitleFontSizeMultiplier = 2;
+ax.XColor = [0 0 0];
+ax.YColor = [0 0 0];
+ax.XAxis.FontSize   = font.size;
+ax.YAxis.FontSize   = font.size;
+ax.XLabel.Color     = font.color;
+ax.XLabel.FontSize  = font.size;
+ax.YLabel.FontSize  = font.size;
+ax.YLabel.Color     = font.color;
+ax.Title.Color      = font.color;
+ax.Title.FontSize   = font.size;
+
+H_leg.FontSize     = font.size - 8;
+H_leg.TextColor    = [0 0 0];
+H_leg.FontWeight   = 'normal';
+
+set(gcf,'units','normalized','outerposition',[0.55 -0.75 0.45 0.5]);
+
+saveas(gcf, '../FinalReport/FinalImages/SwapTime_data.png')
+
+
+
 
 
 

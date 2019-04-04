@@ -92,11 +92,13 @@ bar(x, 'stacked')
 xlabel("Company ID Number")
 ylabel("Number of Products Available")
 title({"Pedals Available by Company,", "Subdivided Vertically by Enclosure Type"})
-saveas(3, 'PR4Images/PedalsAvailable.jpg')
+%saveas(3, 'PR4Images/PedalsAvailable.jpg')
 
 
 
 %% How many pedals fit using other metrics?
+crimson = [hex2dec('C9')/hex2dec('FF') 0 hex2dec('16')/hex2dec('FF')];
+
 %{
     - does the supply voltage contain 9V, 12V, 18V?
     - does the pedal have only one input and output
@@ -112,7 +114,8 @@ saveas(3, 'PR4Images/PedalsAvailable.jpg')
 enclosureDimSorted = sortrows(enclosures, 'diag');
 
 figure(3); clf;
-xlabel("Distance between diagonal screw holes (in)")
+xlabel("Distance between diagonal screw holes, d (in)")
+
 
 
 yyaxis left;
@@ -123,23 +126,27 @@ ylabel("Number of Products Available at Given Dimension")
 yyaxis right;
 % line graph showing percent of the market covered by supporting this sized pedal
 lineplot = plot(enclosureDimSorted.diag(~isnan(enclosureDimSorted.x)), cumsum(enclosureDimSorted.ProductCount(~isnan(enclosureDimSorted.x))) / sum(enclosureDimSorted.ProductCount(~isnan(enclosureDimSorted.x))));
-ylabel("Ratio of Market Coverage by Supporting Up to This Size Enclosure")
+ylabel("Ratio of Market Coverage (Cumulative)")
+
+lineplot.Color = crimson;
+ax = gca;
+ax.YAxis(2).Color = crimson;
 
 % Add reference lines to show where requirements are
-hline95 = refline(0, 0.95); hline95.LineStyle = ':'; hline95.Color = 'red';
-hline80 = refline(0, 0.80); hline80.LineStyle = ':'; hline95.Color = 'green';
+%hline95 = refline(0, 0.95); hline95.LineStyle = ':'; hline95.Color = 'red';
+hline80 = refline(0, 0.80); hline80.LineStyle = '--'; hline80.Color = 'green';
 
 % add reference shading to show what is covered by current prototype
-prototypeMaxDim = 5.15;
+prototypeMaxDim = 6.5;
 xlims = xlim;
 ylims = ylim;
 X = [xlims(1), prototypeMaxDim, prototypeMaxDim, xlims(1)];
 Y = [ylims(1), ylims(1), ylims(2), ylims(2)];
-prototypeCoverage = patch(X, Y, 'blue', 'EdgeColor', 'none')
+prototypeCoverage = patch(X, Y, crimson, 'EdgeColor', 'none')
 alpha(prototypeCoverage, 0.1);
 
-legend([scatterplot, lineplot, hline95, hline80, prototypeCoverage], ...
-    ["(Popularity, Size) datapoint", {'Ratio of Pedals with $d_{max} \leq d$'}, {'$95\%$ Compatibility Goal'}, {'$80\%$ Compatibility Goal'}, "Range of Pedals Supported by Prototype"], ...
+legend([scatterplot, lineplot, hline80, prototypeCoverage], ...
+    ["(Popularity, Size) datapoint", {'Ratio of Pedals with $d_{max} \leq d$'}, {'$80\%$ Compatibility Goal'}, "Range of Pedals Supported by Prototype"], ...
     'Location', 'East', 'interpreter', 'latex')
 
 
