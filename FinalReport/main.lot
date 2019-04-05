@@ -1,10 +1,13 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Summary of Current Guitar Effects Pedal Auditioning Methods. A good solution system would combine the benefits of both methods.\relax }}{13}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Summary of Design Requirements.\relax }}{15}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Summary of Current Guitar Effects Pedal Auditioning Methods. A good solution system would combine the benefits of both methods.\relax }}{14}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Summary of Design Requirements.\relax }}{16}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces List of guitar effects manufacturers and their associated ID numbers.\relax }}{22}
+\contentsline {table}{\numberline {2.1}{\ignorespaces List of guitar effects manufacturers and their associated ID numbers.\relax }}{23}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Considerations used to select particular relay device.\relax }}{37}
+\contentsline {table}{\numberline {2.3}{\ignorespaces List of the $2^3$ possible output signals for each routing module.\relax }}{41}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Summary of analog supply voltage regulation options.\relax }}{45}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Routing User Interface FSM transition table. The table describes the states for the $a$ and $b$ switches, and with the $c$ and $d$ side in parenthesis.\relax }}{52}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Set of three pedals used to represent the range of available products in the swap time test.\relax }}{28}
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Set of three pedals used to represent the range of available products in the swap time test.\relax }}{63}
 \addvspace {10\p@ }

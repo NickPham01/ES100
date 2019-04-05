@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6980) (preloaded format=pdflatex 2019.2.20)  4 APR 2019 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6980) (preloaded format=pdflatex 2019.2.20)  5 APR 2019 11:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -232,28 +232,77 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 (/home/npham01/.miktex/texmfs/install/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(/home/npham01/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip52
-\bibsep=\skip53
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count115
-)
-(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2018/07/23 v4.41 (NLCT)
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (/home/npham01/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
+\c@r@tfl@t=\count115
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box34
+\rot@mess@toks=\toks26
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count116
+\calc@Bcount=\count117
+\calc@Adimen=\dimen131
+\calc@Bdimen=\dimen132
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count118
+\calc@Cskip=\skip56
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+\AM@pagewidth=\dimen133
+\AM@pageheight=\dimen134
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box35
+\AM@global@opts=\toks27
+\AM@toc@title=\toks28
+\c@AM@survey=\count119
+\AM@templatesizebox=\box36
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count120
+)
+(/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2018/07/23 v4.41 (NLCT)
+
 (/home/npham01/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/home/npham01/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
 (/home/npham01/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count116
+\XKV@depth=\count121
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/home/npham01/.miktex/texmfs/install/tex/latex/mfirstuc/mfirstuc.sty
@@ -261,10 +310,10 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
 (/home/npham01/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count117
+\etb@tempcnta=\count122
 )
-\@glsmfirst=\toks28
-\@glsmrest=\toks29
+\@glsmfirst=\toks31
+\@glsmrest=\toks32
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -277,7 +326,7 @@ Package: datatool-base 2018/04/16 v2.30 (NLCT)
 
 (/home/npham01/.miktex/texmfs/install/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count118
+\c@su@anzahl=\count123
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2018/04/16 v2.30 (NLCT)
@@ -288,19 +337,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count119
+\actioncount=\count124
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count120
-\FP@xia=\count121
-\FP@xib=\count122
-\FP@xfa=\count123
-\FP@xfb=\count124
-\FP@rega=\count125
-\FP@regb=\count126
-\FP@regs=\count127
-\FP@times=\count128
+\FP@xs=\count125
+\FP@xia=\count126
+\FP@xib=\count127
+\FP@xfa=\count128
+\FP@xfb=\count129
+\FP@rega=\count130
+\FP@regb=\count131
+\FP@regs=\count132
+\FP@times=\count133
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -319,7 +368,7 @@ Package: fp-pas 1994/08/29
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count129
+\FPseed=\count134
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -330,27 +379,27 @@ Package: fp-upn 1996/10/21
 (/home/npham01/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks30
-\@dtl@tmpcount=\count130
-\dtl@tmplength=\skip54
-\dtl@sortresult=\count131
-\@dtl@numgrpsepcount=\count132
-\@dtl@datatype=\count133
-\dtl@codeA=\count134
-\dtl@codeB=\count135
-\@dtl@foreach@level=\count136
+\@dtl@toks=\toks33
+\@dtl@tmpcount=\count135
+\dtl@tmplength=\skip59
+\dtl@sortresult=\count136
+\@dtl@numgrpsepcount=\count137
+\@dtl@datatype=\count138
+\dtl@codeA=\count139
+\dtl@codeB=\count140
+\@dtl@foreach@level=\count141
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries-comp
 atible-307.sty
 Package: glossaries-compatible-307 2018/07/23 v4.41 (NLCT)
 )
-\gls@level=\count137
-\@gls@tmpb=\toks31
-\gls@tmplen=\skip55
-\glskeylisttok=\toks32
-\glslabeltok=\toks33
-\glsshorttok=\toks34
-\glslongtok=\toks35
+\gls@level=\count142
+\@gls@tmpb=\toks34
+\gls@tmplen=\skip60
+\glskeylisttok=\toks35
+\glslabeltok=\toks36
+\glsshorttok=\toks37
+\glslongtok=\toks38
 
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-hype
 rnav.sty
@@ -359,13 +408,13 @@ Package: glossary-hypernav 2018/07/23 v4.41 (NLCT)
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-list
 .sty
 Package: glossary-list 2018/07/23 v4.41 (NLCT)
-\glslistdottedwidth=\skip56
+\glslistdottedwidth=\skip61
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-long
 .sty
 Package: glossary-long 2018/07/23 v4.41 (NLCT)
-\glsdescwidth=\skip57
-\glspagelistwidth=\skip58
+\glsdescwidth=\skip62
+\glspagelistwidth=\skip63
 )
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-supe
 r.sty
@@ -373,90 +422,97 @@ Package: glossary-super 2018/07/23 v4.41 (NLCT)
 
 (/home/npham01/.miktex/texmfs/install/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count138
-\ST@wd=\dimen131
-\ST@rightskip=\skip59
-\ST@leftskip=\skip60
-\ST@parfillskip=\skip61
-\ST@pageleft=\dimen132
-\ST@headht=\dimen133
-\ST@tailht=\dimen134
-\ST@pagesofar=\dimen135
-\ST@pboxht=\dimen136
-\ST@lineht=\dimen137
-\ST@stretchht=\dimen138
-\ST@prevht=\dimen139
-\ST@toadd=\dimen140
-\ST@dimen=\dimen141
-\ST@pbox=\box34
+\c@tracingst=\count143
+\ST@wd=\dimen135
+\ST@rightskip=\skip64
+\ST@leftskip=\skip65
+\ST@parfillskip=\skip66
+\ST@pageleft=\dimen136
+\ST@headht=\dimen137
+\ST@tailht=\dimen138
+\ST@pagesofar=\dimen139
+\ST@pboxht=\dimen140
+\ST@lineht=\dimen141
+\ST@stretchht=\dimen142
+\ST@prevht=\dimen143
+\ST@toadd=\dimen144
+\ST@dimen=\dimen145
+\ST@pbox=\box37
 ))
 (/home/npham01/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-tree
 .sty
 Package: glossary-tree 2018/07/23 v4.41 (NLCT)
-\glstreeindent=\skip62
+\glstreeindent=\skip67
 ))
 \glswrite=\write3
 \glo@main@file=\write4
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 17.
+Package glossaries Info: Writing glossary file main.glo on input line 19.
  (glossary.tex)
 (/home/npham01/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip63
-\f@nch@O@elh=\skip64
-\f@nch@O@erh=\skip65
-\f@nch@O@olh=\skip66
-\f@nch@O@orh=\skip67
-\f@nch@O@elf=\skip68
-\f@nch@O@erf=\skip69
-\f@nch@O@olf=\skip70
-\f@nch@O@orf=\skip71
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
 )
-(main.aux)
+(main.aux
+
+LaTeX Warning: Label `fig:NF_AP_sum' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:NF_AP_sum' multiply defined.
+
+
+LaTeX Warning: Label `fig:NF_AP_sum' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:NF_AP_sum' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
  (/home/npham01/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen142
-\scratchbox=\box35
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen143
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count144
+\scratchdimen=\dimen146
+\scratchbox=\box38
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen147
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks40
 ) (/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 (/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/home/npham01/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 (/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -492,6 +548,7 @@ Package caption Info: longtable package is loaded.
 (/home/npham01/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -512,7 +569,7 @@ Package caption Info: End \AtBeginDocument code.
 * \oddsidemargin=18.0675pt
 * \evensidemargin=18.0675pt
 * \topmargin=-18.9325pt
-* \headheight=12.0pt
+* \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -529,6 +586,15 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\AtBeginShipoutBox=\box39
+(/home/npham01/.miktex/texmfs/install/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 (titlepage.tex
 <FinalImages/Harvard_shield-University.png, id=1, 1003.75pt x 1186.4325pt>
 File: FinalImages/Harvard_shield-University.png Graphic file (type png)
@@ -541,18 +607,14 @@ ut line 18.
 \openout3 = `main.ist'.
 
 {/home/npham01/.miktex/texmfs/data/pdftex/config/pdftex.map} <./FinalImages/Har
-vard_shield-University.png>]) (abstract.tex)
-Overfull \hbox (10.66666pt too wide) in paragraph at lines 13--55
-\OT1/cmr/m/n/10.95 ullamco laboris nisi ut aliquip ex ea commodo consequat. Dui
-s aute irure dolor in reprehenderit
- []
-
-[1] (main.toc
+vard_shield-University.png>]) (abstract.tex) [1] (main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
- (/home/npham01/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+
+(/home/npham01/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
 (/home/npham01/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
@@ -564,29 +626,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [3]
 (main.lof [4
 
-] [5])
+] [5]
+Overfull \hbox (21.29237pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/m/n/10.95 outputs, and the hot swapping pogo pins are used for mixed 
+signal communication. 
+ []
+
+
+Overfull \hbox (13.28131pt too wide) in paragraph at lines 32--32
+ [][] []\OT1/cmr/m/n/10.95 Full scale CAD assembly of device. The receiver and 
+user interface subassemblies 
+ []
+
+
+Overfull \hbox (2.08925pt too wide) in paragraph at lines 33--33
+ [][] []\OT1/cmr/m/n/10.95 The final product (on a crowded table). This was use
+d for a live demonstration 
+ []
+
+[6] [7])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [6] [7] (main.lot)
+ [8] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [8
+ [9
 
 ]
 Chapter 1.
-(chapters/Introduction.tex [9
+(chapters/Introduction.tex [10
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]
-<PR2Images/BossDisplay.jpg, id=45, 451.6875pt x 338.76563pt>
+] [11]
+<PR2Images/BossDisplay.jpg, id=49, 451.6875pt x 338.76563pt>
 File: PR2Images/BossDisplay.jpg Graphic file (type jpg)
 <use PR2Images/BossDisplay.jpg>
 Package pdftex.def Info: PR2Images/BossDisplay.jpg  used on input line 19.
@@ -606,8 +679,8 @@ Underfull \hbox (badness 1496) in paragraph at lines 19--19
 \OT1/cmr/m/n/10.95 such as Guitar Center. This particular
  []
 
-[11 <./PR2Images/BossDisplay.jpg>]
-<PR2Images/GuitarCenterBoard.jpg, id=49, 4047.12pt x 3035.34pt>
+[12 <./PR2Images/BossDisplay.jpg>]
+<PR2Images/GuitarCenterBoard.jpg, id=54, 4047.12pt x 3035.34pt>
 File: PR2Images/GuitarCenterBoard.jpg Graphic file (type jpg)
 <use PR2Images/GuitarCenterBoard.jpg>
 Package pdftex.def Info: PR2Images/GuitarCenterBoard.jpg  used on input line 25
@@ -644,7 +717,7 @@ Overfull \hbox (10.0437pt too wide) in paragraph at lines 11--33
  [] 
  []
 
-[12 <./PR2Images/GuitarCenterBoard.jpg>] [13] [14]
+[13 <./PR2Images/GuitarCenterBoard.jpg>] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []\OT1/cmr/m/n/10.95 Materials cost for each
  []
@@ -654,60 +727,375 @@ Underfull \hbox (badness 2334) in paragraph at lines 73--74
 []\OT1/cmr/m/n/10.95 Transient added by system
  []
 
-) [15]
+) [16]
 Chapter 2.
-(chapters/SystemDesign.tex [16
+(chapters/SystemDesign.tex [17
 
 ]
-<FinalImages/SystemBlock_white.jpg, id=72, 1782.66pt x 914.41624pt>
+<FinalImages/SystemBlock_white.jpg, id=75, 1782.66pt x 914.41624pt>
 File: FinalImages/SystemBlock_white.jpg Graphic file (type jpg)
 <use FinalImages/SystemBlock_white.jpg>
 Package pdftex.def Info: FinalImages/SystemBlock_white.jpg  used on input line 
 15.
 (pdftex.def)             Requested size: 411.93768pt x 211.30196pt.
-<FinalImages/ModuleBlock_white.jpg, id=73, 1792.6975pt x 739.76375pt>
+<FinalImages/ModuleBlock_white.jpg, id=76, 1792.6975pt x 739.76375pt>
 File: FinalImages/ModuleBlock_white.jpg Graphic file (type jpg)
 <use FinalImages/ModuleBlock_white.jpg>
 Package pdftex.def Info: FinalImages/ModuleBlock_white.jpg  used on input line 
 17.
 (pdftex.def)             Requested size: 411.93768pt x 169.98404pt.
- [17] [18 <./FinalImages/SystemBlock_white.jpg>] [19 <./FinalImages/ModuleBlock
-_white.jpg>]
-Overfull \hbox (18.64996pt too wide) in paragraph at lines 32--34
-[]\OT1/cmr/m/n/24.88 INSERT IMAGE OF CORNER BRACKET
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-
- []
-
-[20]
-Overfull \hbox (2.0354pt too wide) in paragraph at lines 41--42
+ (chapters/design/universaladaptor.tex [18]
+[19 <./FinalImages/SystemBlock_white.jpg>] [20 <./FinalImages/ModuleBlock_white
+.jpg>]
+Overfull \hbox (2.0354pt too wide) in paragraph at lines 19--20
 []\OT1/cmr/m/n/10.95 First, the data was broken down by company, and each compa
 ny was assigned a numerical
  []
 
-<PR4Images/PedalsAvailable.jpg, id=88, 572.1375pt x 421.575pt>
+[21]
+<PR4Images/PedalsAvailable.jpg, id=90, 572.1375pt x 421.575pt>
 File: PR4Images/PedalsAvailable.jpg Graphic file (type jpg)
 <use PR4Images/PedalsAvailable.jpg>
-Package pdftex.def Info: PR4Images/PedalsAvailable.jpg  used on input line 45.
+Package pdftex.def Info: PR4Images/PedalsAvailable.jpg  used on input line 22.
 (pdftex.def)             Requested size: 346.89732pt x 255.61008pt.
-<FinalImages/PedalCompatibilityPlot.jpg, id=89, 643.40375pt x 454.69875pt>
+ [22 <./PR4Images/PedalsAvailable.jpg>] [23]
+<FinalImages/PedalCompatibilityPlot.jpg, id=97, 643.40375pt x 454.69875pt>
 File: FinalImages/PedalCompatibilityPlot.jpg Graphic file (type jpg)
 <use FinalImages/PedalCompatibilityPlot.jpg>
 Package pdftex.def Info: FinalImages/PedalCompatibilityPlot.jpg  used on input 
-line 89.
+line 65.
 (pdftex.def)             Requested size: 346.89732pt x 245.159pt.
-) [21 <./PR4Images/PedalsAvailable.jpg>] [22] [23 <./FinalImages/PedalCompatibi
-lityPlot.jpg>] [24]
-Chapter 3.
-(chapters/SystemImplementation.tex) [25
+<PR2Images/PedalBestFit.jpg, id=98, 562.1pt x 421.575pt>
+File: PR2Images/PedalBestFit.jpg Graphic file (type jpg)
+<use PR2Images/PedalBestFit.jpg>
+Package pdftex.def Info: PR2Images/PedalBestFit.jpg  used on input line 67.
+(pdftex.def)             Requested size: 260.17465pt x 195.12976pt.
+ [24 <./FinalImages/PedalCompatibilityPlot.jpg>] [25 <./PR2Images/PedalBestFit.
+jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 
-]
+(/home/npham01/.miktex/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+<PR5Images/PlateALTopViewCAD.png, id=106, 430.0065pt x 514.92375pt>
+File: PR5Images/PlateALTopViewCAD.png Graphic file (type png)
+<use PR5Images/PlateALTopViewCAD.png>
+Package pdftex.def Info: PR5Images/PlateALTopViewCAD.png  used on input line 81
+.
+(pdftex.def)             Requested size: 245.71425pt x 294.2403pt.
+<PR5Images/PlateAsmCAD.png, id=108, 1038.88126pt x 345.08925pt>
+File: PR5Images/PlateAsmCAD.png Graphic file (type png)
+<use PR5Images/PlateAsmCAD.png>
+Package pdftex.def Info: PR5Images/PlateAsmCAD.png  used on input line 86.
+(pdftex.def)             Requested size: 337.86412pt x 112.2264pt.
+)
+(chapters/design/hotswap.tex [26] [27 <./PR5Images/PlateALTopViewCAD.png> <./PR
+5Images/PlateAsmCAD.png>]
+<PR2Images/batteryconn.JPG, id=117, 602.25pt x 602.25pt>
+File: PR2Images/batteryconn.JPG Graphic file (type jpg)
+<use PR2Images/batteryconn.JPG>
+Package pdftex.def Info: PR2Images/batteryconn.JPG  used on input line 9.
+(pdftex.def)             Requested size: 173.44534pt x 173.44418pt.
+<PR2Images/springpin.jpg, id=118, 501.875pt x 282.05376pt>
+File: PR2Images/springpin.jpg Graphic file (type jpg)
+<use PR2Images/springpin.jpg>
+Package pdftex.def Info: PR2Images/springpin.jpg  used on input line 10.
+(pdftex.def)             Requested size: 173.44534pt x 97.47649pt.
+ [28 <./PR2Images/batteryconn.JPG> <./PR2Images/springpin.jpg>]
+
+Package natbib Warning: Citation `MyPedalData' on page 29 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Line6DL4manual' on page 29 undefined on input
+ line 23.
+
+<PR2Images/ParallelPowerSchematic.PNG, id=122, 309.5565pt x 469.15276pt>
+File: PR2Images/ParallelPowerSchematic.PNG Graphic file (type png)
+<use PR2Images/ParallelPowerSchematic.PNG>
+Package pdftex.def Info: PR2Images/ParallelPowerSchematic.PNG  used on input li
+ne 27.
+(pdftex.def)             Requested size: 216.81pt x 328.59796pt.
+[29]
+
+Package natbib Warning: Citation `LM317datasheet' on page 30 undefined on input
+ line 31.
+
+[30 <./PR2Images/ParallelPowerSchematic.PNG>]
+<PR2Images/LM317_typicalapplication.PNG, id=131, 536.60475pt x 310.15875pt>
+File: PR2Images/LM317_typicalapplication.PNG Graphic file (type png)
+<use PR2Images/LM317_typicalapplication.PNG>
+Package pdftex.def Info: PR2Images/LM317_typicalapplication.PNG  used on input 
+line 42.
+(pdftex.def)             Requested size: 346.89732pt x 200.50755pt.
+<PR2Images/AdjustableRegulatorSchematic.PNG, id=132, 413.74574pt x 324.0105pt>
+File: PR2Images/AdjustableRegulatorSchematic.PNG Graphic file (type png)
+<use PR2Images/AdjustableRegulatorSchematic.PNG>
+Package pdftex.def Info: PR2Images/AdjustableRegulatorSchematic.PNG  used on in
+put line 44.
+(pdftex.def)             Requested size: 346.89732pt x 271.6775pt.
+
+
+Package natbib Warning: Citation `NX7002AKdatasheet' on page 31 undefined on in
+put line 46.
+
+[31] [32 <./PR2Images/LM317_typicalapplication.PNG> <./PR2Images/AdjustableRegu
+latorSchematic.PNG>]
+Overfull \hbox (0.45679pt too wide) in paragraph at lines 92--93
+\OT1/cmr/m/n/10.95 To perform the automatic bypassing feature, the receiving si
+de of the hot swapping connector
+ []
+
+[33] [34]
+<PR2Images/GuitarPickupModel.PNG, id=150, 215.00325pt x 257.16075pt>
+File: PR2Images/GuitarPickupModel.PNG Graphic file (type png)
+<use PR2Images/GuitarPickupModel.PNG>
+Package pdftex.def Info: PR2Images/GuitarPickupModel.PNG  used on input line 10
+8.
+(pdftex.def)             Requested size: 173.44534pt x 207.4554pt.
+
+Underfull \hbox (badness 1354) in paragraph at lines 108--108
+\OT1/cmr/m/n/10.95 on the particular pickups. The
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 108--108
+\OT1/cmr/m/n/10.95 potentiometer is either 250k$
+$or
+ []
+
+[35]
+<PR2Images/DiscreteHBridge.png, id=154, 598.235pt x 586.19pt>
+File: PR2Images/DiscreteHBridge.png Graphic file (type png)
+<use PR2Images/DiscreteHBridge.png>
+Package pdftex.def Info: PR2Images/DiscreteHBridge.png  used on input line 138.
+
+(pdftex.def)             Requested size: 260.17465pt x 254.93692pt.
+ [36 <./PR2Images/GuitarPickupModel.PNG>] [37] [38 <./PR2Images/DiscreteHBridge
+.png>]
+
+Package natbib Warning: Citation `L298datasheet' on page 39 undefined on input 
+line 163.
+
+
+Package natbib Warning: Citation `LV8548MCdatasheet' on page 39 undefined on in
+put line 163.
+
+
+Package natbib Warning: Citation `LB1948MCdatasheet' on page 39 undefined on in
+put line 163.
+
+
+Package natbib Warning: Citation `EA2datasheet' on page 39 undefined on input l
+ine 165.
+
+<PR2Images/HBridgeCTRL_Block.PNG, id=167, 703.428pt x 117.43875pt>
+File: PR2Images/HBridgeCTRL_Block.PNG Graphic file (type png)
+<use PR2Images/HBridgeCTRL_Block.PNG>
+Package pdftex.def Info: PR2Images/HBridgeCTRL_Block.PNG  used on input line 16
+7.
+(pdftex.def)             Requested size: 411.93768pt x 68.77574pt.
+[39]
+<PR2Images/ReceiverBlockDiagramMCU.PNG, id=171, 771.48225pt x 352.9185pt>
+File: PR2Images/ReceiverBlockDiagramMCU.PNG Graphic file (type png)
+<use PR2Images/ReceiverBlockDiagramMCU.PNG>
+Package pdftex.def Info: PR2Images/ReceiverBlockDiagramMCU.PNG  used on input l
+ine 173.
+(pdftex.def)             Requested size: 411.93768pt x 188.44064pt.
+) (chapters/design/analogrouting.tex [40 <./PR2Images/HBridgeCTRL_Block.PNG> <.
+/PR2Images/ReceiverBlockDiagramMCU.PNG>]
+Overfull \hbox (9.87575pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 output selector is in essence a three-to-one analog multiple
+xer. The requirement for mechanical
+ []
+
+[41]
+Overfull \hbox (1.61345pt too wide) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10.95 The $\OML/cmm/m/it/10.95 A$ \OT1/cmr/m/n/10.95 and $\OML/c
+mm/m/it/10.95 B$ \OT1/cmr/m/n/10.95 inputs are each connected through a decoupl
+ing capacitor to their respective
+ []
+
+
+Package natbib Warning: Citation `OPA1679IDRdatasheet' on page 42 undefined on 
+input line 43.
+
+<PR4Images/RoutingSchem.PNG, id=180, 1046.10825pt x 304.7385pt>
+File: PR4Images/RoutingSchem.PNG Graphic file (type png)
+<use PR4Images/RoutingSchem.PNG>
+Package pdftex.def Info: PR4Images/RoutingSchem.PNG  used on input line 47.
+(pdftex.def)             Requested size: 614.295pt x 178.95251pt.
+[42]
+
+Package natbib Warning: Citation `datasheet:LRS-150-48' on page 43 undefined on
+ input line 57.
+
+
+Package natbib Warning: Citation `digikey' on page 43 undefined on input line 5
+7.
+
+
+Package natbib Warning: Citation `digikey' on page 43 undefined on input line 5
+7.
+
+[43] [44 <./PR4Images/RoutingSchem.PNG>]
+Underfull \hbox (badness 4441) in paragraph at lines 69--70
+\OT1/cmr/m/n/10.95 current capacity for entire
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 69--70
+\OT1/cmr/m/n/10.95 system. Possible to fix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]\OT1/cmr/m/n/10.95 Potentially expensive for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\OT1/cmr/m/n/10.95 quality supply with the
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 70--71
+\OT1/cmr/m/n/10.95 required high current and
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 71--72
+\OT1/cmr/m/n/10.95 for this application. More
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\OT1/cmr/m/n/10.95 most operating conditions.
+ []
+
+
+Package natbib Warning: Citation `LM317datasheet' on page 45 undefined on input
+ line 82.
+
+
+Package natbib Warning: Citation `LM2931datasheet' on page 45 undefined on inpu
+t line 84.
+
+[45]
+<PR4Images/AVDDregulator.PNG, id=195, 975.04276pt x 327.02174pt>
+File: PR4Images/AVDDregulator.PNG Graphic file (type png)
+<use PR4Images/AVDDregulator.PNG>
+Package pdftex.def Info: PR4Images/AVDDregulator.PNG  used on input line 96.
+(pdftex.def)             Requested size: 433.62001pt x 145.4319pt.
+) (chapters/design/ui.tex [46 <./PR4Images/AVDDregulator.PNG>]
+<PR5Images/UIArrowCloseupCAD.png, id=200, 470.9595pt x 275.22826pt>
+File: PR5Images/UIArrowCloseupCAD.png Graphic file (type png)
+<use PR5Images/UIArrowCloseupCAD.png>
+Package pdftex.def Info: PR5Images/UIArrowCloseupCAD.png  used on input line 10
+.
+(pdftex.def)             Requested size: 346.89732pt x 202.7334pt.
+
+
+Package natbib Warning: Citation `EVQ-22705Rdatasheet' on page 47 undefined on 
+input line 15.
+
+[47 <./PR5Images/UIArrowCloseupCAD.png>]
+<PR4Images/UIOverview.png, id=205, 1791.69376pt x 853.1875pt>
+File: PR4Images/UIOverview.png Graphic file (type png)
+<use PR4Images/UIOverview.png>
+Package pdftex.def Info: PR4Images/UIOverview.png  used on input line 25.
+(pdftex.def)             Requested size: 433.62001pt x 206.47461pt.
+ [48 <./PR4Images/UIOverview.png>]
+<PR5Images/UIAsmCAD.png, id=211, 533.5935pt x 451.6875pt>
+File: PR5Images/UIAsmCAD.png Graphic file (type png)
+<use PR5Images/UIAsmCAD.png>
+Package pdftex.def Info: PR5Images/UIAsmCAD.png  used on input line 36.
+(pdftex.def)             Requested size: 346.89732pt x 293.66231pt.
+<PR4Images/UIarrowlabels.png, id=212, 226.8475pt x 434.62375pt>
+File: PR4Images/UIarrowlabels.png Graphic file (type png)
+<use PR4Images/UIarrowlabels.png>
+Package pdftex.def Info: PR4Images/UIarrowlabels.png  used on input line 47.
+(pdftex.def)             Requested size: 65.04034pt x 124.61182pt.
+
+[49] [50 <./PR5Images/UIAsmCAD.png> <./PR4Images/UIarrowlabels.png>]
+<PR4Images/UIFSM.png, id=221, 880.28876pt x 671.50874pt>
+File: PR4Images/UIFSM.png Graphic file (type png)
+<use PR4Images/UIFSM.png>
+Package pdftex.def Info: PR4Images/UIFSM.png  used on input line 56.
+(pdftex.def)             Requested size: 216.81pt x 165.3869pt.
+ [51 <./PR4Images/UIFSM.png>]
+<PR4Images/LEDconstcurrentdriver.PNG, id=227, 492.03825pt x 361.95226pt>
+File: PR4Images/LEDconstcurrentdriver.PNG Graphic file (type png)
+<use PR4Images/LEDconstcurrentdriver.PNG>
+Package pdftex.def Info: PR4Images/LEDconstcurrentdriver.PNG  used on input lin
+e 105.
+(pdftex.def)             Requested size: 216.81pt x 159.48592pt.
+)) [52] [53 <./PR4Images/LEDconstcurrentdriver.PNG>]
+Chapter 3.
+(chapters/SystemImplementation.tex
+<FinalImages/PrototypeIm.jpg, id=235, 4047.12pt x 3035.34pt>
+File: FinalImages/PrototypeIm.jpg Graphic file (type jpg)
+<use FinalImages/PrototypeIm.jpg>
+Package pdftex.def Info: FinalImages/PrototypeIm.jpg  used on input line 13.
+(pdftex.def)             Requested size: 276.43086pt x 207.30817pt.
+<FinalImages/PrototypewPedal.jpg, id=236, 4047.12pt x 3035.34pt>
+File: FinalImages/PrototypewPedal.jpg Graphic file (type jpg)
+<use FinalImages/PrototypewPedal.jpg>
+Package pdftex.def Info: FinalImages/PrototypewPedal.jpg  used on input line 17
+.
+(pdftex.def)             Requested size: 276.43086pt x 207.30817pt.
+<PR5Images/PCBHierarchy.png, id=237, 1034.86626pt x 755.82375pt>
+File: PR5Images/PCBHierarchy.png Graphic file (type png)
+<use PR5Images/PCBHierarchy.png>
+Package pdftex.def Info: PR5Images/PCBHierarchy.png  used on input line 33.
+(pdftex.def)             Requested size: 173.44534pt x 126.67766pt.
+<PR5Images/PCBs.png, id=238, 578.16pt x 320.19624pt>
+File: PR5Images/PCBs.png Graphic file (type png)
+<use PR5Images/PCBs.png>
+Package pdftex.def Info: PR5Images/PCBs.png  used on input line 34.
+(pdftex.def)             Requested size: 260.17465pt x 144.08698pt.
+ [54
+
+] [55 <./FinalImages/PrototypeIm.jpg> <./FinalImages/PrototypewPedal.jpg>] [56 
+<./PR5Images/PCBHierarchy.png> <./PR5Images/PCBs.png>]
+<PR5Images/MainBoard2D.png, id=251, 1106.9355pt x 346.29375pt>
+File: PR5Images/MainBoard2D.png Graphic file (type png)
+<use PR5Images/MainBoard2D.png>
+Package pdftex.def Info: PR5Images/MainBoard2D.png  used on input line 47.
+(pdftex.def)             Requested size: 433.62001pt x 135.65639pt.
+<PR5Images/PCBDivision.png, id=252, 1422.31375pt x 457.71pt>
+File: PR5Images/PCBDivision.png Graphic file (type png)
+<use PR5Images/PCBDivision.png>
+Package pdftex.def Info: PR5Images/PCBDivision.png  used on input line 48.
+(pdftex.def)             Requested size: 433.62001pt x 139.54198pt.
+ [57 <./PR5Images/MainBoard2D.png> <./PR5Images/PCBDivision.png>]
+Overfull \hbox (2.61636pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10.95 The circuit boards were ordered from a Shenzhen fabrication 
+house under the name JLCPCB,
+ []
+
+<FinalImages/AssembledPCB.jpg, id=258, 4047.12pt x 3035.34pt>
+File: FinalImages/AssembledPCB.jpg Graphic file (type jpg)
+<use FinalImages/AssembledPCB.jpg>
+Package pdftex.def Info: FinalImages/AssembledPCB.jpg  used on input line 61.
+(pdftex.def)             Requested size: 411.93768pt x 308.92438pt.
+<PR5Images/FullAsmCAD.png, id=259, 788.34525pt x 394.47375pt>
+File: PR5Images/FullAsmCAD.png Graphic file (type png)
+<use PR5Images/FullAsmCAD.png>
+Package pdftex.def Info: PR5Images/FullAsmCAD.png  used on input line 69.
+(pdftex.def)             Requested size: 433.62001pt x 216.97928pt.
+<FinalImages/FullSystem.jpg, id=260, 4047.12pt x 3035.34pt>
+File: FinalImages/FullSystem.jpg Graphic file (type jpg)
+<use FinalImages/FullSystem.jpg>
+Package pdftex.def Info: FinalImages/FullSystem.jpg  used on input line 78.
+(pdftex.def)             Requested size: 433.62001pt x 325.18112pt.
+) [58] [59 <./FinalImages/AssembledPCB.jpg> <./PR5Images/FullAsmCAD.png>]
+[60 <./FinalImages/FullSystem.jpg>]
 Chapter 4.
 (chapters/SystemEvaluation.tex
-<PR5Images/SwapTimeSetup.png, id=106, 558.085pt x 711.65875pt>
+<PR5Images/SwapTimeSetup.png, id=272, 558.085pt x 711.65875pt>
 File: PR5Images/SwapTimeSetup.png Graphic file (type png)
 <use PR5Images/SwapTimeSetup.png>
 Package pdftex.def Info: PR5Images/SwapTimeSetup.png  used on input line 10.
@@ -717,15 +1105,15 @@ Underfull \hbox (badness 5359) in paragraph at lines 20--21
 \OT1/cmr/m/n/10.95 (similar to the EarthQuaker Devices Bit
  []
 
-[26
+[61
 
-] [27 <./PR5Images/SwapTimeSetup.png>] [28]
-<FinalImages/SwapTime_data.png, id=118, 650.43pt x 342.5598pt>
+] [62 <./PR5Images/SwapTimeSetup.png>] [63]
+<FinalImages/SwapTime_data.png, id=283, 650.43pt x 342.5598pt>
 File: FinalImages/SwapTime_data.png Graphic file (type png)
 <use FinalImages/SwapTime_data.png>
 Package pdftex.def Info: FinalImages/SwapTime_data.png  used on input line 37.
 (pdftex.def)             Requested size: 346.89732pt x 182.70053pt.
- [29 <./FinalImages/SwapTime_data.png (PNG copy)>]
+ [64 <./FinalImages/SwapTime_data.png (PNG copy)>]
 Overfull \hbox (12.3497pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10.95 calculated for each participant and for each standard pedal 
 tested compared to the participant's
@@ -737,123 +1125,291 @@ Overfull \hbox (0.63924pt too wide) in paragraph at lines 46--47
 ent associated standard deviation.
  []
 
-[30]
-<FinalImages/NF_direct.png, id=129, 1040.88875pt x 909.3975pt>
+[65]
+<FinalImages/NF_direct.png, id=290, 1040.88875pt x 909.3975pt>
 File: FinalImages/NF_direct.png Graphic file (type png)
 <use FinalImages/NF_direct.png>
 Package pdftex.def Info: FinalImages/NF_direct.png  used on input line 81.
-(pdftex.def)             Requested size: 260.17465pt x 227.30719pt.
-<FinalImages/NF_sum.png, id=130, 991.705pt x 867.24pt>
+(pdftex.def)             Requested size: 276.43086pt x 241.50261pt.
+<FinalImages/NF_sum.png, id=291, 991.705pt x 867.24pt>
 File: FinalImages/NF_sum.png Graphic file (type png)
 <use FinalImages/NF_sum.png>
-Package pdftex.def Info: FinalImages/NF_sum.png  used on input line 87.
-(pdftex.def)             Requested size: 260.17465pt x 227.51497pt.
- [31] [32 <./FinalImages/NF_direct.png> <./FinalImages/NF_sum.png>]
-Overfull \hbox (8.8214pt too wide) in paragraph at lines 99--100
-\OT1/cmr/m/n/10.95 reaching the limits of the measurement system (the plots gen
-erated during the characterization
- []
-
-<FinalImages/SNR_bargraph.png, id=139, 429.2838pt x 316.0608pt>
+Package pdftex.def Info: FinalImages/NF_sum.png  used on input line 86.
+(pdftex.def)             Requested size: 276.43086pt x 241.74043pt.
+ [66] [67 <./FinalImages/NF_direct.png> <./FinalImages/NF_sum.png>]
+<FinalImages/SNR_bargraph.png, id=301, 429.2838pt x 316.0608pt>
 File: FinalImages/SNR_bargraph.png Graphic file (type png)
 <use FinalImages/SNR_bargraph.png>
-Package pdftex.def Info: FinalImages/SNR_bargraph.png  used on input line 101.
+Package pdftex.def Info: FinalImages/SNR_bargraph.png  used on input line 99.
 (pdftex.def)             Requested size: 346.89732pt x 255.40018pt.
-[33] [34 <./FinalImages/SNR_bargraph.png (PNG copy)>]
-<FinalImages/FR_direct.png, id=146, 999.735pt x 873.2625pt>
+
+[68] [69 <./FinalImages/SNR_bargraph.png (PNG copy)>]
+<FinalImages/FR_direct.png, id=308, 999.735pt x 873.2625pt>
 File: FinalImages/FR_direct.png Graphic file (type png)
 <use FinalImages/FR_direct.png>
-Package pdftex.def Info: FinalImages/FR_direct.png  used on input line 136.
-(pdftex.def)             Requested size: 260.17465pt x 227.25609pt.
-<FinalImages/FR_sum.png, id=147, 839.135pt x 732.7375pt>
+Package pdftex.def Info: FinalImages/FR_direct.png  used on input line 134.
+(pdftex.def)             Requested size: 276.43086pt x 241.46042pt.
+<FinalImages/FR_sum.png, id=309, 839.135pt x 732.7375pt>
 File: FinalImages/FR_sum.png Graphic file (type png)
 <use FinalImages/FR_sum.png>
-Package pdftex.def Info: FinalImages/FR_sum.png  used on input line 141.
-(pdftex.def)             Requested size: 260.17465pt x 227.17982pt.
-
-Underfull \hbox (badness 2460) in paragraph at lines 142--142
-[]\OT1/cmr/m/n/10 (b) |\OT1/cmr/m/it/10 Summed \OT1/cmr/m/n/10 routing frequenc
-y response measurement
- []
-
-
-LaTeX Warning: Float too large for page by 22.42175pt on input line 147.
-
-[35]
-<PR4Images/FRactive.jpg, id=151, 562.1pt x 421.575pt>
+Package pdftex.def Info: FinalImages/FR_sum.png  used on input line 139.
+(pdftex.def)             Requested size: 276.43086pt x 241.37926pt.
+ [70]
+<PR4Images/FRactive.jpg, id=313, 562.1pt x 421.575pt>
 File: PR4Images/FRactive.jpg Graphic file (type jpg)
 <use PR4Images/FRactive.jpg>
-Package pdftex.def Info: PR4Images/FRactive.jpg  used on input line 153.
+Package pdftex.def Info: PR4Images/FRactive.jpg  used on input line 151.
 (pdftex.def)             Requested size: 346.89732pt x 260.17087pt.
 
-Overfull \hbox (9.49048pt too wide) in paragraph at lines 162--163
+Overfull \hbox (9.49048pt too wide) in paragraph at lines 160--161
 \OT1/cmr/m/n/10.95 Figure 4.7[] shows one of the oscilloscope traces used to re
 cord the switching time measurements.
  []
 
-<FinalImages/switch2sum.png, id=152, 1027.84pt x 770.88pt>
+<FinalImages/switch2sum.png, id=314, 1027.84pt x 770.88pt>
 File: FinalImages/switch2sum.png Graphic file (type png)
 <use FinalImages/switch2sum.png>
-Package pdftex.def Info: FinalImages/switch2sum.png  used on input line 164.
+Package pdftex.def Info: FinalImages/switch2sum.png  used on input line 162.
 (pdftex.def)             Requested size: 411.93768pt x 308.95819pt.
-[36] [37 <./FinalImages/FR_direct.png> <./FinalImages/FR_sum.png>] [38 <./PR4Im
-ages/FRactive.jpg>] [39 <./FinalImages/switch2sum.png (PNG copy)>]
-<FinalImages/Switch_bargraph.png, id=168, 413.8662pt x 316.0608pt>
+[71] [72 <./FinalImages/FR_direct.png> <./FinalImages/FR_sum.png>] [73 <./PR4Im
+ages/FRactive.jpg>] [74 <./FinalImages/switch2sum.png (PNG copy)>]
+<FinalImages/Switch_bargraph.png, id=330, 413.8662pt x 316.0608pt>
 File: FinalImages/Switch_bargraph.png Graphic file (type png)
 <use FinalImages/Switch_bargraph.png>
-Package pdftex.def Info: FinalImages/Switch_bargraph.png  used on input line 17
-0.
+Package pdftex.def Info: FinalImages/Switch_bargraph.png  used on input line 16
+8.
 (pdftex.def)             Requested size: 346.89732pt x 264.92982pt.
 )
-Overfull \hbox (0.24387pt too wide) in paragraph at lines 176--76
+Overfull \hbox (0.24387pt too wide) in paragraph at lines 174--111
 \OT1/cmr/m/n/10.95 of this dependence on the exact signals being switched, so n
 o there was no further exploration
  []
 
-[40 <./FinalImages/Switch_bargraph.png (PNG copy)>] [41]
+[75 <./FinalImages/Switch_bargraph.png (PNG copy)>] [76]
 Chapter 5.
-[42
+(chapters/Conclusion.tex
+Overfull \hbox (1.66028pt too wide) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/10.95 The compatibility requirement was exceeded, with about 85%
+ market coverage. However,
+ []
+
+
+Overfull \hbox (4.07343pt too wide) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/10.95 Although the relay-based design of this system ensured the
+re were no additional transients
+ []
+
+[77
+
+]) [78] [79] [80
 
 ]
-Chapter 6.
-(chapters/Conclusion.tex)
+<FinalBudget.pdf, id=350, 794.97pt x 614.295pt>
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf>
+Package pdftex.def Info: FinalBudget.pdf  used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf>
+Package pdftex.def Info: FinalBudget.pdf  used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+<FinalBudget.pdf, id=353, page=1, 794.97pt x 614.295pt>
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 1>
+Package pdftex.def Info: FinalBudget.pdf , page1 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 1>
+Package pdftex.def Info: FinalBudget.pdf , page1 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [81
+
+]
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 1>
+Package pdftex.def Info: FinalBudget.pdf , page1 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 1>
+Package pdftex.def Info: FinalBudget.pdf , page1 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 1>
+Package pdftex.def Info: FinalBudget.pdf , page1 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [82 <./FinalBudget.pdf>]
+<FinalBudget.pdf, id=399, page=2, 794.97pt x 614.295pt>
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 2>
+Package pdftex.def Info: FinalBudget.pdf , page2 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 2>
+Package pdftex.def Info: FinalBudget.pdf , page2 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: FinalBudget.pdf Graphic file (type pdf)
+<use FinalBudget.pdf, page 2>
+Package pdftex.def Info: FinalBudget.pdf , page2 used on input line 130.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [83 <./FinalBudget.pdf>]
+<ReceiverBoardRev2.pdf, id=404, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf>
+Package pdftex.def Info: ReceiverBoardRev2.pdf  used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf>
+Package pdftex.def Info: ReceiverBoardRev2.pdf  used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+<ReceiverBoardRev2.pdf, id=407, page=1, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 1>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 1>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+[84]
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 1>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 1>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 1>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [85 <./ReceiverBoardRev2.pdf>]
+<ReceiverBoardRev2.pdf, id=426, page=2, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 2>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 2>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 2>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [86 <./ReceiverBoardRev2.pdf>]
+<ReceiverBoardRev2.pdf, id=437, page=3, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 3>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 3>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 3>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [87 <./ReceiverBoardRev2.pdf>]
+<ReceiverBoardRev2.pdf, id=448, page=4, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 4>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 4>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 4>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [88 <./ReceiverBoardRev2.pdf>]
+<ReceiverBoardRev2.pdf, id=459, page=5, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 5>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page5 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 5>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page5 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 5>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page5 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [89 <./ReceiverBoardRev2.pdf>]
+<ReceiverBoardRev2.pdf, id=470, page=6, 794.97pt x 614.295pt>
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 6>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page6 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 6>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page6 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ReceiverBoardRev2.pdf Graphic file (type pdf)
+<use ReceiverBoardRev2.pdf, page 6>
+Package pdftex.def Info: ReceiverBoardRev2.pdf , page6 used on input line 134.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ [90 <./ReceiverBoardRev2.pdf>]
+<FinalImages/IOBoardLayout.PNG, id=482, 1080.4365pt x 280.6485pt>
+File: FinalImages/IOBoardLayout.PNG Graphic file (type png)
+<use FinalImages/IOBoardLayout.PNG>
+Package pdftex.def Info: FinalImages/IOBoardLayout.PNG  used on input line 140.
+
+(pdftex.def)             Requested size: 433.62001pt x 112.63425pt.
+ [91 <./FinalImages/IOBoardLayout.PNG>]
+<FinalImages/SMDLEDfixture.png, id=487, 1088.065pt x 627.34375pt>
+File: FinalImages/SMDLEDfixture.png Graphic file (type png)
+<use FinalImages/SMDLEDfixture.png>
+Package pdftex.def Info: FinalImages/SMDLEDfixture.png  used on input line 148.
+
+(pdftex.def)             Requested size: 433.62001pt x 250.01408pt.
+
+
+Package natbib Warning: There were undefined citations.
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[43
+[92 <./FinalImages/SMDLEDfixture.png>] (main.aux)
 
-] (main.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9569 strings out of 494890
- 144953 string characters out of 3178545
- 275221 words of memory out of 3000000
- 12933 multiletter control sequences out of 15000+200000
- 14590 words of font info for 54 fonts, out of 3000000 for 9000
+ 10681 strings out of 494890
+ 165984 string characters out of 3178545
+ 293050 words of memory out of 3000000
+ 13957 multiletter control sequences out of 15000+200000
+ 15094 words of font info for 57 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 45i,12n,81p,1987b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmmi9.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr17.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/urw/zapfding
-/uzdr.pfb>
-Output written on main.pdf (44 pages, 10463744 bytes).
+ 45i,21n,81p,2210b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb></home/npham01/.miktex/texmfs/install/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (93 pages, 37473598 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
+ 548 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

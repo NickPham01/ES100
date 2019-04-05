@@ -11,6 +11,8 @@
 \usepackage{multirow}
 \usepackage{amssymb}
 \usepackage{pifont}
+\usepackage{rotating}
+\usepackage{pdfpages}
 
 \usepackage{natbib}
 \usepackage[nonumberlist]{glossaries}
@@ -24,13 +26,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
+\setlength{\headheight}{14pt}
 \fancyhead[R]{Guitar Effects Auditioning System}
 \fancyfoot{}
 \fancyfoot[C]{\thepage}
-\fancyfoot[R]{Chapter \thechapter}
+\fancyfoot[R]{Chapter \thechapter: \Chaptername}
 \fancyfoot[L]{Nicholas Pham}
-
-
 
 \newcommand{\insertimage}[4] {
 	\begin{figure}[!htbp]
@@ -42,9 +43,43 @@
 	\end{figure}
 }
 
+\let\Sectionmark\sectionmark
+\def\sectionmark#1{\def\Sectionname{#1}\Sectionmark{#1}}
+\let\Chaptermark\chaptermark
+\def\chaptermark#1{\def\Chaptername{#1}\Chaptermark{#1}}
+
+\newcommand{\sect}[1] {
+	\section*{#1}
+	\addcontentsline{toc}{section}{#1}
+	\stepcounter{section}
+	\sectionmark{#1}
+}
+\newcommand{\chpt}[1] {
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+	\stepcounter{chapter}
+	\chaptermark{#1}
+}
+
+
+\fancypagestyle{appendix}{
+	\fancyhead{}
+	\setlength{\headheight}{14pt}
+	\fancyhead[R]{Guitar Effects Auditioning System}
+	\fancyfoot{}
+	\fancyfoot[C]{\thepage}
+	\fancyfoot[R]{\Sectionname}
+	\fancyfoot[L]{Nicholas Pham}
+}
+
 \newcommand{\cmark}{\ding{51}}	% check mark
 \newcommand{\xmark}{\ding{55}}	% x mark
 
+\newcommand{\kohm}{k$\Omega$\:}
+\newcommand{\Mohm}{M$\Omega$\:}
+\newcommand{\ohm}{$\Omega$\:}
+
+\newcommand{\uF}{$\mu$F\:}
 
 \begin{document}
 
@@ -74,9 +109,43 @@
 	\chapter{System Evaluation}
 	\input{chapters/SystemEvaluation}
 
-	\chapter{Budget}
-
 	\chapter{Conclusion}
 	\input{chapters/Conclusion}
+
+	\newpage
+
+	\begin{center}
+	\chapter*{Acknowledgments}
+	\addcontentsline{toc}{chapter}{Acknowledgments}
+
+	I would like to thank my thesis reader Scott Kuindersma for suggesting the idea for this project, as well as the ES100 staff for guiding me through this process.  In addition, I could not have made it through this project without the support of my family and friends.  Most importantly, I would like to thank my advisor Jim MacArthur for taking on this project with me and being such a great mentor.  
+	\end{center}
+
+	\pagestyle{appendix}
+
+	\chpt{Appendix}
+
+	\sect{Budget}
+	The following BOM and other budget materials were generated from the supplied template.  The total cost for the main system was about \$200, which was on track for the requirement.  However, the labor cost for fabrication would be quite high; DFM would be required for real world implementation.  
+	\includepdf[pages=-, angle=90, scale=0.9, pagecommand={}]{FinalBudget.pdf}
+
+	\sect{Module Schematic and Layout}
+	The design files developed in Altium are shown below.  A hierarchical design was used, with the first page showing the highest level.  In green are the lower level blocks, which are described in the following pages.  Last is the circuit board layout.
+	\includepdf[pages=1-6, angle=90, scale=0.8, pagecommand={}]{ReceiverBoardRev2.pdf}
+
+	\sect{Global I/O Board Layout}
+	This is the circuit board layout for the master I/O board for the device. The four identical components in the upper left are the audio jacks, and the choke is the large square footprint at the bottom.  This board was built using a milling machine, so it was designed as a single-sided board.
+	\begin{center}
+		\centering
+		\includegraphics[width = \textwidth, angle=90]{FinalImages/IOBoardLayout}
+	\end{center}
+	\newpage
+
+	\sect{SMD LED Fixtures for UI}
+	This is the design for the fixtures to hold the SMD LEDs for the user interface.  In purple is the outline, which allowed 6 fixtures to be cut out at once and snapped apart.
+	\begin{center}
+		\centering
+		\includegraphics[width = \textwidth, angle=90]{FinalImages/SMDLEDfixture}
+	\end{center}
 
 \end{document}
